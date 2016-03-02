@@ -4,7 +4,7 @@ title: Students
 permalink: /students/
 ---
 
-# Getting Started
+### Getting Started
 
 Becoming a part of robotics is very easy. There are just a few steps:
 
@@ -24,7 +24,7 @@ Tracking the time you spend at the workshop is important. Not only is having rec
 + If you forgot/don’t have your Student ID card, fill out our time log worksheet. You can also use this sheet if you remember you forgot to sign in with the Workshop Supervisor.
 
 
-# Growing Your Skills
+### Growing Your Skills
 
 After you’ve signed up, there are lots of different ways to grow your skills:
 
@@ -32,7 +32,7 @@ After you’ve signed up, there are lots of different ways to grow your skills:
 + Getting Involved in Project Teams
 ..+ We assign different projects to different project leads. If we see a student is passionate and hard-working, we will assign them to head the project.
 
-# Team Leadership
+### Team Leadership
 
 Our team is led by a group of elected officials and appointed officers. They meet during the monthly Leadership meeting where the leadership, mentors, and project leaders discuss the current happenings of the team.
 
@@ -40,7 +40,7 @@ Our team is led by a group of elected officials and appointed officers. They mee
 
 Our elected leadership is chosen each May by a team vote. Anyone who has been on the team for at least one complete build season can self-nominate for an elected position, to which they will be either be voted on, or appointed to by the elected President. Positions are: President, Vice President, and Chief Financial Officer.
 
-### 2016 Dates:
+# 2016 Dates:
 
 **Self-Nominations Open:** May 2nd  
 **Self-Nominations Close:** May 13th  
