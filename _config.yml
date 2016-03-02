@@ -12,6 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Copyright © 2015 Team 3128: Aluminum Narwhals
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://team3128.org" # the base hostname & protocol for your site
+github_username: Team3128
 
 # Build settings
 markdown: kramdown
