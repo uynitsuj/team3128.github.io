@@ -7,7 +7,7 @@
 
 # Site settings
 title: Team 3128 Aluminium Narwhals
-email: your-email@domain.com
+email: info@team3128.org
 description: > # this means to ignore newlines until "baseurl:"
   Copyright © 2015 Team 3128: Aluminum Narwhals
 baseurl: "" # the subpath of your site, e.g. /blog
