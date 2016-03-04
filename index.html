@@ -2,22 +2,174 @@
 layout: default
 ---
 
+<style>
+    body {
+        background: url("/resources/home_image.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+
+#titleblue {
+    background-color: #0078AD;
+    padding: 20px;
+}
+
+#button {
+    background-color: #025E86;
+    color: white;
+    padding: 10px;
+}
+
+#real-button {
+    background-color: #025E86;
+    color: white;
+    padding: 10px;
+}
+
+#real-button:hover {
+    background-color: #038ec9;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#button-text {
+    color: white;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#center-text {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#up-text {
+    vertical-align: top;
+}
+
+#inbox {
+    vertical-align: middle;
+    color: white;
+}
+
+</style>
+
 <div class="home">
-
-  <h1 class="page-heading">Latest Updates</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+    <table border="0px" id="titleblue" height="100px" cellspacing="0px" width="100%">
+        <tr height="100%">
+            <td id="inbox">
+                <div>
+                    <h1 id="button-text" width="100%" height="100%">Looking to Join CCA Robotics?</h1>
+                </div>
+            </td>
+            <td style="vertical-align: top;" align="center">
+                <div onClick="javascript:location.href='/students/'" id="real-button" height="100%" width="100%">
+                    <h2 height="100%" id="button-text"><b>GET STARTED</b></h1>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table cellpadding="0px" style="background-color: white;">
+    <tr cellpadding="0px">
+    <td cellpadding="0px">
+            
+        <table width="100%">
+            <tr>
+                <td align="center">
+                    <div height="100%" width="100%">
+                        <h1 id="center-text">Check out what's going on...</h2>
+                            </div>
+                </td>
+            </tr>
+        </table>
+        <table cellpadding="5px" cellspacing="5px" width="100%">
+            <tr>
+                <td align="center" width="25%">
+                    <img width="100%" height="200px"></img>
+                </td>
+                <td align="center" width="25%">
+                    <img width="100%" height="200px"></img>
+                </td>
+                <td align="center" width="25%">
+                    <img width="100%" height="200px"></img>
+                </td>
+                <td align="center" width="25%">
+                    <img width="100%" height="200px"></img>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                    <div style="vertical-align: text-top;">
+                        <h2><a>Robotics Summer Camp</a></h2>
+                        Looking for our summer camp? Registration is still open for our 2015 Robotics Summer Camp sessions. Check out our camp site for more information.
+                    </div>
+                </td>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                    <div>
+                        <h2><a href="/students/">Team Sign Ups</a></h2>
+                        Registration for the 2015-2016 Aluminum Narwhals is now open. Head over to our students section to find out how you can be involved next year.
+                    </div>
+                </td>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                    <div>
+                        <h2><a href="/students/workshops">Fall Workshops</a></h2>
+                        Hit the ground running with eight weeks with eight awesome different speakers. Learn about robot design, competition strategy, 3D CAD, and more. Sign up now. Slots going quickly.
+                    </div>
+                </td>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                    <div>
+                        <h2><a href="/students/calendar?">Mark Your Calendars</a></h2>
+                        Getting ready for robotics? All of our events for next year are already available on our calendar. Make sure you know what's going on and prepare for an awesome year.
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </td>
+    </td>
+    </table>
+    <br>
+    
+    <table border="0px" id="titleblue" height="100px" cellspacing="0px" width="100%">
+        <tr height="100%">
+            <td id="inbox">
+                <div>
+                    <h1 id="button-text" width="100%" height="100%">Latest Updates</h1>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+    <table width="100%" style="background-color: white;" cellpadding="10px">
+        <tr>
+            <td>
+                <ul class="post-list">
+                    {% for post in site.posts %}
+                    <li>
+                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                        <h2>
+                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                        </h2>
+                    </li>
+                    {% endfor %}
+                </ul>
+                <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+            </td>
+        </tr>
+    </table>
+    
+    <br>
+    <br>

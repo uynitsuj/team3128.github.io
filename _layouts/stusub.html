@@ -1,40 +1,92 @@
 ---
 layout: default
 ---
+
+<style>
+    body {
+        background: url("/resources/home_image.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+
+#button-text {
+    color: white;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#titleblue {
+    background-color: #0078AD;
+    padding: 20px;
+}
+
+#button {
+    background-color: #025E86;
+}
+
+#hover:hover {
+    background-color: #038ec9;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+</style>
+
 <article class="post">
 
-  <header class="post-header">
-    <table width="100%" border="1">
+    <table style="background-color:#025E86;" cellpadding="15px" cellspacing="0" width="100%">
         <tr>
-            <td align="center">
-                <a href="/students/">Getting Started</a>
+            <td id="hover" onClick="javascript:location.href='/students/'" >
+                <div align="center">
+                    <h2 id="button-text">Getting Started</h2>
+                </div>
             </td>
-            <td align="center">
-                <a href="/students/calendar">Calendar</a>
+            <td id="hover" onClick="javascript:location.href='/students/calendar/'">
+                <div align="center">
+                    <h2 id="button-text">Calendar</h2>
+                </div>
             </td>
-            <td align="center">
-                <a href="/students/build-seasons">Build Seasons</a>
+            <td id="hover" onClick="javascript:location.href='/students/build-seasons/'" >
+                <div align="center">
+                    <h2 id="button-text">Build Seasons</h2>
+                </div>
             </td>
-            <td align="center">
-                <a href="">Project Teams</a>
+            <td id="hover" onClick="javascript:location.href='/students/project-teams/'" >
+                <div align="center">
+                    <h2 id="button-text">Project Teams</h2>
+                </div>
             </td>
-            <td align="center">
-                <a href="">Workshops</a>
+            <td id="hover" onClick="javascript:location.href='/students/workshops/'" >
+                <div align="center">
+                    <h2 id="button-text">Workshops</h2>
+                </div>
             </td>
-            <td align="center">
-                <a href="/students/travel-team">Travel Team</a>
+            <td id="hover" onClick="javascript:location.href='/students/travel-team/'">
+                <div align="center">
+                    <h2 id="button-text">Travel Team</h2>
+                </div>
             </td>
-            <td align="center">
-                <a href="/">Updates</a>
+            <td id="hover" onClick="javascript:location.href='/students/updates/'" >
+                <div align="center">
+                    <h2 id="button-text">Updates</h2>
+                </div>
             </td>
         </tr>
     </table>
     <br>
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
+    <div id="titleblue">
+        <h1 id="button-text" class="post-title">{{ page.title }}</h1>
+    </div>
+    
+    <table cellpadding="20px" width="100%" style="background-color: white;">
+        <tr cellpadding="0px">
+            <td cellpadding="0px">
+                {{ content }}
+            </td>
+        </tr>
+    </table>
 
 </article>

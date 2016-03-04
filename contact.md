@@ -5,6 +5,16 @@ shownav: true
 permalink: /contact/
 ---
 
+<style>
+body {
+background: url("/resources/home_image.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center center;
+}
+</style>
+
 If you would like to contact us, you may email us at [info@team3128.org](mailto:info@team3128.org)
 
 **Mentors**

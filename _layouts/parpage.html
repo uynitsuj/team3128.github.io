@@ -1,38 +1,64 @@
 ---
 layout: default
 ---
-<article class="post">
 
-  <header class="post-header">
-    <table width="100%" border="1">
+
+<style>
+    body {
+        background: url("/resources/home_image.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+
+#button-text {
+    color: white;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#titleblue {
+    background-color: #0078AD;
+    padding: 20px;
+}
+
+#button {
+    background-color: #025E86;
+}
+</style>
+
+<article class="post">
+    <table style="background-color:#025E86;" cellpadding="15px" cellspacing="0" width="100%">
         <tr>
             <td align="center">
-                <a href="/parents/faq">FAQ</a>
+                <h2 id="button-text"> <a style="color: white;" href="/parents/faq">FAQ</a></h2>
             </td>
             <td align="center">
-                <a href="/parents/important-dates">Important Dates</a>
+                <h2 id="button-text"> <a style="color: white;" href="/parents/important-dates">Important Dates</a></h2>
             </td>
             <td align="center">
-                <a href="/parents/calendar/">Calendar</a>
+                <h2 id="button-text"> <a style="color: white;" href="/parents/calendar/">Calendar</a></h2>
             </td>
             <td align="center">
-                <a href="">Volunteer</a>
+                <h2 id="button-text"> <a style="color: white;" href="/parents/volunteer/">Volunteer</a></h2>
             </td>
             <td align="center">
-                <a href="">Workshops</a>
-            </td>
-            <td align="center">
-                <a href="">Donate</a>
+                <h2 id="button-text"> <a style="color: white;" href="/parents/donate/">Donate</a></h2>
             </td>
             </td>
         </tr>
     </table>
     <br>
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
-
+    <div id="titleblue">
+        <h1 id="button-text" class="post-title">{{ page.title }}</h1>
+    </div>
+    
+    <table cellpadding="20px" width="100%" style="background-color: white;">
+        <tr cellpadding="0px">
+            <td cellpadding="0px">
+                {{ content }}
+            </td>
+        </tr>
+    </table>
 </article>
