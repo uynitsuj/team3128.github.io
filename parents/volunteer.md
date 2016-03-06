@@ -1,7 +1,7 @@
 ---
 layout: parpage
 title: Parents
-permalink: /parents/volunteer
+permalink: /parents/volunteer/
 ---
 
 ## Volunteer

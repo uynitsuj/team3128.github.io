@@ -26,26 +26,32 @@ layout: default
 #button {
     background-color: #025E86;
 }
+
+#hover:hover {
+    background-color: #038ec9;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
 </style>
 
 <article class="post">
     <table style="background-color:#025E86;" cellpadding="15px" cellspacing="0" width="100%">
         <tr>
-            <td align="center">
-                <h2 id="button-text"> <a style="color: white;" href="/parents/faq">FAQ</a></h2>
+            <td align="center" id="hover" onClick="javascript:location.href='/parents/faq'">
+                <h2 id="button-text">FAQ</h2>
             </td>
-            <td align="center">
-                <h2 id="button-text"> <a style="color: white;" href="/parents/important-dates">Important Dates</a></h2>
+            <td align="center" id="hover" onClick="javascript:location.href='/parents/important-dates'">
+                <h2 id="button-text">Important Dates</h2>
             </td>
-            <td align="center">
-                <h2 id="button-text"> <a style="color: white;" href="/parents/calendar/">Calendar</a></h2>
+            <td align="center" id="hover" onClick="javascript:location.href='/parents/calendar/'">
+                <h2 id="button-text">Calendar</h2>
             </td>
-            <td align="center">
-                <h2 id="button-text"> <a style="color: white;" href="/parents/volunteer/">Volunteer</a></h2>
+            <td align="center" id="hover" onClick="javascript:location.href='/parents/volunteer/'">
+                <h2 id="button-text">Volunteer</h2>
             </td>
-            <td align="center">
-                <h2 id="button-text"> <a style="color: white;" href="/parents/donate/">Donate</a></h2>
-            </td>
+            <td align="center" id="hover" onClick="javascript:location.href='/parents/donate/'">
+                <h2 id="button-text">Donate</h2>
             </td>
         </tr>
     </table>

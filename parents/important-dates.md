@@ -1,7 +1,7 @@
 ---
 layout: parpage
 title: Parents
-permalink: /parents/important-dates
+permalink: /parents/important-dates/
 ---
 
 ## Important Dates

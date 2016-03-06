@@ -1,7 +1,7 @@
 ---
 layout: parpage
 title: Parents
-permalink: /parents/faq
+permalink: /parents/faq/
 ---
 
 ## Frequently Asked Questions
