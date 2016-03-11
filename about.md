@@ -5,17 +5,6 @@ shownav: true
 permalink: /about/
 ---
 
-<style>
-body {
-background: url("/resources/home_image.jpeg");
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-background-position: center center;
-}
-</style>
-
-
 Team 3128 Aluminum Narwhals is a high school robotics team at Canyon Crest Academy in San Diego, California. We are currently in the off competition season, and prepping for an exciting 2015-2016 year.
 
 ## Our History
