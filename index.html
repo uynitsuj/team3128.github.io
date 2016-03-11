@@ -54,6 +54,41 @@ layout: default
     vertical-align: middle;
     color: white;
 }
+@media screen and (max-width: 675px) {
+    #normalwidth {
+        display: none;
+    }
+    #tiny {
+        display: table;
+    }
+    #small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 675px) {
+    #normalwidth {
+        display: none;
+    }
+    #tiny {
+        display: none;
+    }
+    #small {
+        display: table;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #normalwidth {
+        display: table;
+    }
+    #tiny {
+        display:none;
+    }
+    #small {
+        display:none;
+    }
+}
+
 
 </style>
 
@@ -88,7 +123,7 @@ layout: default
     <td cellpadding="0px">
             
         <table width="100%">
-            <tr>
+            <tr width="100%">
                 <td align="center">
                     <div height="100%" width="100%">
                         <h1 id="center-text">Check out what's going on...</h2>
@@ -96,7 +131,8 @@ layout: default
                 </td>
             </tr>
         </table>
-        <table cellpadding="5px" cellspacing="5px" width="100%">
+
+        <table id="normalwidth" cellpadding="5px" cellspacing="5px" width="100%">
             <tr>
                 <td align="center" width="25%">
                     <img width="100%" src="/resources/homepage/camp.jpeg"></img>
@@ -129,6 +165,108 @@ layout: default
                         <h2><a href="/students/workshops">Fall Workshops</a></h2>
                         Hit the ground running with eight weeks with eight awesome different speakers. Learn about robot design, competition strategy, 3D CAD, and more. Sign up now. Slots going quickly.
                     </div>
+                </td>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                    <div>
+                        <h2><a href="/students/calendar?">Mark Your Calendars</a></h2>
+                        Getting ready for robotics? All of our events for next year are already available on our calendar. Make sure you know what's going on and prepare for an awesome year.
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <table id="tiny" cellpadding="5px" cellspacing="5px" width="100%">
+            <tr>
+                <td align="center" width="25%">
+                    <img width="100%" src="/resources/homepage/camp.jpeg"></img>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                    <div style="vertical-align: text-top;">
+                        <h2><a>Robotics Summer Camp</a></h2>
+                        Looking for our summer camp? Registration is still open for our 2015 Robotics Summer Camp sessions. Check out our camp site for more information.
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" width="25%">
+                    <img width="100%" src="/resources/homepage/teamsignups.jpeg"></img>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                    <div>
+                        <h2><a href="/students/">Team Sign Ups</a></h2>
+                        Registration for the 2015-2016 Aluminum Narwhals is now open. Head over to our students section to find out how you can be involved next year.
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" width="25%">
+                    <img width="100%" src="/resources/homepage/fallworkshops.jpeg"></img>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                    <div>
+                        <h2><a href="/students/workshops">Fall Workshops</a></h2>
+                        Hit the ground running with eight weeks with eight awesome different speakers. Learn about robot design, competition strategy, 3D CAD, and more. Sign up now. Slots going quickly.
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" width="25%">
+                    <img width="100%" src="/resources/homepage/calendar.jpeg"></img>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                    <div>
+                        <h2><a href="/students/calendar?">Mark Your Calendars</a></h2>
+                        Getting ready for robotics? All of our events for next year are already available on our calendar. Make sure you know what's going on and prepare for an awesome year.
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <table id="small" cellpadding="5px" cellspacing="5px" width="100%">
+            <tr>
+                <td align="center" width="25%">
+                    <img width="100%" src="/resources/homepage/camp.jpeg"></img>
+                </td>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                    <div style="vertical-align: text-top;">
+                        <h2><a>Robotics Summer Camp</a></h2>
+                        Looking for our summer camp? Registration is still open for our 2015 Robotics Summer Camp sessions. Check out our camp site for more information.
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" width="25%">
+                    <img width="100%" src="/resources/homepage/teamsignups.jpeg"></img>
+                </td>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                    <div>
+                        <h2><a href="/students/">Team Sign Ups</a></h2>
+                        Registration for the 2015-2016 Aluminum Narwhals is now open. Head over to our students section to find out how you can be involved next year.
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" width="25%">
+                    <img width="100%" src="/resources/homepage/fallworkshops.jpeg"></img>
+                </td>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                    <div>
+                        <h2><a href="/students/workshops">Fall Workshops</a></h2>
+                        Hit the ground running with eight weeks with eight awesome different speakers. Learn about robot design, competition strategy, 3D CAD, and more. Sign up now. Slots going quickly.
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" width="25%">
+                    <img width="100%" src="/resources/homepage/calendar.jpeg"></img>
                 </td>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div>
