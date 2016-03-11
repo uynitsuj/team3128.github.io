@@ -1,7 +1,7 @@
 ---
 layout: stusub
 title: Students
-permalink: /students/project-teams
+permalink: /students/project-teams/
 ---
 
 ## Project Teams

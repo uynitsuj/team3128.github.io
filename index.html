@@ -99,16 +99,16 @@ layout: default
         <table cellpadding="5px" cellspacing="5px" width="100%">
             <tr>
                 <td align="center" width="25%">
-                    <img width="100%" height="200px"></img>
+                    <img width="100%" src="/resources/homepage/camp.jpeg"></img>
                 </td>
                 <td align="center" width="25%">
-                    <img width="100%" height="200px"></img>
+                    <img width="100%" src="/resources/homepage/teamsignups.jpeg"></img>
                 </td>
                 <td align="center" width="25%">
-                    <img width="100%" height="200px"></img>
+                    <img width="100%" src="/resources/homepage/fallworkshops.jpeg"></img>
                 </td>
                 <td align="center" width="25%">
-                    <img width="100%" height="200px"></img>
+                    <img width="100%" src="/resources/homepage/calendar.jpeg"></img>
                 </td>
             </tr>
             <tr>
@@ -153,11 +153,11 @@ layout: default
         </tr>
     </table>
     
-    <table width="100%" style="background-color: white;" cellpadding="10px">
+    <table width="100%" style="background-color: white;" cellpadding="20px">
         <tr>
             <td>
                 <ul class="post-list">
-                    {% for post in site.posts %}
+                    {% for post in site.posts limit: 5 %}
                     <li>
                         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                         <h2>

@@ -11,26 +11,26 @@ Becoming a part of robotics is very easy. There are just a few steps:
 
 1. Sign up on our [team roster](https://docs.google.com/a/team3128.org/forms/d/1VpWMkgvuBatdemjuj_hHUDzjsSfe2zWboS45fhb6Fz8/viewform). This will get you added to our mailing list so you know everything that is going on.
 2. Sign up on [STIMS](https://my.usfirst.org/stims/Login.aspx), our league information manager. This will let you attend tournaments and be involved in official robotics events off-campus. This step requires a parental unit to finish.
-3. Show up! We meet at the Robotics Workshop under the Media Center next to the Nest. You can check out our [calendar](/students/calendar/), build season [schedule](/students/build-seasons/), and [blog updates](/) to find out about all the things happening in robotics. You can also [email our leaders](/contact/) to ask any questions you may have.
+3. Show up! We meet at the Robotics Workshop under the Media Center next to the Nest. You can check out our [calendar](/students/calendar/), build season [schedule](/students/build-seasons/), and [blog updates](/students/updates/) to find out about all the things happening in robotics. You can also [email our leaders](/contact/) to ask any questions you may have.
 4. Like us on [Facebook](https://www.facebook.com/aluminumnarwhals). Announcements, photos, and all sorts of awesome stuff will go out through there as well.
 
 # Growing Your Skills
 
 After you’ve signed up, there are lots of different ways to grow your skills:
 
-+ Get [Tool Certified]() by going through a mentor-led workshop that will introduce you to how to safely use our robotics tools. Talk to a mentor about the next tool certification workshop.
++ Get [Tool Certified](/students/tool-certification/) by going through a mentor-led workshop that will introduce you to how to safely use our robotics tools. Talk to a mentor about the next tool certification workshop.
 + Getting Involved in Project Teams
    + We assign different projects to different project leads. If we see a student is passionate and hard-working, we will assign them to head the project.
 
 
-If you have any scheduling/team questions, you can also check out our [Frequently Asked Questions]() page.
+If you have any scheduling/team questions, you can also check out our [Frequently Asked Questions](/parents/faq/) page.
 
 ## Workshop Hours
 
 Tracking the time you spend at the workshop is important. Not only is having record of all your hard work and dedication a great college application point, but privileges like slots on our leadership team, competition team, or travel team all require certain minimum hour requirements. Here’s how to get started:
 
 + When you come to the workshop each day, find the Workshop Supervisor and sign in electronically with your Student ID card. You’ll need to talk to them again to sign out.
-+ If you forgot/don’t have your Student ID card, fill out our [time log worksheet](). You can also use this sheet if you remember you forgot to sign in with the Workshop Supervisor.
++ If you forgot/don’t have your Student ID card, fill out our [time log worksheet](/resources/FRC_Time_Log_Workshop.pdf). You can also use this sheet if you remember you forgot to sign in with the Workshop Supervisor.
 
 # Build Season
 
