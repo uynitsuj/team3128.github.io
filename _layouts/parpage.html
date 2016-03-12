@@ -36,30 +36,59 @@ layout: default
 </style>
 
 <article class="post">
-    <table style="background-color:#025E86;" cellpadding="15px" cellspacing="0" width="100%">
+    <table cellspacing="0" width="100%">
+    <tr>
+        <td id="titleblue">
+            <table width="100%">
+                <tr width="100%">
+                    <td>
+                        <h1 id="button-text" class="post-title">{{ page.title }}</h1>
+                    </td>
+                    <td width="80px">
+                        <img id="tabicon" onclick="togglesubmenu()" src="/resources/menuicon.png" width="70px"></img>
+                        <script>
+                            function togglesubmenu() {
+                                if (submenu.style.display == "none") {
+                                    submenu.style.display = "table"
+                                }
+                                else {
+                                    submenu.style.display = "none"
+                                }
+                            }
+                        </script>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<table id="submenu" style="background-color:#025E86;display: none;" cellpadding="15px" cellspacing="0" width="100%">
         <tr>
             <td align="center" id="hover" onClick="javascript:location.href='/parents/faq'">
                 <h2 id="button-text">FAQ</h2>
             </td>
+        </tr>
+        <tr>
             <td align="center" id="hover" onClick="javascript:location.href='/parents/important-dates'">
                 <h2 id="button-text">Important Dates</h2>
             </td>
+        </tr>
+        <tr>
             <td align="center" id="hover" onClick="javascript:location.href='/parents/calendar/'">
                 <h2 id="button-text">Calendar</h2>
             </td>
+        </tr>
+        <tr>
             <td align="center" id="hover" onClick="javascript:location.href='/parents/volunteer/'">
                 <h2 id="button-text">Volunteer</h2>
             </td>
+        </tr>
+        <tr>
             <td align="center" id="hover" onClick="javascript:location.href='/parents/donate/'">
                 <h2 id="button-text">Donate</h2>
             </td>
         </tr>
     </table>
-    <br>
-    <div id="titleblue">
-        <h1 id="button-text" class="post-title">{{ page.title }}</h1>
-    </div>
-    
     <table cellpadding="20px" width="100%" style="background-color: white;">
         <tr cellpadding="0px">
             <td cellpadding="0px">
