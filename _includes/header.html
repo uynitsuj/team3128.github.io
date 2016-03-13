@@ -49,21 +49,15 @@
             display: none;
         }
         .smallertab {
-            display: block;
-        }
-        #smallmenu {
-            display: none;
+            display: table-cell;
         }
     }
     
     @media screen and (min-width: 750px) {
         .trigger {
-            display: block;
+            display: table-cell;
         }
         .smallertab {
-            display: none;
-        }
-        #smallmenu {
             display: none;
         }
     }
@@ -72,7 +66,19 @@
         vertical-align: middle;
     }
     
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 850px) {
+    	.normaltitle {
+            display: none;
+        }
+        .smalltitle {
+            display: none;
+        }
+        .tinititle {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 920px) and (min-width: 850px) {
         .normaltitle {
             display: none;
         }
@@ -84,7 +90,7 @@
         }
     }
     
-    @media screen and (max-width: 1020px) and (min-width: 575px) {
+    @media screen and (max-width: 1250px) and (min-width: 920px) {
         .normaltitle {
             display: none;
         }
@@ -96,7 +102,7 @@
         }
     }
     
-    @media screen and (min-width: 1020px) {
+    @media screen and (min-width: 1250px) {
         .normaltitle {
             display: block;
         }
@@ -118,27 +124,27 @@
         </style>
     
     
-    <div class="wrapper">
-        <table height="130px" width="100%">
+    <!--<div class="wrapper">-->
+        <table height="70px" cellpadding="0px" cellspacing="5px" width="100%">
             <tr>
-                <td width="120px">
+                <td width=75px">
                 	<img width="100%" src="/resources/logo.png"></img>
                 </td>
                 
                 <td>
                 	<table cellspacing="0px" width="100%">
         				<tr width="100%" height="70px">
-            				<td align="center" width="100%">
+            				<td id="titlearea" align="center">
                 				<a class="site-title normaltitle" href="{{ site.baseurl }}/">Team 3128: Aluminium Narwhals</a>
                 				<a class="site-title smalltitle" href="{{ site.baseurl }}/">Team 3128</a>
                 				<a class="site-title tinititle" href="{{ site.baseurl }}/">3128</a>
             				</td>
-        				</tr>
-        				
-        				<tr>
-            				<td align="center">
+            				<td onclick="togglemenu()" align="center" class="smallertab" width="100%">
+                				<img src="/resources/subpagesicon.png" width="50px"></img>
+            				</td>
+            				<td class="trigger" align="center">
                 				<nav class="site-nav">
-                    				<div class="trigger">
+                    				<div>
                         				<table cellspacing="0px" height="50px">
                             				<tr>
                                 				<td id="hover" onClick="javascript:location.href='/about/'" style="padding: 10px 20px 10px 20px;">
@@ -175,8 +181,8 @@
                             					</tr>
                             				</table>
                     					</div>
-                					</nav>
-            					</td>
+                				</nav>
+            				</td>
             				<script>
                 				function togglemenu() {
                     				if (smallmenu.style.display == "table") {
@@ -187,15 +193,10 @@
                 				}
                 			</script>
                 		</tr>
-                		<tr padding="10px">
-            				<td onclick="togglemenu()" align="center" class="smallertab" width="100%">
-                				<img src="/resources/subpagesicon.png" width="50px"></img>
-            				</td>
-        				</tr>
         			</table>
                 </td>
                 
-                <td width="125px">
+                <td width="200px">
                 	<table cellspacing="10px" width="100%">
                 		<tr height="45px">
                 			<td width="40">
@@ -209,9 +210,6 @@
                 					<img width="40" id="github" src="/resources/social/github.png"></img>
                 				</a>
                 			</td>
-                		</tr>
-                		
-                		<tr height="45px">
                 			<td width="40">
                 				<a href="https://www.instagram.com/3128aluminarwhals/">
                 					<img width="40" id="instagram" src="/resources/social/instagram.png"></img>
@@ -320,6 +318,6 @@
          </nav>
          -->
         
-    </div>
+    <!--</div>-->
 </header>
 
