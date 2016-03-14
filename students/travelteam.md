@@ -10,11 +10,11 @@ Each year our team gathers a group of dedicated students to take a couple days o
 
 # Trip Information
 
-This year’s trip is to the Orange County Regional. The following documents have been provided for your convenience. Please know that the all of the following is tentative and subject to change. Make sure to follow our [updates feed](/) to see any changes that might be made.
+This year’s trip is to the Orange County Regional. The following documents have been provided for your convenience. Please know that the all of the following is tentative and subject to change. Make sure to follow our [updates feed](/students/updates/) to see any changes that might be made.
 
-+ Frequently Asked Questions
++ [Frequently Asked Questions](/students/travelfaq/)
 + Trip Itinerary
-+ Travel Team Commitment Form
++ [Travel Team Commitment Form](/resources/TravelRequestForm2016.pdf)
 + Field Trip Permission Form
 
 ### Key Dates:

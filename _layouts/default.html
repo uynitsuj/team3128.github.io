@@ -8,9 +8,20 @@
     	background-color: #DFE5ED;
         background-image: url("/resources/home_image.jpeg");
       	background-repeat: no-repeat;
-      	background-size: contain;
-        background-position: center top;
+        background-position: left 25px;;
 	}
+	
+	@media screen and (min-width: 960px) {
+    	body {
+    		background-size: contain;
+    	}
+    }
+    
+    @media screen and (max-width: 960px)) {
+        body {
+    		background-size: 960px;
+    	}
+    }
   </style>
   
   <body>
