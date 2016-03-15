@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Welcome to Team 3128's New Website!"
+date:   2016-03-15 16:45:00 -0800
+author: Webmaster
+categories: website
+---
+
+We've been in the process of updating the wbsite over the past couple of days, and we are pround toannounce that the transfer of our site to a new platform is finally complete! If you notice some changes ot the structre and appearance, that is because we have moved away from our old website hosting platform to a newer, easier to mantain place. Aditionally, our [camp site](/camp/) has been updated as well, so don't forget to check that out if you are interested.
