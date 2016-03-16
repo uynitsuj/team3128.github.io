@@ -326,11 +326,10 @@ layout: default
                 <ul class="post-list">
                     {% for post in site.posts limit: 5 %}
                     <li>
-                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
                         <h2>
                             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                         </h2>
-                        <span class="post-meta">{{ post.author }}</span>
                     </li>
                     {% endfor %}
                 </ul>
