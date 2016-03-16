@@ -78,38 +78,30 @@
         }
     }
     
-    @media screen and (max-width: 920px) and (min-width: 850px) {
+    @media screen and (max-width: 900px) {
         .normaltitle {
             display: none;
         }
         .smalltitle {
-            display: none;
-        }
-        .tinititle {
-            display: block;
-        }
-    }
-    
-    @media screen and (max-width: 1250px) and (min-width: 920px) {
-        .normaltitle {
-            display: none;
-        }
-        .smalltitle {
-            display: block;
-        }
-        .tinititle {
             display: none;
         }
     }
     
-    @media screen and (min-width: 1250px) {
+
+    @media screen and (max-width: 1100px) and(min-width: 900px) {
+        .normaltitle {
+            display: none;
+        }
+        .smalltitle {
+            display: block;
+        }
+    }
+    
+    @media screen and (min-width: 1100px) {
         .normaltitle {
             display: block;
         }
         .smalltitle {
-            display: none;
-        }
-        .tinititle {
             display: none;
         }
     }
@@ -127,7 +119,7 @@
     <!--<div class="wrapper">-->
         <table height="70px" cellpadding="0px" cellspacing="5px" width="100%">
             <tr>
-                <td width=75px">
+                <td width="90px">
                 	<img width="100%" src="/resources/logo.png"></img>
                 </td>
                 
@@ -135,9 +127,14 @@
                 	<table cellspacing="0px" width="100%">
         				<tr width="100%" height="70px">
             				<td align="left" id="titlearea" align="center">
+            				<!--
                 				<a class="site-title normaltitle" href="{{ site.baseurl }}/">Team 3128: Aluminium Narwhals</a>
                 				<a class="site-title smalltitle" href="{{ site.baseurl }}/">Team 3128</a>
                 				<a class="site-title tinititle" href="{{ site.baseurl }}/">3128</a>
+                			-->
+                			
+                				<a class="site-title normaltitle" href="{{ site.baseurl }}/"><img src="/resources/textlogo.png" height="60px"></img></a>
+                				<a class="site-title smalltitle" href="{{ site.baseurl }}/"><img src="/resources/textlogo-small.png" height="60px"></img></a>
             				</td>
             				<td onclick="togglemenu()" align="center" class="smallertab" width="100%">
                 				<img src="/resources/subpagesicon.png" width="50px"></img>
