@@ -4,17 +4,6 @@ layout: default
 
 
 <style>
-#button-text {
-    color: white;
-    vertical-align: middle;
-    display: table-cell;
-}
-
-#titleblue {
-    background-color: #0078AD;
-    padding: 20px;
-}
-
 #button {
     background-color: #025E86;
 }
@@ -35,11 +24,11 @@ layout: default
 <article class="post">
     <table cellspacing="0" width="100%">
     <tr>
-        <td id="titleblue">
+        <td class="titleblue">
             <table width="100%">
                 <tr width="100%">
                     <td>
-                        <h1 id="button-text" class="post-title">{{ page.title }}</h1>
+                        <h1 class="button-text post-title">{{ page.title }}</h1>
                     </td>
                     <td width="80px">
                         <img id="tabicon" onclick="togglesubmenu()" src="/resources/menuicon.png" width="70px"></img>
@@ -62,27 +51,27 @@ layout: default
 <table id="submenu" style="background-color:#025E86;display: none;" cellpadding="15px" cellspacing="0" width="100%">
         <tr>
             <td align="center" id="hover" onClick="javascript:location.href='/parents/faq'">
-                <h2 id="button-text">FAQ</h2>
+                <h2 class="button-text">FAQ</h2>
             </td>
         </tr>
         <tr>
             <td align="center" id="hover" onClick="javascript:location.href='/parents/important-dates'">
-                <h2 id="button-text">Important Dates</h2>
+                <h2 class="button-text">Important Dates</h2>
             </td>
         </tr>
         <tr>
             <td align="center" id="hover" onClick="javascript:location.href='/parents/calendar/'">
-                <h2 id="button-text">Calendar</h2>
+                <h2 class="button-text">Calendar</h2>
             </td>
         </tr>
         <tr>
             <td align="center" id="hover" onClick="javascript:location.href='/parents/volunteer/'">
-                <h2 id="button-text">Volunteer</h2>
+                <h2 class="button-text">Volunteer</h2>
             </td>
         </tr>
         <tr>
             <td align="center" id="hover" onClick="javascript:location.href='/parents/donate/'">
-                <h2 id="button-text">Donate</h2>
+                <h2 class="button-text">Donate</h2>
             </td>
         </tr>
     </table>
