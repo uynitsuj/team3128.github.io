@@ -1,6 +1,6 @@
 ---
-layout: parpage
-title: Parents
+layout: default
+title: Donate
 permalink: /donate/
 ---
 
