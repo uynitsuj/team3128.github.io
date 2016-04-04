@@ -1,7 +1,7 @@
 ---
 layout: parpage
 title: Parents
-permalink: /parents/donate/
+permalink: /donate/
 ---
 
 ## Donate
