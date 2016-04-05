@@ -47,7 +47,7 @@ permalink: /sponsor/
 <br>
 <br>
 
-#Looking to sponsor Team 3128?
+# Looking to sponsor Team 3128?
 By sponsoring our team, you can help our team to continue to realize our dreams and allow our students to learn valuable skills.
 <div onClick="javascript:location.href='/donate/'" id="real-button">
 	<h1 height="100%" class="button-text">Learn More</a>
