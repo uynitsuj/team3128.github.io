@@ -15,22 +15,17 @@ All of your donations to the Aluminum Narwhals are tax deductible. If you would 
   San Diego, CA 92130
 
 # Donation Levels
-All of our donors are incredibly important to us. We recognize all of our donor in accordance with their giving level.
+All of our donors are incredibly important to us. We recognize all of our donor in accordance with their giving level. The benefits from each level are cumulative.
+For additional benefits, see the [CCA Foundation Giving Levels]("http://www.canyoncrestfoundation.org/recognition/giving-levels-and-donor-premiums")
 
-<table width ="100%" border="1" cellpadding="3" cellspacing="0">
 
-<tr>
-<td width="20%" align="center">
-Donation level
-</td>
-<td>
-Benefits (Each level is cumulative)
-</td>
-</tr>
+<table width ="100%" border="0" cellpadding="10" cellspacing="0">
 
 <tr>
-<td align="center">
-$500+
+<td bgcolor="CD7F32" align="center">
+<b><font color="white" size="40px">Bronze</font></b>
+<br>
+<font color="white">$500+</font>
 </td>
 <td>
 <ul>
@@ -40,8 +35,10 @@ $500+
 </tr>
 
 <tr>
-<td align="center">
-$1,000+
+<td bgcolor="grey" align="center">
+<b><font color="white" size="40px">Silver</font></b>
+<br>
+<font color="white">$1,000+</font>
 </td>
 <td >
 <ul>
@@ -52,8 +49,10 @@ $1,000+
 </tr>
 
 <tr>
-<td align="center">
-$2,500+
+<td bgcolor="gold" align="center">
+<b><font color="white" size="40px">Gold</font></b>
+<br>
+<font color="white">$2,500+</font>
 </td>
 <td >
 <ul>
@@ -63,23 +62,14 @@ $2,500+
 </tr>
 
 <tr>
-<td align="center">
-$5,000+
+<td bgcolor="#c2c0bc" align="center">
+<b><font color="white" size="40px">Platinum</font></b>
+<br>
+<font color="white">$5,000+</font>
 </td>
-<td >
+<td>
 <ul>
 <li>Featured as Primary Sponsor for Team at Key Events (FRC Competitions, Off-Season Events)</li>
-</ul>
-</td>
-</tr>
-
-<tr>
-<td align="center">
-Any Amount
-</td>
-<td >
-<ul>
-<li> See the <a href="http://www.canyoncrestfoundation.org/recognition/giving-levels-and-donor-premiums"> CCA Foundation Giving Levels </a> for even more benefits. </li>
 </ul>
 </td>
 </tr>
