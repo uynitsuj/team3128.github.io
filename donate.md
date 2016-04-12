@@ -2,7 +2,7 @@
 layout: page
 title: Donate
 permalink: /donate/
-show_nav: true
+shownav: true
 ---
 
 The Aluminum Narwhals is a part of the [Canyon Crest Academy Foundation](http://canyoncrestfoundation.org/), a 501(c)3 non-profit organization. Tax ID 03-0542702.
