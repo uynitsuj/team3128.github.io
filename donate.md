@@ -10,7 +10,7 @@ The Aluminum Narwhals is a part of the [Canyon Crest Academy Foundation](http://
 All of your donations to the Aluminum Narwhals are tax deductible. If you would like more information regarding your donation, you can contact the Executive Director, Joanne Couvrette, at [joanne.couvrette@sduhsd.net](mailto:joanne.couvrette@sduhsd.net) or (858) 350-0253 x4005.
 
 # How to donate:
-+ Use our online form to make a donation directly to our team
++ Use our [online form](http://weblink.donorperfect.com/robotics) to make a donation directly to our team
 + You can also write a check payable to ‘Canyon Crest Academy Foundation’ with ‘QUEST/Robotics’ on the memo line, and drop it off or mail it to:  
   5951 E Village middle Loop Rd,  
   San Diego, CA 92130
