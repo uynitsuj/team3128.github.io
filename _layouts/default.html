@@ -47,7 +47,35 @@
     	cursor: pointer;
 	}	
 
-
+	@media screen and (min-width: 700px) {
+		.leftimage {
+			float: left;
+			width: 300px;
+			margin: 0px 30px 10px 0px;
+		}
+		.rightimage {
+			float: right;
+			width: 300px;
+			margin: 0px 0px 10px 30px;
+		}
+		.verticalimage {
+			float: left;
+			width: 300px;
+			margin: 0px 30px 10px 0px;
+		}
+	}
+	
+	@media screen and (max-width: 700px) {
+		.leftimage {
+			width: 100%;
+		}
+		.rightimage {
+			width: 100%;
+		}
+		.verticalimage {
+			width: 100%;
+		}
+	}
 
   </style>
   

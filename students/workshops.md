@@ -4,6 +4,6 @@ title: Students
 permalink: /students/workshops/
 ---
 
-## Workshops 
+# Workshops 
 
 2016 dates TBA

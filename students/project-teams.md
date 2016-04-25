@@ -4,7 +4,7 @@ title: Students
 permalink: /students/project-teams/
 ---
 
-## Project Teams
+# Project Teams
 
 <table border="1" width="100%" cellpadding="4" cellspacing="0">
 <tr>

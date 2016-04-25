@@ -4,11 +4,11 @@ title: Students
 permalink: /students/travel-team/
 ---
 
-## Travel Team
+# Travel Team
 
 Each year our team gathers a group of dedicated students to take a couple days off from school and travel to a regional outside of the San Diego area. This is a great opportunity to dedicate time specifically to work as hard as possible to achieve success at a competition where we get to meet new teams and share ideas.
 
-# Trip Information
+## Trip Information
 
 This year’s trip is to the Orange County Regional. The following documents have been provided for your convenience. Please know that the all of the following is tentative and subject to change. Make sure to follow our [updates feed](/students/updates/) to see any changes that might be made.
 
@@ -17,7 +17,7 @@ This year’s trip is to the Orange County Regional. The following documents hav
 + [Travel Team Commitment Form](/resources/TravelRequestForm2016.pdf)
 + Field Trip Permission Form
 
-### Key Dates:
+## Key Dates:
 
 + Registration Opens: October 26th, 2015
 + Registration Close: November 9th, 2015

@@ -7,11 +7,49 @@ layout: default
     background-color: #025E86;
 }
 
-#hover:hover {
+#subHover:hover {
     background-color: #038ec9;
     color: white;
-    padding: 15px;
     cursor: pointer;
+}
+
+#subHover {
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.tab {
+	background: #025E86;	
+}
+
+#tabbar {
+	background: white;
+}
+
+@media screen and (max-width: 740px) {
+	#submenu {
+		display: table;
+	}
+	#submenubutton {
+		display: table;
+	}
+	#tabbar {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 740px) {
+	#submenu {
+		display: none;
+	}
+	#submenubutton {
+		display: none;
+	}
+	#tabbar {
+		display: table;
+	}
 }
 
 </style>
@@ -27,10 +65,10 @@ layout: default
             <td class="titleblue">
                 <table width="100%">
                     <tr width="100%">
-                        <td>
+                        <td width="100%">
                             <h1 class="button-text post-title">{{ page.title }}</h1>
                         </td>
-                        <td width="80px">
+                        <td id="submenubutton" width="80px">
                             <img id="tabicon" onclick="togglesubmenu()" src="/resources/menuicon.png" width="70px"></img>
                             <script>
                                 function togglesubmenu() {
@@ -50,49 +88,49 @@ layout: default
     </table>
     <table id="submenu" style="background-color:#025E86;display: none;" cellpadding="15px" cellspacing="0" width="100%">
         <tr>
-            <td id="hover" onClick="javascript:location.href='/students/'" >
+            <td id="subHover" onClick="javascript:location.href='/students/'" >
                 <div align="center">
                     <h2 class="button-text">Getting Started</h2>
                 </div>
             </td>
         </tr>
         <tr>
-            <td id="hover" onClick="javascript:location.href='/students/calendar/'">
+            <td id="subHover" onClick="javascript:location.href='/students/calendar/'">
                 <div align="center">
                     <h2 class="button-text">Calendar</h2>
                 </div>
             </td>
         </tr>
         <tr>
-            <td id="hover" onClick="javascript:location.href='/students/build-seasons/'" >
+            <td id="subHover" onClick="javascript:location.href='/students/build-seasons/'" >
                 <div align="center">
                     <h2 class="button-text">Build Seasons</h2>
                 </div>
             </td>
         </tr>
         <tr>
-            <td id="hover" onClick="javascript:location.href='/students/project-teams/'" >
+            <td id="subHover" onClick="javascript:location.href='/students/project-teams/'" >
                 <div align="center">
                     <h2 class="button-text">Project Teams</h2>
                 </div>
             </td>
         </tr>
         <tr>
-            <td id="hover" onClick="javascript:location.href='/students/workshops/'" >
+            <td id="subHover" onClick="javascript:location.href='/students/workshops/'" >
                 <div align="center">
                     <h2 class="button-text">Workshops</h2>
                 </div>
             </td>
         </tr>
         <tr>
-            <td id="hover" onClick="javascript:location.href='/students/travel-team/'">
+            <td id="subHover" onClick="javascript:location.href='/students/travel-team/'" >
                 <div align="center">
                     <h2 class="button-text">Travel Team</h2>
                 </div>
             </td>
         </tr>
         <tr>
-            <td id="hover" onClick="javascript:location.href='/students/updates/'" >
+            <td id="subHover" onClick="javascript:location.href='/students/updates/'" >
                 <div align="center">
                     <h2 class="button-text">Updates</h2>
                 </div>
@@ -100,12 +138,50 @@ layout: default
         </tr>
     </table>
     
-    <table cellpadding="20px" width="100%" style="background-color: white;">
+    <table id="tabbar" width="100%" cellspacing="0px">
+    				<tr>
+            			<td id="subHover" class="tab" onClick="javascript:location.href='/students/'" >
+                			<div align="center">
+                    			<h4 class="button-text">Getting Started</h2>
+                			</div>
+            			</td>
+            			<td id="subHover" class="tab" onClick="javascript:location.href='/students/calendar/'">
+                			<div align="center">
+			                    <h4 class="button-text">Calendar</h2>
+            			    </div>
+            			</td>
+            			<td id="subHover" class="tab" onClick="javascript:location.href='/students/build-seasons/'" >
+                			<div align="center">
+                    			<h4 class="button-text">Build Seasons</h2>
+                			</div>
+            			</td>
+            			<td id="subHover" class="tab" onClick="javascript:location.href='/students/project-teams/'" >
+                			<div align="center">
+                    			<h4 class="button-text">Project Teams</h2>
+                			</div>
+            			</td>
+            			<td id="subHover" class="tab" onClick="javascript:location.href='/students/workshops/'" >
+                			<div align="center">
+                    			<h4 class="button-text">Workshops</h2>
+                			</div>
+            			</td>
+            			<td id="subHover" class="tab" onClick="javascript:location.href='/students/travel-team/'">
+                			<div align="center">
+                    			<h4 class="button-text">Travel Team</h2>
+                			</div>
+            			</td>
+            			<td id="subHover" class="tab" onClick="javascript:location.href='/students/updates/'" >
+                			<div align="center">
+                    			<h4 class="button-text">Updates</h2>
+                			</div>
+            			</td>
+        			</tr>
+    </table>
+    
+    <table cellspacing="0px" cellpadding="20px" width="100%" style="background-color: white;">
         <tr cellpadding="0px">
             <td cellpadding="0px">
                 {{ content }}
-            </td>
-            <td>
             </td>
         </tr>
     </table>

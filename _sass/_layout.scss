@@ -187,6 +187,38 @@ padding-bottom: 0px;
  */
 .page-content {
     padding: $spacing-unit 0;
+    
+    h1 {
+        font-size: 34px;
+
+        @include media-query($on-laptop) {
+            font-size: 30px;
+        }
+    }
+    
+    h2 {
+        font-size: 28px;
+
+        @include media-query($on-laptop) {
+            font-size: 24px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
 }
 
 .page-heading {
@@ -232,13 +264,21 @@ padding-bottom: 0px;
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
+    padding: $spacing-unit 0;
+    
+    h1 {
+        font-size: 34px;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 30px;
+        }
+    }
+    
+    h2 {
+        font-size: 28px;
+
+        @include media-query($on-laptop) {
+            font-size: 24px;
         }
     }
 
