@@ -18,7 +18,7 @@ Becoming a part of robotics is very easy. There are just a few steps:
 
 After you’ve signed up, there are lots of different ways to grow your skills:
 
-<img src="/resources/dank-photos/1.JPG" class="leftimage">
+<img src="/resources/dank-photos/1.jpg" class="leftimage">
 
 + Get [Tool Certified](/students/tool-certification/) by going through a mentor-led workshop that will introduce you to how to safely use our robotics tools. Talk to a mentor about the next tool certification workshop.
 + Getting Involved in Project Teams
