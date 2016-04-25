@@ -18,7 +18,7 @@ Becoming a part of robotics is very easy. There are just a few steps:
 
 After you’ve signed up, there are lots of different ways to grow your skills:
 
-<img src="/resources/dank-photos/1.jpg" class="leftimage">
+<img src="/resources/dank-photos/1.JPG" class="leftimage">
 
 + Get [Tool Certified](/students/tool-certification/) by going through a mentor-led workshop that will introduce you to how to safely use our robotics tools. Talk to a mentor about the next tool certification workshop.
 + Getting Involved in Project Teams
@@ -28,7 +28,7 @@ If you have any scheduling/team questions, you can also check out our [Frequentl
 
 ## Workshop Hours
 
-<img src="/resources/dank-photos/2.jpg" class="rightimage">
+<img src="/resources/dank-photos/2.JPG" class="rightimage">
 
 Tracking the time you spend at the workshop is important. Not only is having record of all your hard work and dedication a great college application point, but privileges like slots on our leadership team, competition team, or travel team all require certain minimum hour requirements. Here’s how to get started:
 
@@ -39,7 +39,7 @@ Tracking the time you spend at the workshop is important. Not only is having rec
 
 Our team is led by a group of elected officials and appointed officers. 
 
-<img src="/resources/dank-photos/6.jpg" class="leftimage">
+<img src="/resources/dank-photos/6.JPG" class="leftimage">
 
 They meet during the monthly Leadership meeting where the leadership, mentors, and project leaders discuss the current happenings of the team.
 
