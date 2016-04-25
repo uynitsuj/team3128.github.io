@@ -17,7 +17,7 @@ Our robotics team, along with several others found at our school, participates i
 
 During the 2010 competition season, our team entered brand new and won the Rookie All-Star award for our stellar performance despite being a first-year team, landing us a spot in the FRC World Competition.
 
-We grew for the next 6 years, developing our [Robotics Summer Camp]("/camp/"), a week-long session for students grades 1 through 8 to design, build, and program their very own robots over the summer.
+We grew for the next 6 years, developing our [Robotics Summer Camp](/camp/), a week-long session for students grades 1 through 8 to design, build, and program their very own robots over the summer.
 
 All of our hard work paid off in the 2016 competition season. We put all of our time and effort into constructing a robust, able robot for FIRST Stronghold, a challenge that involved overcoming obstacles and scoring dodgeballs into goals. With the culmination of enthusiastic mentors' support, skilled drive, mechanical, strategy, electronics, programming, and outreach teams, and over 3000 hours of effort, we were able to win the Engineering Inspiration Awards and a $5,000 dollar sponsorship from NASA to attend the FRC Worlds Tournament in April of 2016.
 
