@@ -3,47 +3,47 @@
         .nounder:hover {
             text-decoration: none;
         }
-    
+
     .nounder {
         text-transform: uppercase;
     }
-    
+
     #smallmenu {
         display: none;
     }
-    
+
     #tabicon:hover {
         content: url(/resources/selectedmenuicon.png);
         cursor: pointer;
     }
-    
+
     #hover:hover {
         background-color: #025E86;
         color: white;
         padding: 15px;
         cursor: pointer;
     }
-    
+
     #mail:hover {
     	content: url(/resources/social/mail-selected.png);
     	cursor: pointer;
     }
-    
+
     #facebook:hover {
     	content: url(/resources/social/facebook-selected.png);
     	cursor: pointer;
     }
-    
+
     #github:hover {
     	content: url(/resources/social/github-selected.png);
     	cursor: pointer;
     }
-    
+
     #instagram:hover {
     	content: url(/resources/social/instagram-selected.png);
     	cursor: pointer;
     }
-    
+
     @media screen and (max-width: 910px) {
         .trigger {
             display: none;
@@ -52,7 +52,7 @@
             display: table-cell;
         }
     }
-    
+
     @media screen and (min-width: 910px) {
         .trigger {
             display: table-cell;
@@ -61,11 +61,11 @@
             display: none;
         }
     }
-    
+
     #smallertab {
         vertical-align: middle;
     }
-    
+
     @media screen and (max-width: 1030px) {
         .normaltitle {
             display: none;
@@ -74,7 +74,7 @@
             display: none;
         }
     }
-    
+
 
     @media screen and (max-width: 1160px) and (min-width: 1030px) {
         .normaltitle {
@@ -84,7 +84,7 @@
             display: block;
         }
     }
-    
+
     @media screen and (min-width: 1160px) {
         .normaltitle {
             display: block;
@@ -93,7 +93,7 @@
             display: none;
         }
     }
-    
+
     .smallertab {
     	background:rgb(13,95,132);
     }
@@ -101,16 +101,21 @@
     	background:rgb(3,85,122);
     	cursor: pointer;
     }
+
+    .hoverAnimateImage {
+      transition: content .25s ease-in-out;
+     -moz-transition: content .25s ease-in-out;
+     -webkit-transition: content .25s ease-in-out;
+    }
+
         </style>
-    
-    
-    <!--<div class="wrapper">-->
+        
         <table height="70px" cellpadding="0px" cellspacing="5px" width="100%">
             <tr>
                 <td width="90px">
                 	<a href="{{ site.baseurl }}/"><img width="100%" src="/resources/logo.png"></img></a>
                 </td>
-                
+
                 <td>
                 	<table cellspacing="0px" width="100%">
         				<tr width="100%" height="70px">
@@ -126,42 +131,31 @@
                     				<div>
                         				<table cellspacing="0px" height="70px">
                             				<tr>
-                                				<td id="hover" onClick="javascript:location.href='/about/'" style="padding: 10px 20px 10px 20px;">
+                                				<td class="hoverAnimate" id="hover" onClick="javascript:location.href='/about/'" style="padding: 10px 20px 10px 20px;">
                                     				<a class="nounder page-link">
                                     	    			about
                                     				</a>
                                 				</td>
-                                				<td id="hover" onClick="javascript:location.href='/sponsor/'" style="padding: 10px 20px 10px 20px;">
+                                				<td class="hoverAnimate" id="hover" onClick="javascript:location.href='/sponsor/'" style="padding: 10px 20px 10px 20px;">
                                     				<a class="nounder page-link">
                                     	    			sponsors
                                     				</a>
                                 				</td>
-                                				<td id="hover" onClick="javascript:location.href='/students/'" style="padding: 10px 20px 10px 20px;">
+                                				<td class="hoverAnimate" id="hover" onClick="javascript:location.href='/students/'" style="padding: 10px 20px 10px 20px;">
                                     				<a class="nounder page-link">
                                         				students
                                     				</a>
                                 				</td>
-                                				<td id="hover" onClick="javascript:location.href='/parents/'" style="padding: 10px 20px 10px 20px;">
+                                				<td class="hoverAnimate" id="hover" onClick="javascript:location.href='/parents/'" style="padding: 10px 20px 10px 20px;">
                                     				<a class="nounder page-link">
                                         				parents
                                     				</a>
                                 				</td>
-                                				<td id="hover" onClick="javascript:location.href='/contact/'" style="padding: 10px 20px 10px 20px;">
+                                				<td class="hoverAnimate" id="hover" onClick="javascript:location.href='/contact/'" style="padding: 10px 20px 10px 20px;">
                                     				<a class="nounder page-link">
                                         				contact
                                     				</a>
                                 				</td>
-                                				<!--
-                                 					{% for page in site.pages %}
-                                 						{% if page.shownav %}
-                                 							<td id="hover" onClick="javascript:location.href='{{ page.url | prepend: site.baseurl }}'" style="padding: 10px 20px 10px 20px;">
-                                 								<a class="nounder page-link" href="{{ page.url | prepend: site.baseurl }}">
-                                 									{{ page.title }}
-                                 								</a>
-                                 							</td>
-                                 						{% endif %}
-                                 					{% endfor %}
-                                 				-->
                             					</tr>
                             				</table>
                     					</div>
@@ -179,30 +173,30 @@
                 		</tr>
         			</table>
                 </td>
-                
+
                 <td align="right" width="200px">
                 	<table cellspacing="10px">
                 		<tr height="45px">
                 			<td width="40">
                 				<a href="https://www.facebook.com/aluminumnarwhals?ref=hl">
-                					<img width="40" id="facebook" src="/resources/social/facebook.png"></img>
+                					<img width="40" class="hoverAnimateImage" id="facebook" src="/resources/social/facebook.png"></img>
                 				</a>
                 			</td>
-                			
+
                 			<td width="40">
                 				<a href="https://github.com/Team3128">
-                					<img width="40" id="github" src="/resources/social/github.png"></img>
+                					<img width="40" class="hoverAnimateImage" id="github" src="/resources/social/github.png"></img>
                 				</a>
                 			</td>
                 			<td width="40">
                 				<a href="https://www.instagram.com/3128aluminarwhals/">
-                					<img width="40" id="instagram" src="/resources/social/instagram.png"></img>
+                					<img width="40" class="hoverAnimateImage" id="instagram" src="/resources/social/instagram.png"></img>
                 				</a>
                 			</td>
-                			
+
                 			<td width="40">
                 				<a href="/contact/">
-                					<img width="40" id="mail" src="/resources/social/mail.png"></img>
+                					<img width="40" class="hoverAnimateImage" id="mail" src="/resources/social/mail.png"></img>
                 				</a>
                 			</td>
                 		</tr>
@@ -210,76 +204,7 @@
                 </td>
             </tr>
         </table>
-        
-        <div id="oldtable">
-        <!--
-        <table width="100%">
-        	<tr width="100%" height="70px">
-            	<td align="center" width="100%">
-                	<a class="site-title normaltitle" href="{{ site.baseurl }}/">Team 3128: Aluminium Narwhals</a>
-                	<a class="site-title smalltitle" href="{{ site.baseurl }}/">Team 3128</a>
-            	</td>
-        	</tr>
-        	<tr>
-            	<td align="center">
-                	<nav class="site-nav">
-                    	<div class="trigger">
-                        	<table cellspacing="0px" height="50px">
-                            	<tr>
-                                	<td id="hover" onClick="javascript:location.href='/about/'" style="padding: 10px 20px 10px 20px;">
-                                    	<a class="nounder page-link">
-                                    	    about
-                                    	</a>
-                                	</td>
-                                	<td id="hover" onClick="javascript:location.href='/students/'" style="padding: 10px 20px 10px 20px;">
-                                    	<a class="nounder page-link">
-                                        	students
-                                    	</a>
-                                	</td>
-                                	<td id="hover" onClick="javascript:location.href='/parents/'" style="padding: 10px 20px 10px 20px;">
-                                    	<a class="nounder page-link">
-                                        	parents
-                                    	</a>
-                                	</td>
-                                	<td id="hover" onClick="javascript:location.href='/contact/'" style="padding: 10px 20px 10px 20px;">
-                                    	<a class="nounder page-link">
-                                        	contact
-                                    	</a>
-                                	</td>
-                                	
-                                	
-                                 	{% for page in site.pages %}
-                                 		{% if page.shownav %}
-                                 			<td id="hover" onClick="javascript:location.href='{{ page.url | prepend: site.baseurl }}'" style="padding: 10px 20px 10px 20px;">
-                                 				<a class="nounder page-link" href="{{ page.url | prepend: site.baseurl }}">
-                                 					{{ page.title }}
-                                 				</a>
-                                 			</td>
-                                 		{% endif %}
-                                 	{% endfor %}
-                                 	
-                            	</tr>
-                            </table>
-                    	</div>
-                	</nav>
-            	</td>
-            	<script>
-                	function togglemenu() {
-                    	if (smallmenu.style.display == "table") {
-                        	smallmenu.style.display = "none"
-                    	} else {
-                        	smallmenu.style.display = "table"
-                    	}
-                	}
-                </script>
-            	<td class="smallertab" width="70px">
-                	<img id="tabicon" onclick="togglemenu()" src="/resources/menuicon.png" width="70px"></img>
-            	</td>
-        	</tr>
-        </table>
-        -->
-        </div>
-        
+
         <table id="smallmenu" cellspacing="0" width="100%">
             {% for page in site.pages %} {% if page.shownav %}
             <tr style="background-color:#038ec9;" width="100%" height="30px">
@@ -289,19 +214,4 @@
             </tr>
             {% endif %} {% endfor %}
         </table>
-        
-        <!--
-         <nav class="site-nav">
-         <a href="#" class="menu-icon">
-         <svg viewBox="0 0 18 15">
-         <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-         <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-         <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-         </svg>
-         </a>
-         </nav>
-         -->
-        
-    <!--</div>-->
 </header>
-
