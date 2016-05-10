@@ -100,7 +100,7 @@ layout: default
                 </div>
             </td>
             <td style="vertical-align: top;" align="center">
-                <div class="hoverAnimateImage" onClick="javascript:location.href=/camp/" id="real-button" height="100%" width="100%">
+                <div class="hoverAnimate" onClick="javascript:location.href=/camp/" id="real-button" height="100%" width="100%">
                     <h2 height="100%" class="button-text"><b>FIND OUT MORE</b></h1>
                 </div>
             </td>
@@ -139,41 +139,41 @@ layout: default
         <table id="normalwidth" cellpadding="5px" cellspacing="5px" width="100%">
             <tr>
                 <td align="center" width="25%">
-                    <img width="100%" src="/resources/homepage/camp.jpeg"></img>
+                  <img width="100%" src={% include_relative /index-cards/card1/picture-source.md %}></img>
                 </td>
                 <td align="center" width="25%">
-                    <img width="100%" src="/resources/homepage/teamsignups.jpeg"></img>
+                    <img width="100%" src={% include_relative /index-cards/card2/picture-source.md %}></img>
                 </td>
                 <td align="center" width="25%">
-                    <img width="100%" src="/resources/homepage/fallworkshops.jpeg"></img>
+                    <img width="100%" src={% include_relative /index-cards/card3/picture-source.md %}></img>
                 </td>
                 <td align="center" width="25%">
-                    <img width="100%" src="/resources/homepage/calendar.jpeg"></img>
+                    <img width="100%" src={% include_relative /index-cards/card4/picture-source.md %}></img>
                 </td>
             </tr>
             <tr>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div style="vertical-align: text-top;">
-                        <h2><a href="/camp/">Robotics Summer Camp</a></h2>
-                        Looking for our summer camp? Registration opens soon for 2016 Robotics Summer Camp sessions. Check out our camp site for more information.
+                        {% include_relative /index-cards/card1/title.html %}
+                        {% include_relative /index-cards/card1/info.md %}
                     </div>
                 </td>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div>
-                        <h2><a href="/students/">Team Sign Ups</a></h2>
-                        Registration for the 2015-2016 Aluminum Narwhals is now open. Head over to our students section to find out how you can be involved next year.
+                      {% include_relative /index-cards/card2/title.html %}
+                      {% include_relative /index-cards/card2/info.md %}
                     </div>
                 </td>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div>
-                        <h2><a href="/students/workshops">Fall Workshops</a></h2>
-                        Hit the ground running with eight weeks with eight awesome different speakers. Learn about robot design, competition strategy, 3D CAD, and more. Sign up now. Slots going quickly.
+                      {% include_relative /index-cards/card3/title.html %}
+                      {% include_relative /index-cards/card3/info.md %}
                     </div>
                 </td>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div>
-                        <h2><a href="/donate/">Donate Now</a></h2>
-                        Be a part of creating an amazing STEM based program for our students. Every donation enables us to engage and inspire our students to pursue their passions in science, technology, engineering, and math.
+                      {% include_relative /index-cards/card4/title.html %}
+                      {% include_relative /index-cards/card4/info.md %}
                     </div>
                 </td>
             </tr>
@@ -182,53 +182,53 @@ layout: default
         <table id="tiny" cellpadding="5px" cellspacing="5px" width="100%">
             <tr>
                 <td align="center" width="25%">
-                    <img width="100%" src="/resources/homepage/camp.jpeg"></img>
+                    <img width="100%" src={% include_relative /index-cards/card1/picture-source.md %}></img>
                 </td>
             </tr>
             <tr>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div style="vertical-align: text-top;">
-                        <h2><a>Robotics Summer Camp</a></h2>
-                        Looking for our summer camp? Registration is still open for our 2015 Robotics Summer Camp sessions. Check out our camp site for more information.
+                      {% include_relative /index-cards/card1/title.html %}
+                      {% include_relative /index-cards/card1/info.md %}
                     </div>
                 </td>
             </tr>
             <tr>
                 <td align="center" width="25%">
-                    <img width="100%" src="/resources/homepage/teamsignups.jpeg"></img>
+                    <img width="100%" src={% include_relative /index-cards/card2/picture-source.md %}></img>
                 </td>
             </tr>
             <tr>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div>
-                        <h2><a href="/students/">Team Sign Ups</a></h2>
-                        Registration for the 2015-2016 Aluminum Narwhals is now open. Head over to our students section to find out how you can be involved next year.
+                      {% include_relative /index-cards/card2/title.html %}
+                      {% include_relative /index-cards/card2/info.md %}
                     </div>
                 </td>
             </tr>
             <tr>
                 <td align="center" width="25%">
-                    <img width="100%" src="/resources/homepage/fallworkshops.jpeg"></img>
+                    <img width="100%" src={% include_relative /index-cards/card3/picture-source.md %}></img>
                 </td>
             </tr>
             <tr>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div>
-                        <h2><a href="/students/workshops">Fall Workshops</a></h2>
-                        Hit the ground running with eight weeks with eight awesome different speakers. Learn about robot design, competition strategy, 3D CAD, and more. Sign up now. Slots going quickly.
+                      {% include_relative /index-cards/card3/title.html %}
+                      {% include_relative /index-cards/card3/info.md %}
                     </div>
                 </td>
             </tr>
             <tr>
                 <td align="center" width="25%">
-                    <img width="100%" src="/resources/homepage/calendar.jpeg"></img>
+                    <img width="100%" src={% include_relative /index-cards/card4/picture-source.md %}></img>
                 </td>
             </tr>
             <tr>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div>
-                        <h2><a href="/donate/">Donate Now</a></h2>
-                        Be a part of creating an amazing STEM based program for our students. Every donation enables us to engage and inspire our students to pursue their passions in science, technology, engineering, and math.
+                      {% include_relative /index-cards/card4/title.html %}
+                      {% include_relative /index-cards/card4/info.md %}
                     </div>
                 </td>
             </tr>
@@ -237,45 +237,45 @@ layout: default
         <table id="small" cellpadding="5px" cellspacing="5px" width="100%">
             <tr>
                 <td align="center" width="25%">
-                    <img width="100%" src="/resources/homepage/camp.jpeg"></img>
+                    <img width="100%" src={% include_relative /index-cards/card1/picture-source.md %}></img>
                 </td>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div style="vertical-align: text-top;">
-                        <h2><a>Robotics Summer Camp</a></h2>
-                        Looking for our summer camp? Registration is still open for our 2015 Robotics Summer Camp sessions. Check out our camp site for more information.
+                      {% include_relative /index-cards/card1/title.html %}
+                      {% include_relative /index-cards/card1/info.md %}
                     </div>
                 </td>
             </tr>
             <tr>
                 <td align="center" width="25%">
-                    <img width="100%" src="/resources/homepage/teamsignups.jpeg"></img>
+                    <img width="100%" src={% include_relative /index-cards/card2/picture-source.md %}></img>
                 </td>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div>
-                        <h2><a href="/students/">Team Sign Ups</a></h2>
-                        Registration for the 2015-2016 Aluminum Narwhals is now open. Head over to our students section to find out how you can be involved next year.
+                      {% include_relative /index-cards/card2/title.html %}
+                      {% include_relative /index-cards/card2/info.md %}
                     </div>
                 </td>
             </tr>
             <tr>
                 <td align="center" width="25%">
-                    <img width="100%" src="/resources/homepage/fallworkshops.jpeg"></img>
+                    <img width="100%" src={% include_relative /index-cards/card3/picture-source.md %}></img>
                 </td>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div>
-                        <h2><a href="/students/workshops">Fall Workshops</a></h2>
-                        Hit the ground running with eight weeks with eight awesome different speakers. Learn about robot design, competition strategy, 3D CAD, and more. Sign up now. Slots going quickly.
+                      {% include_relative /index-cards/card3/title.html %}
+                      {% include_relative /index-cards/card3/info.md %}
                     </div>
                 </td>
             </tr>
             <tr>
                 <td align="center" width="25%">
-                    <img width="100%" src="/resources/homepage/calendar.jpeg"></img>
+                    <img width="100%" src={% include_relative /index-cards/card4/picture-source.md %}></img>
                 </td>
                 <td style="vertical-align: top;" width="25%" height="100%">
                     <div>
-                        <h2><a href="/donate/">Donate Now</a></h2>
-                        Be a part of creating an amazing STEM based program for our students. Every donation enables us to engage and inspire our students to pursue their passions in science, technology, engineering, and math.
+                      {% include_relative /index-cards/card4/title.html %}
+                      {% include_relative /index-cards/card4/info.md %}
                     </div>
                 </td>
             </tr>
