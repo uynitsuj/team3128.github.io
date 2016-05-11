@@ -4,20 +4,20 @@ layout: default
 
 <style>
 #button {
-    background-color: #025E86;
+  background-color: #025E86;
 }
 
 #subHover:hover {
-    background-color: #038ec9;
-    color: white;
-    cursor: pointer;
+  background-color: #038ec9;
+  color: white;
+  cursor: pointer;
 }
 
 #subHover {
-	padding-right: 7px;
-	padding-left: 7px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+  padding-right: 7px;
+  padding-left: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .tab {
@@ -30,31 +30,31 @@ layout: default
 }
 
 #tabbar {
-	background: white;
+  background: white;
 }
 
 @media screen and (max-width: 740px) {
-	#submenu {
-		display: table;
-	}
-	#submenubutton {
-		display: table;
-	}
-	#tabbar {
-		display: none;
-	}
+  #submenu {
+    display: table;
+  }
+  #submenubutton {
+    display: table;
+  }
+  #tabbar {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 740px) {
-	#submenu {
-		display: none;
-	}
-	#submenubutton {
-		display: none;
-	}
-	#tabbar {
-		display: table;
-	}
+  #submenu {
+    display: none;
+  }
+  #submenubutton {
+    display: none;
+  }
+  #tabbar {
+    display: table;
+  }
 }
 
 </style>
@@ -67,129 +67,129 @@ layout: default
 <article class="post">
   <div class="shadow">
     <table cellspacing="0" width="100%">
-        <tr>
-            <td class="titleblue">
-                <table width="100%">
-                    <tr width="100%">
-                        <td width="100%">
-                            <h1 class="button-text post-title">{{ page.title }}</h1>
-                        </td>
-                        <td id="submenubutton" width="80px">
-                            <img id="tabicon" onclick="togglesubmenu()" src="/resources/menuicon.png" width="70px"></img>
-                            <script>
-                                function togglesubmenu() {
-                                    if (submenu.style.display == "none") {
-                                        submenu.style.display = "table"
-                                    }
-                                    else {
-                                        submenu.style.display = "none"
-                                    }
-                                }
-                            </script>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
+      <tr>
+        <td class="titleblue">
+          <table width="100%">
+            <tr width="100%">
+              <td width="100%">
+                <h1 class="button-text post-title">{{ page.title }}</h1>
+              </td>
+              <td id="submenubutton" width="80px">
+                <img id="tabicon" onclick="togglesubmenu()" src="/resources/menuicon.png" width="70px"></img>
+                <script>
+                function togglesubmenu() {
+                  if (submenu.style.display == "none") {
+                    submenu.style.display = "table"
+                  }
+                  else {
+                    submenu.style.display = "none"
+                  }
+                }
+                </script>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
     </table>
     <table id="submenu" style="background-color:#025E86;display: none;" cellpadding="15px" cellspacing="0" width="100%">
-        <tr>
-            <td id="subHover" onClick="javascript:location.href='/students/'" >
-                <div align="center">
-                    <h2 class="button-text">Getting Started</h2>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td id="subHover" onClick="javascript:location.href='/students/calendar/'">
-                <div align="center">
-                    <h2 class="button-text">Calendar</h2>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td id="subHover" onClick="javascript:location.href='/students/build-seasons/'" >
-                <div align="center">
-                    <h2 class="button-text">Build Seasons</h2>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td id="subHover" onClick="javascript:location.href='/students/project-teams/'" >
-                <div align="center">
-                    <h2 class="button-text">Project Teams</h2>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td id="subHover" onClick="javascript:location.href='/students/workshops/'" >
-                <div align="center">
-                    <h2 class="button-text">Workshops</h2>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td id="subHover" onClick="javascript:location.href='/students/travel-team/'" >
-                <div align="center">
-                    <h2 class="button-text">Travel Team</h2>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td id="subHover" onClick="javascript:location.href='/students/updates/'" >
-                <div align="center">
-                    <h2 class="button-text">Updates</h2>
-                </div>
-            </td>
-        </tr>
+      <tr>
+        <td id="subHover" onClick="javascript:location.href='/students/'" >
+          <div align="center">
+            <h2 class="button-text">Getting Started</h2>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td id="subHover" onClick="javascript:location.href='/students/calendar/'">
+          <div align="center">
+            <h2 class="button-text">Calendar</h2>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td id="subHover" onClick="javascript:location.href='/students/build-seasons/'" >
+          <div align="center">
+            <h2 class="button-text">Build Seasons</h2>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td id="subHover" onClick="javascript:location.href='/students/project-teams/'" >
+          <div align="center">
+            <h2 class="button-text">Project Teams</h2>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td id="subHover" onClick="javascript:location.href='/students/workshops/'" >
+          <div align="center">
+            <h2 class="button-text">Workshops</h2>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td id="subHover" onClick="javascript:location.href='/students/travel-team/'" >
+          <div align="center">
+            <h2 class="button-text">Travel Team</h2>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td id="subHover" onClick="javascript:location.href='/students/updates/'" >
+          <div align="center">
+            <h2 class="button-text">Updates</h2>
+          </div>
+        </td>
+      </tr>
     </table>
 
     <table id="tabbar" width="100%" cellspacing="0px">
-    			<tr>
-            <td class="tab hoverAnimate" onClick="javascript:location.href='/students/'" >
-              <div align="center">
-          			<font class="tabText button-text">Getting Started</font>
-              </div>
-        		</td>
-            <td class="tab hoverAnimate" onClick="javascript:location.href='/students/calendar/'">
-          			<div align="center">
-			              <font class="tabText button-text">Calendar</font>
-            	  </div>
-            </td>
-            <td class="tab hoverAnimate" onClick="javascript:location.href='/students/build-seasons/'" >
-                <div align="center">
-                    <font class="tabText button-text">Build Seasons</font>
-                </div>
-            </td>
-            <td class="tab hoverAnimate" onClick="javascript:location.href='/students/project-teams/'" >
-                <div align="center">
-                    <font class="tabText button-text">Project Teams</font>
-                </div>
-            </td>
-            <td class="tab hoverAnimate" onClick="javascript:location.href='/students/workshops/'" >
-          			<div align="center">
-                    <font class="tabText button-text">Workshops</font>
-                </div>
-            </td>
-            <td class="tab hoverAnimate" onClick="javascript:location.href='/students/travel-team/'">
-                <div align="center">
-                    <font class="tabText button-text">Travel Team</font>
-                </div>
-            </td>
-            <td class="tab hoverAnimate" onClick="javascript:location.href='/students/updates/'" >
-                <div align="center">
-                  <font class="tabText button-text">Updates</font>
-                </div>
-            </td>
-        	</tr>
+      <tr>
+        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/'" >
+          <div align="center">
+            <font class="tabText button-text">Getting Started</font>
+          </div>
+        </td>
+        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/calendar/'">
+          <div align="center">
+            <font class="tabText button-text">Calendar</font>
+          </div>
+        </td>
+        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/build-seasons/'" >
+          <div align="center">
+            <font class="tabText button-text">Build Seasons</font>
+          </div>
+        </td>
+        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/project-teams/'" >
+          <div align="center">
+            <font class="tabText button-text">Project Teams</font>
+          </div>
+        </td>
+        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/workshops/'" >
+          <div align="center">
+            <font class="tabText button-text">Workshops</font>
+          </div>
+        </td>
+        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/travel-team/'">
+          <div align="center">
+            <font class="tabText button-text">Travel Team</font>
+          </div>
+        </td>
+        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/updates/'" >
+          <div align="center">
+            <font class="tabText button-text">Updates</font>
+          </div>
+        </td>
+      </tr>
     </table>
 
     <table cellspacing="0px" cellpadding="20px" width="100%" style="background-color: white;">
-        <tr cellpadding="0px">
-            <td cellpadding="0px">
-                {{ content }}
-            </td>
-        </tr>
+      <tr cellpadding="0px">
+        <td cellpadding="0px">
+          {{ content }}
+        </td>
+      </tr>
     </table>
-</div>
+  </div>
 </article>

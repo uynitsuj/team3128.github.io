@@ -3,77 +3,77 @@ layout: default
 ---
 <style>
 #button {
-    background-color: #025E86;
-    color: white;
-    padding: 10px;
+  background-color: #025E86;
+  color: white;
+  padding: 10px;
 }
 
 #center-text {
-    vertical-align: middle;
-    display: table-cell;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 #up-text {
-    vertical-align: top;
+  vertical-align: top;
 }
 
 #inbox {
-    vertical-align: middle;
-    color: white;
+  vertical-align: middle;
+  color: white;
 }
 
 @media screen and (max-width: 600px) {
-    #tiny {
-        display: table;
-    }
-    .carouselTable {
-        display: none;
-    }
+  #tiny {
+    display: table;
+  }
+  .carouselTable {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
-    #tiny {
-        display: none;
-    }
-    .carouselTable {
-        display: table;
-    }
+  #tiny {
+    display: none;
+  }
+  .carouselTable {
+    display: table;
+  }
 }
 
 @media screen and (max-width: 1010px) and (min-width: 900px) {
-    .carouselTable {
-        display: none;
-    }
-    #tiny {
-        display: table;
-    }
+  .carouselTable {
+    display: none;
+  }
+  #tiny {
+    display: table;
+  }
 }
 
 @media screen and (min-width: 1010px) {
-    .carouselTable {
-        display: table;
-    }
-    #tiny {
-        display:none;
-    }
+  .carouselTable {
+    display: table;
+  }
+  #tiny {
+    display:none;
+  }
 }
 
 @media screen and (min-width: 900px) {
-    .normwidthaction {
-        display: table;
-    }
-    .smallwidthaction {
-    	display: none;
-    }
+  .normwidthaction {
+    display: table;
+  }
+  .smallwidthaction {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .normwidthaction {
-        display: none;
-    }
-    .smallwidthaction {
-    	display: table;
-    }
+  .normwidthaction {
+    display: none;
+  }
+  .smallwidthaction {
+    display: table;
+  }
 }
 
 .card {
@@ -99,15 +99,15 @@ layout: default
 }
 
 @keyframes carousel{
-    0%    { left:0; }
-    22%   { left:0; }
-    25% { left:-100%; }
-    47% { left:-100%; }
-    50%   { left:-200%; }
-    72%   { left:-200%; }
-    75% { left:-300%; }
-    97% { left:-300%; }
-    120%  { left:0; }
+  0%    { left:0; }
+  22%   { left:0; }
+  25% { left:-100%; }
+  47% { left:-100%; }
+  50%   { left:-200%; }
+  72%   { left:-200%; }
+  75% { left:-300%; }
+  97% { left:-300%; }
+  120%  { left:0; }
 }
 
 .inlineblock {
@@ -142,9 +142,9 @@ layout: default
   padding: 10px;
 
   -webkit-transition: 0.25s ease-in-out;
-    -moz-transition: 0.25s ease-in-out;
-    -o-transition: 0.25s ease-in-out;
-    transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 
   background: rgba(0, 0, 0, 0.5);
 }
@@ -161,41 +161,40 @@ layout: default
 </style>
 
 <div class="home">
-    <br>
-    <br>
-
+  <br>
+  <br>
+  <div class="shadow">
     <table class="normwidthaction titleblue" border="0px" height="100px" cellspacing="0px" width="100%">
-        <tr height="100%">
-            <td id="inbox">
-                <div>
-                    <h1 class="button-text" width="100%" height="100%">Looking for Robotics Summer Camp?</h1>
-                </div>
-            </td>
-            <td style="vertical-align: top;" align="center">
-                <div class="hoverAnimate" onClick="javascript:location.href=/camp/" id="real-button" height="100%" width="100%">
-                    <h2 height="100%" class="button-text"><b>FIND OUT MORE</b></h1>
-                </div>
-            </td>
-        </tr>
+      <tr height="100%">
+        <td id="inbox">
+          <div>
+            <h1 class="button-text" width="100%" height="100%">Looking for Robotics Summer Camp?</h1>
+          </div>
+        </td>
+        <td style="vertical-align: top;" align="center">
+          <div class="hoverAnimate" onClick="javascript:location.href=/camp/" id="real-button" height="100%" width="100%">
+            <h2 height="100%" class="button-text"><b>FIND OUT MORE</b></h1>
+          </div>
+        </td>
+      </tr>
     </table>
     <table class="smallwidthaction titleblue" border="0px" height="100px" cellspacing="0px" width="100%">
-        <tr height="100%">
-            <td align="center" id="inbox">
-                <div>
-                    <h1 class="button-text" width="100%" height="100%">Looking for Robotics Summer Camp?</h1>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td style="vertical-align: top;" align="center">
-                <div class="hoverAnimate" onClick="javascript:location.href='/camp/'" id="real-button" height="100%" width="100%">
-                    <h2 height="100%" class="button-text"><b>FIND OUT MORE</b></h1>
-                </div>
-            </td>
-        </tr>
+      <tr height="100%">
+        <td align="center" id="inbox">
+          <div>
+            <h1 class="button-text" width="100%" height="100%">Looking for Robotics Summer Camp?</h1>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;" align="center">
+          <div class="hoverAnimate" onClick="javascript:location.href='/camp/'" id="real-button" height="100%" width="100%">
+            <h2 height="100%" class="button-text"><b>FIND OUT MORE</b></h1>
+          </div>
+        </td>
+      </tr>
     </table>
 
-    <div class="shadow">
     <table class="carouselTable" cellspacing="0px" cellpadding="0px" width="100%">
       <tr width="100%" >
         <td width="100%">
@@ -217,105 +216,68 @@ layout: default
     </table>
 
     <table id="tiny" cellpadding="0px" style="background-color: white;">
-    <tr cellpadding="0px">
-    <td cellpadding="0px">
-
-        <table width="100%">
+      <tr cellpadding="0px">
+        <td cellpadding="0px">
+          <table width="100%">
             <tr width="100%">
-                <td align="center">
-                    <div height="100%" width="100%">
-                        <h1 id="center-text">Check out what's going on...</h2>
-                            </div>
-                </td>
+              <td align="center">
+                <div height="100%" width="100%">
+                  <h1 id="center-text">Check out what's going on...</h2>
+                </div>
+              </td>
             </tr>
-        </table>
+          </table>
 
-        <table cellpadding="5px" cellspacing="5px" width="100%">
-            <tr>
-                <td align="center" width="25%">
-                    <img width="100%" src={% include_relative /index-cards/card1/picture-source.md %}></img>
+          <table cellpadding="5px" cellspacing="5px" width="100%">
+            {% for card in site.data.cards %}
+              <tr>
+                <td>
+                  <img width="100%" src="{{ card.imageSource }}"></img>
                 </td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td style="vertical-align: top;" width="25%" height="100%">
-                    <div style="vertical-align: text-top;">
-                      {% include_relative /index-cards/card1/title.html %}
-                      {% include_relative /index-cards/card1/info.md %}
-                    </div>
+                  <div style="vertical-align: text-top;">
+                      <h2><a href="{{ card.link }}">{{ card.title }}</a></h2>
+                      {{ card.info }}
+                  </div>
                 </td>
-            </tr>
-            <tr>
-                <td align="center" width="25%">
-                    <img width="100%" src={% include_relative /index-cards/card2/picture-source.md %}></img>
-                </td>
-            </tr>
-            <tr>
-                <td style="vertical-align: top;" width="25%" height="100%">
-                    <div>
-                      {% include_relative /index-cards/card2/title.html %}
-                      {% include_relative /index-cards/card2/info.md %}
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" width="25%">
-                    <img width="100%" src={% include_relative /index-cards/card3/picture-source.md %}></img>
-                </td>
-            </tr>
-            <tr>
-                <td style="vertical-align: top;" width="25%" height="100%">
-                    <div>
-                      {% include_relative /index-cards/card3/title.html %}
-                      {% include_relative /index-cards/card3/info.md %}
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" width="25%">
-                    <img width="100%" src={% include_relative /index-cards/card4/picture-source.md %}></img>
-                </td>
-            </tr>
-            <tr>
-                <td style="vertical-align: top;" width="25%" height="100%">
-                    <div>
-                      {% include_relative /index-cards/card4/title.html %}
-                      {% include_relative /index-cards/card4/info.md %}
-                    </div>
-                </td>
-            </tr>
-        </table>
-      </td>
-    </td>
+              </tr>
+            {% endfor %}
+          </table>
+        </td>
+      </tr>
     </table>
   </div>
-    <br>
-<div class="shadow">
+  <br>
+  <div class="shadow">
     <table border="0px" class="titleblue" height="100px" cellspacing="0px" width="100%">
-        <tr height="100%">
-            <td id="inbox">
-                <div>
-                    <h1 class="button-text" width="100%" height="100%">Latest Updates</h1>
-                </div>
-            </td>
-        </tr>
+      <tr height="100%">
+        <td id="inbox">
+          <div>
+            <h1 class="button-text" width="100%" height="100%">Latest Updates</h1>
+          </div>
+        </td>
+      </tr>
     </table>
     <table width="100%" style="background-color: white;" cellpadding="20px">
-        <tr>
-            <td>
-                <ul class="post-list">
-                    {% for post in site.posts limit: 5 %}
-                    <li>
-                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
-                          <h2>
-                              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                          </h2>
-                    </li>
-                    {% endfor %}
-                </ul>
-                <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-            </td>
-        </tr>
+      <tr>
+        <td>
+          <ul class="post-list">
+            {% for post in site.posts limit: 5 %}
+              <li>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+                <h2>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+              </li>
+            {% endfor %}
+          </ul>
+          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        </td>
+      </tr>
     </table>
+  </div>
+  <br>
+  <br>
 </div>
-    <br>
-    <br>
