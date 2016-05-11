@@ -1,1 +1,0 @@
-/resources/homepage/calendar.jpeg
