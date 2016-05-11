@@ -21,37 +21,39 @@ layout: default
     vertical-align: middle;
     color: white;
 }
-@media screen and (max-width: 675px) {
-    #normalwidth {
-        display: none;
-    }
+
+@media screen and (max-width: 600px) {
     #tiny {
         display: table;
     }
-    #small {
+    .carouselTable {
         display: none;
     }
 }
 
-@media screen and (max-width: 1000px) and (min-width: 675px) {
-    #normalwidth {
-        display: none;
-    }
+@media screen and (min-width: 600px) and (max-width: 900px) {
     #tiny {
         display: none;
     }
-    #small {
+    .carouselTable {
         display: table;
     }
 }
-@media screen and (min-width: 1000px) {
-    #normalwidth {
+
+@media screen and (max-width: 1010px) and (min-width: 900px) {
+    .carouselTable {
+        display: none;
+    }
+    #tiny {
+        display: table;
+    }
+}
+
+@media screen and (min-width: 1010px) {
+    .carouselTable {
         display: table;
     }
     #tiny {
-        display:none;
-    }
-    #small {
         display:none;
     }
 }
@@ -74,24 +76,94 @@ layout: default
     }
 }
 
+.card {
+  position: relative;
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 100%;
+
+  display: inline;
+  vertical-align: top;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+
+  white-space:0;
+}
+
+.imageCard {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  white-space:0;
+}
+
+@keyframes carousel{
+    0%    { left:0; }
+    22%   { left:0; }
+    25% { left:-100%; }
+    47% { left:-100%; }
+    50%   { left:-200%; }
+    72%   { left:-200%; }
+    75% { left:-300%; }
+    97% { left:-300%; }
+    120%  { left:0; }
+}
+
+.inlineblock {
+  position: relative;
+  left: 0px;
+
+  display: flex;
+  width: 100%;
+
+  -webkit-animation: carousel 45s infinite; /* Chrome, Safari, Opera */
+  animation: carousel 45s infinite;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.cardInfo:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.cardInfo {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  width: 35%;
+
+  text-align: center;
+  color: white;
+
+  padding: 10px;
+
+  -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.cardTitle {
+  text-shadow: 3px 3px 5px black;
+  font-weight: bolder;
+}
+
+.cardInfoText {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
 </style>
 
 <div class="home">
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
-    <div class="shadow">
     <table class="normwidthaction titleblue" border="0px" height="100px" cellspacing="0px" width="100%">
         <tr height="100%">
             <td id="inbox">
@@ -122,7 +194,29 @@ layout: default
             </td>
         </tr>
     </table>
-    <table cellpadding="0px" style="background-color: white;">
+
+    <div class="shadow">
+    <table class="carouselTable" cellspacing="0px" cellpadding="0px" width="100%">
+      <tr width="100%" >
+        <td width="100%">
+          <div width="100%" style="overflow: hidden;">
+            <div class="inlineblock">
+              {% for card in site.data.cards %}
+              <div onClick="location.href='{{ card.link }}'" width="25%" class="card">
+                <img class="imgCard" width="100%" src="{{ card.imageSource }}"></img>
+                <div class="cardInfo">
+                  <h1 class="cardTitle">{{ card.title }}</h1>
+                  <h4 class="cardInfoText">{{ card.info }}</h3>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <table id="tiny" cellpadding="0px" style="background-color: white;">
     <tr cellpadding="0px">
     <td cellpadding="0px">
 
@@ -136,50 +230,7 @@ layout: default
             </tr>
         </table>
 
-        <table id="normalwidth" cellpadding="5px" cellspacing="5px" width="100%">
-            <tr>
-                <td align="center" width="25%">
-                  <img width="100%" src={% include_relative /index-cards/card1/picture-source.md %}></img>
-                </td>
-                <td align="center" width="25%">
-                    <img width="100%" src={% include_relative /index-cards/card2/picture-source.md %}></img>
-                </td>
-                <td align="center" width="25%">
-                    <img width="100%" src={% include_relative /index-cards/card3/picture-source.md %}></img>
-                </td>
-                <td align="center" width="25%">
-                    <img width="100%" src={% include_relative /index-cards/card4/picture-source.md %}></img>
-                </td>
-            </tr>
-            <tr>
-                <td style="vertical-align: top;" width="25%" height="100%">
-                    <div style="vertical-align: text-top;">
-                        {% include_relative /index-cards/card1/title.html %}
-                        {% include_relative /index-cards/card1/info.md %}
-                    </div>
-                </td>
-                <td style="vertical-align: top;" width="25%" height="100%">
-                    <div>
-                      {% include_relative /index-cards/card2/title.html %}
-                      {% include_relative /index-cards/card2/info.md %}
-                    </div>
-                </td>
-                <td style="vertical-align: top;" width="25%" height="100%">
-                    <div>
-                      {% include_relative /index-cards/card3/title.html %}
-                      {% include_relative /index-cards/card3/info.md %}
-                    </div>
-                </td>
-                <td style="vertical-align: top;" width="25%" height="100%">
-                    <div>
-                      {% include_relative /index-cards/card4/title.html %}
-                      {% include_relative /index-cards/card4/info.md %}
-                    </div>
-                </td>
-            </tr>
-        </table>
-
-        <table id="tiny" cellpadding="5px" cellspacing="5px" width="100%">
+        <table cellpadding="5px" cellspacing="5px" width="100%">
             <tr>
                 <td align="center" width="25%">
                     <img width="100%" src={% include_relative /index-cards/card1/picture-source.md %}></img>
@@ -233,54 +284,7 @@ layout: default
                 </td>
             </tr>
         </table>
-
-        <table id="small" cellpadding="5px" cellspacing="5px" width="100%">
-            <tr>
-                <td align="center" width="25%">
-                    <img width="100%" src={% include_relative /index-cards/card1/picture-source.md %}></img>
-                </td>
-                <td style="vertical-align: top;" width="25%" height="100%">
-                    <div style="vertical-align: text-top;">
-                      {% include_relative /index-cards/card1/title.html %}
-                      {% include_relative /index-cards/card1/info.md %}
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" width="25%">
-                    <img width="100%" src={% include_relative /index-cards/card2/picture-source.md %}></img>
-                </td>
-                <td style="vertical-align: top;" width="25%" height="100%">
-                    <div>
-                      {% include_relative /index-cards/card2/title.html %}
-                      {% include_relative /index-cards/card2/info.md %}
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" width="25%">
-                    <img width="100%" src={% include_relative /index-cards/card3/picture-source.md %}></img>
-                </td>
-                <td style="vertical-align: top;" width="25%" height="100%">
-                    <div>
-                      {% include_relative /index-cards/card3/title.html %}
-                      {% include_relative /index-cards/card3/info.md %}
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" width="25%">
-                    <img width="100%" src={% include_relative /index-cards/card4/picture-source.md %}></img>
-                </td>
-                <td style="vertical-align: top;" width="25%" height="100%">
-                    <div>
-                      {% include_relative /index-cards/card4/title.html %}
-                      {% include_relative /index-cards/card4/info.md %}
-                    </div>
-                </td>
-            </tr>
-        </table>
-    </td>
+      </td>
     </td>
     </table>
   </div>
