@@ -1,6 +1,7 @@
 ---
 layout: stusub
 title: Students
+subtitle: Tool Certification
 permalink: /students/tool-certification/
 ---
 

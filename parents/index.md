@@ -1,7 +1,6 @@
 ---
 layout: parpage
 title: Parents
-shownav: true
 permalink: /parents/
 ---
 

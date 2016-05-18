@@ -1,6 +1,7 @@
 ---
 layout: parpage
 title: Parents
+subtitle: Volunteer
 permalink: /parents/volunteer/
 ---
 

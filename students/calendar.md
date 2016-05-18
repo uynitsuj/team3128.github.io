@@ -1,6 +1,7 @@
 ---
 layout: stusub
 title: Students
+subtitle: Calendar
 permalink: /students/calendar/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: stusub
 title: Students
+subtitle: Project Teams
 permalink: /students/project-teams/
 ---
 
@@ -54,7 +55,7 @@ Drew Heenan
 <tr>
 <td>
 Project A.L.T<br>
-(Automatic Launcher of T-Shirts)	
+(Automatic Launcher of T-Shirts)
 </td>
 
 <td>

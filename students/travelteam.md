@@ -1,6 +1,7 @@
 ---
 layout: stusub
 title: Students
+subtitle: Travel Team
 permalink: /students/travel-team/
 ---
 

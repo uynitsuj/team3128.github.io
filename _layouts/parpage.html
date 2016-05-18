@@ -5,82 +5,217 @@ layout: default
 
 <style>
 #button {
-    background-color: #025E86;
+  background-color: #025E86;
 }
 
 #subHover:hover {
-    background-color: #038ec9;
-    color: white;
-    padding: 15px;
-    cursor: pointer;
+  background-color: #038ec9;
+  color: white;
+  cursor: pointer;
 }
+
+#subbutton {
+  color: #0064C9;
+  background: white;
+  border-right: 2px solid #0064C9;
+  border-top: 2px solid #0064C9;
+  border-left: 2px solid #0064C9;
+  display: inline-block;
+
+  margin-bottom: 0px;
+}
+
+#subbutton:hover {
+  cursor: pointer;
+
+  color: white;
+  background: #0064C9;
+}
+
+.valignmiddle {
+  display: inline-block;
+  vertical-align: top;
+
+  font-size: 40px;
+}
+
+#submenu {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #0064C9;
+  border-right: 2px solid #0064C9;
+  border-left: 2px solid #0064C9;
+}
+
+#subdiv {
+  overflow: hidden;
+}
+
+#subHover {
+  padding-right: 7px;
+  padding-left: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+.tab {
+  align: left;
+  position: relative;
+  z-index: 2;
+  padding-left: 10px;
+
+  vertical-align: middle;
+
+/*
+  -moz-border-radius: 6px 0px 0px 6px;
+  -webkit-border-radius: 6px 0px 0px 6px;
+  border-radius: 6px 0px 0px 6px;
+*/
+}
+
+.tab:hover {
+  background: #edf2f8;
+  cursor: pointer;
+}
+
+.tabtext {
+  color: black;
+}
+
+.aboveDiv {
+  position: relative;
+  z-index: 1;
+}
+
+#tabbar {
+  position: absolute;
+  left: 5px;
+  z-index: 0;
+
+  float: right;
+
+  background-color: white;
+  width: 50%;
+}
+
+#tabbar.stick {
+  position: fixed;
+  top: 0px;
+}
+
+.subtab:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.subtab {
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 1150px) {
+  #subbutton {
+    display: block;
+  }
+  #tabbar {
+    display: none;
+  }
+  .tabline {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  #subbutton {
+    display: none;
+  }
+  #tabbar {
+    display: table;
+  }
+  .tabline {
+    display: none;
+  }
+}
+
 </style>
 
-<br>
-  <br>
-  <br>
-  <br>
-  <div class="shadow">
 <article class="post">
-    <table cellspacing="0" width="100%">
-    <tr>
-        <td class="titleblue">
-            <table width="100%">
-                <tr width="100%">
-                    <td>
-                        <h1 class="button-text post-title">{{ page.title }}</h1>
-                    </td>
-                    <td width="80px">
-                        <img id="tabicon" onclick="togglesubmenu()" src="/resources/menuicon.png" width="70px"></img>
-                        <script>
-                            function togglesubmenu() {
-                                if (submenu.style.display == "none") {
-                                    submenu.style.display = "table"
-                                }
-                                else {
-                                    submenu.style.display = "none"
-                                }
-                            }
-                        </script>
-                    </td>
-                </tr>
-            </table>
+  <div>
+    <table id="tabbar" cellspacing="0px" cellpadding="10px">
+      <tr height="20px">
+      </tr>
+      {% for subpage in site.data.parents-subpages %}
+      {% if subpage.title == page.subtitle %}
+      <tr>
+        <td class="tab hoverAnimate" style="font-weight: bolder; vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+          <font class="tabtext">{{ subpage.title }}</font>
         </td>
-    </tr>
-</table>
-<table id="submenu" style="background-color:#025E86;display: none;" cellpadding="15px" cellspacing="0" width="100%">
-        <tr>
-            <td align="center" id="subHover" onClick="javascript:location.href='/parents/faq'">
-                <h2 class="button-text">FAQ</h2>
-            </td>
-        </tr>
-        <tr>
-            <td align="center" id="subHover" onClick="javascript:location.href='/parents/important-dates'">
-                <h2 class="button-text">Important Dates</h2>
-            </td>
-        </tr>
-        <tr>
-            <td align="center" id="subHover" onClick="javascript:location.href='/parents/calendar/'">
-                <h2 class="button-text">Calendar</h2>
-            </td>
-        </tr>
-        <tr>
-            <td align="center" id="subHover" onClick="javascript:location.href='/parents/volunteer/'">
-                <h2 class="button-text">Volunteer</h2>
-            </td>
-        </tr>
-        <tr>
-            <td align="center" id="subHover" onClick="javascript:location.href='/donate/'">
-                <h2 class="button-text">Donate</h2>
-            </td>
-        </tr>
+      </tr>
+      {% else %}
+      <tr>
+        <td class="tab hoverAnimate" style="vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+            <font class="tabtext">{{ subpage.title }}</font>
+        </td>
+      </tr>
+      {% endif %}
+      {% endfor %}
     </table>
-    <table cellpadding="20px" width="100%" style="background-color: white;">
-        <tr cellpadding="0px">
-            <td cellpadding="0px">
-                {{ content }}
-            </td>
+  </div>
+
+    <script>
+      function sticky_relocate() {
+        var window_top = $(window).scrollTop();
+        var div_top = $('#tabbar').offset().top;
+
+        var image_h = $('#pageimage').height() + 80;
+
+        if (window_top > image_h) {
+          $('#tabbar').addClass('stick');
+        } else {
+          $('#tabbar').removeClass('stick');
+        }
+      }
+
+
+      $(document).ready(function() {
+        $("#subdiv").css("height", "0px");
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+      });
+
+      function togglesubmenu() {
+        var sdiv = $("#subdiv");
+
+        if (sdiv.css("height") == "0px") {
+          sdiv.animate({height: $("#submenu").css("height")}, "fast");
+        }
+        else {
+          sdiv.animate({height: '0px'}, "fast");
+        }
+      }
+    </script>
+
+    <table id="maincontenttable" style="background:white; z-index: 1; position: relative;" cellpadding="20px" width="100%">
+      <tr cellpadding="0px">
+          <td cellpadding="0px">
+            <div class="hoverAnimate" id="subbutton" onclick="togglesubmenu()" align="center">
+              <span class="valignmiddle">☰</span>
+            </div>
+            <div id="subdiv">
+              <table cellpadding="0px" cellspacing="0px" id="submenu" width="100%">
+                {% for subpage in site.data.parents-subpages %}
+                <tr>
+                  <td class="subtab" style="vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+                      <h3>{{ subpage.title }}</h3>
+                  </td>
+                </tr>
+                {% endfor %}
+              </table>
+            </div>
+            <div class="tabline" style="height: 2px; margin: 0px; background: #0064C9"></div>
+            {{ content }}
+          </td>
         </tr>
     </table>
 </article>
-</div>

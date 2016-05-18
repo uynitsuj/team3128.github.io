@@ -1,10 +1,11 @@
 ---
 layout: stusub
 title: Students
+subtitle: Build Seasons
 permalink: /students/build-seasons/
 ---
 
-# Build Seasons 
+# Build Seasons
 
 ## FIRST FRC Regular Build Season
 [FRC](http://www.usfirst.org/roboticsprograms/frc), or FIRST Robotics Competition, is the reason our team exists. Every year we have a six week build season, in which we meet every weekday and most Saturdays to build our glorious contraption. We then take our robot to competitions, hoping to win fame and glory (and maybe a trophy or two).
@@ -53,4 +54,3 @@ Note: These dates and locations may be changed by FIRST. For more details, pleas
 
 ## Battle at the Border
 Battle at the Border is an off-season competition that our team is participating in. It is an opportunity for teams to take everything they’ve learned at the actual competition and make changes to their robot and strategy (or entirely rebuild). Within our team, it’s an opportunity for new and less experienced members to get a chance to work on the robot of the previous year.
-

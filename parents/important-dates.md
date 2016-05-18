@@ -1,6 +1,7 @@
 ---
 layout: parpage
 title: Parents
+subtitle: Important Dates
 permalink: /parents/important-dates/
 ---
 
@@ -37,7 +38,7 @@ Our FRC Build Season is an amazing six week long spring to create a robot to com
 
 + Monday through Thursday from 3:00 pm – 5:30 pm
 + Friday 3:00 pm – 7:00 pm
-+ Saturday 10:00 am – 6:00 pm 
++ Saturday 10:00 am – 6:00 pm
 
 **Special Meeting Dates:** Below are a list of special meeting dates or time alterations to the normal build schedule:
 

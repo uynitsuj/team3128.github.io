@@ -13,6 +13,42 @@ layout: default
   cursor: pointer;
 }
 
+#subbutton {
+  color: #0064C9;
+  background: white;
+  border-right: 2px solid #0064C9;
+  border-top: 2px solid #0064C9;
+  border-left: 2px solid #0064C9;
+  display: inline-block;
+
+  margin-bottom: 0px;
+}
+
+#subbutton:hover {
+  cursor: pointer;
+
+  color: white;
+  background: #0064C9;
+}
+
+.valignmiddle {
+  display: inline-block;
+  vertical-align: top;
+
+  font-size: 40px;
+}
+
+#submenu {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #0064C9;
+  border-right: 2px solid #0064C9;
+  border-left: 2px solid #0064C9;
+}
+
+#subdiv {
+  overflow: hidden;
+}
+
 #subHover {
   padding-right: 7px;
   padding-left: 7px;
@@ -20,176 +56,166 @@ layout: default
   padding-bottom: 10px;
 }
 
+
+
 .tab {
-  background: #025E86;
-  height: 35px;
+  align: left;
+  position: relative;
+  z-index: 2;
+  padding-left: 10px;
+
+  vertical-align: middle;
+
+/*
+  -moz-border-radius: 6px 0px 0px 6px;
+  -webkit-border-radius: 6px 0px 0px 6px;
+  border-radius: 6px 0px 0px 6px;
+*/
 }
 
 .tab:hover {
-  background: #038ec9;
+  background: #edf2f8;
+  cursor: pointer;
+}
+
+.tabtext {
+  color: black;
+}
+
+.aboveDiv {
+  position: relative;
+  z-index: 1;
 }
 
 #tabbar {
-  background: white;
+  position: absolute;
+  left: 5px;
+  z-index: 0;
+
+  float: right;
+
+  background-color: white;
+  width: 50%;
 }
 
-@media screen and (max-width: 740px) {
-  #submenu {
-    display: table;
-  }
-  #submenubutton {
-    display: table;
+#tabbar.stick {
+  position: fixed;
+  top: 0px;
+}
+
+.subtab:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.subtab {
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 1150px) {
+  #subbutton {
+    display: block;
   }
   #tabbar {
     display: none;
   }
+  .tabline {
+    display: block;
+  }
 }
 
-@media screen and (min-width: 740px) {
-  #submenu {
-    display: none;
-  }
-  #submenubutton {
+@media screen and (min-width: 1150px) {
+  #subbutton {
     display: none;
   }
   #tabbar {
     display: table;
+  }
+  .tabline {
+    display: none;
   }
 }
 
 </style>
 
-<br>
-<br>
-<br>
-<br>
 
 <article class="post">
-  <div class="shadow">
-    <table cellspacing="0" width="100%">
+  <div>
+    <table id="tabbar" cellspacing="0px" cellpadding="10px">
+      <tr height="20px">
+      </tr>
+      {% for subpage in site.data.students-subpages %}
+      {% if subpage.title == page.subtitle %}
       <tr>
-        <td class="titleblue">
-          <table width="100%">
-            <tr width="100%">
-              <td width="100%">
-                <h1 class="button-text post-title">{{ page.title }}</h1>
-              </td>
-              <td id="submenubutton" width="80px">
-                <img id="tabicon" onclick="togglesubmenu()" src="/resources/menuicon.png" width="70px"></img>
-                <script>
-                function togglesubmenu() {
-                  if (submenu.style.display == "none") {
-                    submenu.style.display = "table"
-                  }
-                  else {
-                    submenu.style.display = "none"
-                  }
-                }
-                </script>
-              </td>
-            </tr>
-          </table>
+        <td class="tab hoverAnimate" style="font-weight: bolder; vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+          <font class="tabtext">{{ subpage.title }}</font>
         </td>
       </tr>
-    </table>
-    <table id="submenu" style="background-color:#025E86;display: none;" cellpadding="15px" cellspacing="0" width="100%">
+      {% else %}
       <tr>
-        <td id="subHover" onClick="javascript:location.href='/students/'" >
-          <div align="center">
-            <h2 class="button-text">Getting Started</h2>
-          </div>
+        <td class="tab hoverAnimate" style="vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+            <font class="tabtext">{{ subpage.title }}</font>
         </td>
       </tr>
-      <tr>
-        <td id="subHover" onClick="javascript:location.href='/students/calendar/'">
-          <div align="center">
-            <h2 class="button-text">Calendar</h2>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td id="subHover" onClick="javascript:location.href='/students/build-seasons/'" >
-          <div align="center">
-            <h2 class="button-text">Build Seasons</h2>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td id="subHover" onClick="javascript:location.href='/students/project-teams/'" >
-          <div align="center">
-            <h2 class="button-text">Project Teams</h2>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td id="subHover" onClick="javascript:location.href='/students/workshops/'" >
-          <div align="center">
-            <h2 class="button-text">Workshops</h2>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td id="subHover" onClick="javascript:location.href='/students/travel-team/'" >
-          <div align="center">
-            <h2 class="button-text">Travel Team</h2>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td id="subHover" onClick="javascript:location.href='/students/updates/'" >
-          <div align="center">
-            <h2 class="button-text">Updates</h2>
-          </div>
-        </td>
-      </tr>
-    </table>
-
-    <table id="tabbar" width="100%" cellspacing="0px">
-      <tr>
-        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/'" >
-          <div align="center">
-            <font class="tabText button-text">Getting Started</font>
-          </div>
-        </td>
-        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/calendar/'">
-          <div align="center">
-            <font class="tabText button-text">Calendar</font>
-          </div>
-        </td>
-        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/build-seasons/'" >
-          <div align="center">
-            <font class="tabText button-text">Build Seasons</font>
-          </div>
-        </td>
-        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/project-teams/'" >
-          <div align="center">
-            <font class="tabText button-text">Project Teams</font>
-          </div>
-        </td>
-        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/workshops/'" >
-          <div align="center">
-            <font class="tabText button-text">Workshops</font>
-          </div>
-        </td>
-        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/travel-team/'">
-          <div align="center">
-            <font class="tabText button-text">Travel Team</font>
-          </div>
-        </td>
-        <td class="tab hoverAnimate" onClick="javascript:location.href='/students/updates/'" >
-          <div align="center">
-            <font class="tabText button-text">Updates</font>
-          </div>
-        </td>
-      </tr>
-    </table>
-
-    <table cellspacing="0px" cellpadding="20px" width="100%" style="background-color: white;">
-      <tr cellpadding="0px">
-        <td cellpadding="0px">
-          {{ content }}
-        </td>
-      </tr>
+      {% endif %}
+      {% endfor %}
     </table>
   </div>
+
+    <script>
+      function sticky_relocate() {
+        var window_top = $(window).scrollTop();
+        var div_top = $('#tabbar').offset().top;
+
+        var image_h = $('#pageimage').height() + 80;
+
+        if (window_top > image_h) {
+          $('#tabbar').addClass('stick');
+        } else {
+          $('#tabbar').removeClass('stick');
+        }
+      }
+
+
+      $(document).ready(function() {
+        $("#subdiv").css("height", "0px");
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+      });
+
+      function togglesubmenu() {
+        var sdiv = $("#subdiv");
+
+        if (sdiv.css("height") == "0px") {
+          sdiv.animate({height: $("#submenu").css("height")}, "fast");
+        }
+        else {
+          sdiv.animate({height: '0px'}, "fast");
+        }
+      }
+    </script>
+
+    <table id="maincontenttable" style="background:white; z-index: 1; position: relative;" cellpadding="20px" width="100%">
+      <tr cellpadding="0px">
+          <td cellpadding="0px">
+            <div class="hoverAnimate" id="subbutton" onclick="togglesubmenu()" align="center">
+              <span class="valignmiddle">☰</span>
+            </div>
+            <div id="subdiv">
+              <table cellpadding="0px" cellspacing="0px" id="submenu" width="100%">
+                {% for subpage in site.data.students-subpages %}
+                <tr>
+                  <td class="subtab" style="vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+                      <h3>{{ subpage.title }}</h3>
+                  </td>
+                </tr>
+                {% endfor %}
+              </table>
+            </div>
+            <div class="tabline" style="height: 2px; margin: 0px; background: #0064C9"></div>
+            {{ content }}
+          </td>
+        </tr>
+    </table>
 </article>

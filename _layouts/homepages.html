@@ -97,18 +97,7 @@
     {% include header.html %}
 
     <div class="page-content">
-      {% if page.showtitle != false %}
-      <div style="position: relative;">
-        <img id="pageimage" src="/resources/home_image.jpeg"></img>
-        <div class="page-heading" style="background-color: rgba(0,0,0,.55); width: 100%; position: absolute; left: 0px; bottom: 0px;">
-          <div class="wrapper" style="padding-left: 37px">{{ page.title }}</div>
-        </div>
-      </div>
-      {% endif %}
-
-      <div id="wrap" class="wrapper">
         {{ content }}
-      </div>
     </div>
 
       {% include footer.html %}

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homepages
 ---
 <style>
 #button {
@@ -148,7 +148,11 @@ layout: default
   height: 100%;
   width: 35%;
 
+  display: table-cell;
+  vertical-align: bottom;
+
   text-align: center;
+
   color: white;
 
   padding: 10px;
@@ -170,12 +174,101 @@ layout: default
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
+.home {
+  position: relative;
+  left: 0px;
+  right: 0px;
+}
+
 </style>
 
 <div class="home">
+    <table class="carouselTable" cellspacing="0px" cellpadding="0px" width="100%">
+      <tr width="100%" >
+        <td width="100%">
+          <div width="100%" style="overflow: hidden;">
+            <div class="inlineblock">
+              {% for card in site.data.cards %}
+              <div onClick="location.href='{{ card.link }}'" width="25%" class="card">
+                <img class="imgCard" width="100%" src="{{ card.imageSource }}"></img>
+                <div class="cardInfo">
+                  <h1 class="cardTitle">{{ card.title }}</h1>
+                  <span style="width: 95%;position:absolute; bottom:20px; left: 2.5%;">
+                    <h4 class="cardInfoText">{{ card.info }}</h4>
+                  </span>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <table id="tiny" cellpadding="0px" style="background-color: white;">
+      <tr cellpadding="0px">
+        <td cellpadding="0px">
+          <table width="100%">
+            <tr width="100%">
+              <td align="center">
+                <div height="100%" width="100%">
+                  <h1 id="center-text">Check out what's going on...</h2>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <table cellpadding="5px" cellspacing="5px" width="100%">
+            {% for card in site.data.cards %}
+              <tr>
+                <td>
+                  <img width="100%" src="{{ card.fullImage }}"></img>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top;" width="25%" height="100%">
+                  <div style="vertical-align: text-top;">
+                      <h2><a href="{{ card.link }}">{{ card.title }}</a></h2>
+                      {{ card.info }}
+                  </div>
+                </td>
+              </tr>
+            {% endfor %}
+          </table>
+        </td>
+      </tr>
+    </table>
+  <br>
+    <table width="100%">
+      <tr>
+        <td>
+          <h1 style="margin-left: 20px;" width="100%" height="100%">Latest Updates</h1>
+        </td>
+      </tr>
+    </table>
+    <table width="100%" style="background-color: white;" cellpadding="20px">
+      <tr>
+        <td>
+          <ul class="post-list">
+            {% for post in site.posts limit: 5 %}
+              <li>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+                <h2>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+              </li>
+            {% endfor %}
+          </ul>
+          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        </td>
+      </tr>
+    </table>
   <br>
   <br>
-  <div class="shadow">
+</div>
+</div>
+
+<!--
     <table class="normwidthaction titleblue" border="0px" height="100px" cellspacing="0px" width="100%">
       <tr height="100%">
         <td id="inbox">
@@ -206,90 +299,4 @@ layout: default
         </td>
       </tr>
     </table>
-
-    <table class="carouselTable" cellspacing="0px" cellpadding="0px" width="100%">
-      <tr width="100%" >
-        <td width="100%">
-          <div width="100%" style="overflow: hidden;">
-            <div class="inlineblock">
-              {% for card in site.data.cards %}
-              <div onClick="location.href='{{ card.link }}'" width="25%" class="card">
-                <img class="imgCard" width="100%" src="{{ card.imageSource }}"></img>
-                <div class="cardInfo">
-                  <h1 class="cardTitle">{{ card.title }}</h1>
-                  <h4 class="cardInfoText">{{ card.info }}</h3>
-                </div>
-              </div>
-              {% endfor %}
-            </div>
-          </div>
-        </td>
-      </tr>
-    </table>
-
-    <table id="tiny" cellpadding="0px" style="background-color: white;">
-      <tr cellpadding="0px">
-        <td cellpadding="0px">
-          <table width="100%">
-            <tr width="100%">
-              <td align="center">
-                <div height="100%" width="100%">
-                  <h1 id="center-text">Check out what's going on...</h2>
-                </div>
-              </td>
-            </tr>
-          </table>
-
-          <table cellpadding="5px" cellspacing="5px" width="100%">
-            {% for card in site.data.cards %}
-              <tr>
-                <td>
-                  <img width="100%" src="{{ card.imageSource }}"></img>
-                </td>
-              </tr>
-              <tr>
-                <td style="vertical-align: top;" width="25%" height="100%">
-                  <div style="vertical-align: text-top;">
-                      <h2><a href="{{ card.link }}">{{ card.title }}</a></h2>
-                      {{ card.info }}
-                  </div>
-                </td>
-              </tr>
-            {% endfor %}
-          </table>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <br>
-  <div class="shadow">
-    <table border="0px" class="titleblue" height="100px" cellspacing="0px" width="100%">
-      <tr height="100%">
-        <td id="inbox">
-          <div>
-            <h1 class="button-text" width="100%" height="100%">Latest Updates</h1>
-          </div>
-        </td>
-      </tr>
-    </table>
-    <table width="100%" style="background-color: white;" cellpadding="20px">
-      <tr>
-        <td>
-          <ul class="post-list">
-            {% for post in site.posts limit: 5 %}
-              <li>
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
-                <h2>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
-              </li>
-            {% endfor %}
-          </ul>
-          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <br>
-  <br>
-</div>
+  -->

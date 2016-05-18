@@ -1,9 +1,12 @@
 ---
 layout: stusub
 title: Students
+subtitle: Workshops
 permalink: /students/workshops/
 ---
 
-# Workshops 
+# Workshops
 
 2016 dates TBA
+
+<br><br><br><br><br><br><br><br><br><br><br>

@@ -1,20 +1,24 @@
 - title: Robotics Summer Camp
   link: /camp/
   imageSource: /resources/homepage/camp.jpeg
+  fullImage:  /resources/homepage/camp-full.jpeg
   info: Looking for our summer camp? Registration opens soon for 2016 Robotics Summer Camp sessions. Check out our camp site for more information.
 
 
 - title: Leadership Positions
   link: /students/
   imageSource: /resources/homepage/teamsignups.jpeg
+  fullImage: /resources/homepage/teamsignups-full.jpeg
   info: Self-nominations for the 2016-17 leadership positions have opened, as well as sign ups to interview for off-season leads. Head over to the students tab to find out how to apply.
 
 - title: 2016-17 Dates Updated
   link: /students/calendar/
   imageSource: /resources/homepage/fallworkshops.jpeg
+  fullImage: /resources/homepage/fallworkshops-full.jpeg
   info: The calendar for the 2016-17 year has been updated. Check out the calendar to see how to get involved next year, as well as be aware of important dates.
 
 - title: Donate Now
   link: /donate/
   imageSource: /resources/homepage/calendar.jpeg
+  fullImage: /resources/homepage/calendar-full.jpeg
   info: Be a part of creating an amazing STEM based program for our students. Every donation enables us to engage and inspire our students to pursue their passions in science, technology, engineering, and math.
