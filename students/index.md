@@ -53,47 +53,47 @@ Our elected leadership is chosen each May by a team vote. Anyone who has been on
 **Election Day:** May 20th
 
 **The President:** \\
- + Sends announcements regarding team events and activities
- + Our fearless leader
- + Helps maintain communications and keep track of overall progress
- + Organizes team bonding events
++ Sends announcements regarding team events and activities
++ Our fearless leader
++ Helps maintain communications and keep track of overall progress
++ Organizes team bonding events
 
 **Vice President:** \\
- + Assists president and takes care of team paperworks and reports
++ Assists president and takes care of team paperworks and reports
 
 ### Appointed Positions
 
 Our leadership team and mentors create appointed positions when needed. Appointed officers are in charge of specific parts of the team that leadership has deemed necessary. Some appointed officers include: Head of Marketing, Head of Mechanics, Head of Controls, and Head of Strategy. These positions are created and terminated at will.
 
 **Head of Build:** \\
- + Responsible for all things build-related (on or off the robot)
- + Oversees all construction projects
- + Ensures that all members know what mechanical is doing at the moment
- + Manages CAD and Design
- + Mediates communication between new and experienced members
- + Ensures that all new members are comfortable with the 
- + Works with Controls to ensure robot functionailty
++ Responsible for all things build-related (on or off the robot)
++ Oversees all construction projects
++ Ensures that all members know what mechanical is doing at the moment
++ Manages CAD and Design
++ Mediates communication between new and experienced members
++ Ensures that all new members are comfortable with the 
++ Works with Controls to ensure robot functionailty
 
 **Head of Controls:** \\
- + Responsible for all things things wiring and programming related
- + Oversees all wiring and programming projects
- + Ensures that all members know what controls is doing at the moment
- + Mediates communication between new and experienced members
- + Ensures that all new members are comfortable with the team
- + Works with Mechincals to ensure robot functionailty
++ Responsible for all things things wiring and programming related
++ Oversees all wiring and programming projects
++ Ensures that all members know what controls is doing at the moment
++ Mediates communication between new and experienced members
++ Ensures that all new members are comfortable with the team
++ Works with Mechincals to ensure robot functionailty
 
 **Head of Business:** \\
- + Leads community outreach
- + Leads team promotion and branding
- + Manages contacting potential sponsors
- + Makes strong relationships with local teams
- + Mediates communication between new and experienced members
- + Ensures that all new members are comfortable with the team
++ Leads community outreach
++ Leads team promotion and branding
++ Manages contacting potential sponsors
++ Makes strong relationships with local teams
++ Mediates communication between new and experienced members
++ Ensures that all new members are comfortable with the team
  
 **Head of Awards:** \\
- + Prepares awards submissions
- + Mediates communication between new and experienced members
- + Ensures that all new members are comfortable with the team
++ Prepares awards submissions
++ Mediates communication between new and experienced members
++ Ensures that all new members are comfortable with the team
  
 <!--
 Chairman's. 
