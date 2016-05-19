@@ -31,16 +31,7 @@ layout: homepages
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
-  #tiny {
-    display: none;
-  }
-  .carouselTable {
-    display: table;
-  }
-}
-
-@media screen and (max-width: 1010px) and (min-width: 900px) {
+@media screen and (max-width: 1010px){
   .carouselTable {
     display: none;
   }
@@ -138,31 +129,28 @@ layout: homepages
 }
 
 .cardInfo:hover {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.85);
 }
 
 .cardInfo {
   position: absolute;
   right: 0px;
-  top: 0px;
-  height: 100%;
-  width: 35%;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
 
-  display: table-cell;
-  vertical-align: bottom;
-
-  text-align: center;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 0px;
 
   color: white;
-
-  padding: 10px;
 
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.65);
 }
 
 .cardTitle {
@@ -192,10 +180,16 @@ layout: homepages
               <div onClick="location.href='{{ card.link }}'" width="25%" class="card">
                 <img class="imgCard" width="100%" src="{{ card.imageSource }}"></img>
                 <div class="cardInfo">
-                  <h1 class="cardTitle">{{ card.title }}</h1>
-                  <span style="width: 95%;position:absolute; bottom:20px; left: 2.5%;">
-                    <h4 class="cardInfoText">{{ card.info }}</h4>
-                  </span>
+                  <table width="100%" height="100%">
+                    <tr height="100%">
+                      <td height="100%" width="40%">
+                        <span style="display:inline-block;vertical-align: bottom;"><h1 class="cardTitle">{{ card.title }}</h1></span>
+                      </td>
+                      <td style="text-align: right" height="100%" width="60%">
+                        <span style="display:inline-block;vertical-align: bottom;"><h4 class="cardInfoText">{{ card.info }}</h4></span>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
               </div>
               {% endfor %}
@@ -267,36 +261,3 @@ layout: homepages
   <br>
 </div>
 </div>
-
-<!--
-    <table class="normwidthaction titleblue" border="0px" height="100px" cellspacing="0px" width="100%">
-      <tr height="100%">
-        <td id="inbox">
-          <div>
-            <h1 class="button-text" width="100%" height="100%">Looking for Robotics Summer Camp?</h1>
-          </div>
-        </td>
-        <td style="vertical-align: top;" align="center">
-          <div class="hoverAnimate" onClick="javascript:location.href=/camp/" id="real-button" height="100%" width="100%">
-            <h2 height="100%" class="button-text"><b>FIND OUT MORE</b></h1>
-          </div>
-        </td>
-      </tr>
-    </table>
-    <table class="smallwidthaction titleblue" border="0px" height="100px" cellspacing="0px" width="100%">
-      <tr height="100%">
-        <td align="center" id="inbox">
-          <div>
-            <h1 class="button-text" width="100%" height="100%">Looking for Robotics Summer Camp?</h1>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top;" align="center">
-          <div class="hoverAnimate" onClick="javascript:location.href='/camp/'" id="real-button" height="100%" width="100%">
-            <h2 height="100%" class="button-text"><b>FIND OUT MORE</b></h1>
-          </div>
-        </td>
-      </tr>
-    </table>
-  -->
