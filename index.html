@@ -23,16 +23,8 @@ title: Aluminum Nawrhals
   color: white;
 }
 
-@media screen and (max-width: 600px) {
-  #tiny {
-    display: table;
-  }
-  .carouselTable {
-    display: none;
-  }
-}
 
-@media screen and (max-width: 1010px){
+@media screen and (max-width: 800px){
   .carouselTable {
     display: none;
   }
@@ -41,7 +33,7 @@ title: Aluminum Nawrhals
   }
 }
 
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 800px) {
   .carouselTable {
     display: table;
   }
@@ -145,6 +137,7 @@ title: Aluminum Nawrhals
   padding-left: 0px;
 
   color: white;
+  text-align: center;
 
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
@@ -181,7 +174,7 @@ title: Aluminum Nawrhals
               <div onClick="location.href='{{ card.link }}'" width="25%" class="card">
                 <img class="imgCard" width="100%" src="{{ card.imageSource }}"></img>
                 <div class="cardInfo">
-                  <table width="100%" height="100%">
+                  <table width="97%" height="100%">
                     <tr height="100%">
                       <td height="100%" width="40%">
                         <span style="display:inline-block;vertical-align: bottom;"><h1 class="cardTitle">{{ card.title }}</h1></span>
