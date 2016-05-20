@@ -7,7 +7,7 @@
   {% include head.html %}
 
   <style>
-    .wrap {
+    #wrap {
       background: white;
     }
     body {
@@ -101,7 +101,7 @@
       <div>
         <img id="pageimage" src="/resources/home_image.jpeg"></img>
         <div class="page-heading" style="background-color: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px; top: -75px;">
-          <div class="wrapper" style="padding-left: 37px">{{ page.title }}</div>
+          <div class="wrapper" style="padding-left: 37px;">{{ page.title }}</div>
         </div>
       </div>
 
@@ -110,6 +110,13 @@
       <div id="wrap" class="wrapper">
         {{ content }}
       </div>
+
+      <script>
+      $(function(){
+        $('#wrap').css("margin-top", "-70px");
+      });
+      </script>
+
     </div>
 
       {% include footer.html %}
