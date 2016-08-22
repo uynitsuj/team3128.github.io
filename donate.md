@@ -20,59 +20,56 @@ All of our donors are incredibly important to us. We recognize all of our donor 
 For additional benefits, see the [CCA Foundation Giving Levels]("http://www.canyoncrestfoundation.org/recognition/giving-levels-and-donor-premiums")
 
 
+
 <table width ="100%" border="0" cellpadding="10" cellspacing="0">
-
-<tr>
-<td bgcolor="CD7F32" align="center">
-<b><font color="white" size="40px">Bronze</font></b>
-<br>
-<font color="white">$500+</font>
-</td>
-<td>
-<ul>
-<li>Recognition on our team website.</li>
-</ul>
-</td>
-</tr>
-
-<tr>
-<td bgcolor="grey" align="center">
-<b><font color="white" size="40px">Silver</font></b>
-<br>
-<font color="white">$1,000+</font>
-</td>
-<td >
-<ul>
-<li>Your Company Logo added onto our Team T-shirt</li>
-<li>50 team buttons & wristbands</li>
-</ul>
-</td>
-</tr>
-
-<tr>
-<td bgcolor="gold" align="center">
-<b><font color="white" size="40px">Gold</font></b>
-<br>
-<font color="white">$2,500+</font>
-</td>
-<td >
-<ul>
-<li>Your Company Logo added to our Competition Robot.</li>
-<li>Team demonstration at your place of business.</li>
-</td>
-</tr>
-
-<tr>
-<td bgcolor="#c2c0bc" align="center">
-<b><font color="white" size="40px">Platinum</font></b>
-<br>
-<font color="white">$5,000+</font>
-</td>
-<td>
-<ul>
-<li>Featured as Primary Sponsor for Team at Key Events (FRC Competitions, Off-Season Events)</li>
-</ul>
-</td>
-</tr>
-
+  <tr>
+    <td bgcolor="CD7F32" align="center">
+      <b><font color="white" size="40px">Bronze</font></b>
+      <br>
+      <font color="white">$500+</font>
+    </td>
+    <td>
+      <ul>
+        <li>Recognition on our team website.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="grey" align="center">
+      <b><font color="white" size="40px">Silver</font></b>
+      <br>
+      <font color="white">$1,000+</font>
+    </td>
+    <td>
+      <ul>
+        <li>Your Company Logo added onto our Team T-shirt</li>
+        <li>50 team buttons & wristbands</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="gold" align="center">
+      <b><font color="white" size="40px">Gold</font></b>
+      <br>
+      <font color="white">$2,500+</font>
+    </td>
+    <td>
+      <ul>
+        <li>Your Company Logo added to our Competition Robot.</li>
+        <li>Team demonstration at your place of business.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#c2c0bc" align="center">
+      <b><font color="white" size="40px">Platinum</font></b>
+      <br>
+      <font color="white">$5,000+</font>
+    </td>
+    <td>
+      <ul>
+        <li>Featured as Primary Sponsor for Team at Key Events (FRC Competitions, Off-Season Events)</li>
+      </ul>
+    </td>
+  </tr>
 </table>
