@@ -66,18 +66,9 @@ layout: default
   padding-bottom: 15px;
 
   vertical-align: middle;
-}
-
-.topTab {
-  -moz-border-radius: 12px 12px 0px 0px;
-  -webkit-border-radius: 12px 12px 0px 0px;
-  border-radius: 12px 12px 0px 0px;
-}
-
-.bottomTab {
-  -moz-border-radius: 0px 0px 12px 12px;
-  -webkit-border-radius: 0px 0px 12px 12px;
-  border-radius: 0px 0px 12px 12px;
+  -moz-border-radius: 12px 12px 12px 12px;
+  -webkit-border-radius: 12px 12px 12px 12px;
+  border-radius: 12px 12px 12px 12px;
 }
 
 .tab:hover {
@@ -158,13 +149,13 @@ layout: default
       {% for subpage in site.data.students-subpages %}
       {% if subpage.title == page.subtitle %}
       <tr>
-        <td class="tab topTab hoverAnimate" style="font-weight: bolder; vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+        <td class="tab hoverAnimate" style="font-weight: bolder; vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
           <font class="tabtext">{{ subpage.title }}</font>
         </td>
       </tr>
       {% else %}
       <tr>
-        <td class="tab bottomTab hoverAnimate" style="vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+        <td class="tab hoverAnimate" style="vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
             <font class="tabtext">{{ subpage.title }}</font>
         </td>
       </tr>
