@@ -34,7 +34,7 @@ If you have any scheduling/team questions, you can also check out our [Frequentl
 Tracking the time you spend at the workshop is important. Not only is having record of all your hard work and dedication a great college application point, but privileges like slots on our leadership team, competition team, or travel team all require certain minimum hour requirements. Here’s how to get started:
 
 + When you come to the workshop each day, find the Workshop Supervisor and sign in electronically with your Student ID card. You’ll need to talk to them again to sign out.
-+ If you forgot/don’t have your Student ID card, fill out our [time log worksheet](/resources/FRC_Time_Log_Workshop.pdf). You can also use this sheet if you remember you forgot to sign in with the Workshop Supervisor.
++ If you forgot/don’t have your Student ID card, fill out our [time log worksheet](/resources//documents/FRC_Time_Log_Workshop.pdf). You can also use this sheet if you remember you forgot to sign in with the Workshop Supervisor.
 
 ## Team Leadership
 

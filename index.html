@@ -23,6 +23,25 @@ title: Aluminum Narwhals
   color: white;
 }
 
+@media screen and (max-width: 1250px){
+  .normwidthupdates {
+    display: none;
+  }
+  .smallwidthupdates {
+    display: table;;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .normwidthupdates {
+    display: table;
+  }
+  .smallwidthupdates {
+    display: none;
+  }
+}
+
+
 
 @media screen and (max-width: 800px){
   .carouselTable {
@@ -84,26 +103,22 @@ title: Aluminum Narwhals
 
 @keyframes carousel{
   0%    { left:0; }
-  22%   { left:0; }
-  25% { left:-100%; }
-  47% { left:-100%; }
-  50%   { left:-200%; }
-  72%   { left:-200%; }
-  75% { left:-300%; }
-  97% { left:-300%; }
-  120%  { left:0; }
+  31%   { left:0; }
+  36%   { left:-100%; }
+  64%   { left:-100%; }
+  69%   { left:-200%; }
+  97%   { left:-200%; }
+  100%  { left: 0% }
 }
 
 @-webkit-keyframes carousel{
   0%    { left:0; }
-  22%   { left:0; }
-  25%   { left:-100%; }
-  47%   { left:-100%; }
-  50%   { left:-200%; }
-  72%   { left:-200%; }
-  75%   { left:-300%; }
-  97%   { left:-300%; }
-  120%  { left:0; }
+  31%   { left:0; }
+  36%   { left:-100%; }
+  64%   { left:-100%; }
+  69%   { left:-200%; }
+  97%   { left:-200%; }
+  100%  { left: 0% }
 }
 
 .inlineblock {
@@ -113,8 +128,8 @@ title: Aluminum Narwhals
   display: flex;
   width: 100%;
 
-  -webkit-animation: carousel 45s infinite; /* Chrome, Safari, Opera */
-  animation: carousel 45s infinite;
+  -webkit-animation: carousel 30s infinite; /* Chrome, Safari, Opera */
+  animation: carousel 30s infinite;
 }
 
 .card:hover {
@@ -139,10 +154,10 @@ title: Aluminum Narwhals
   color: white;
   text-align: center;
 
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
+  -webkit-transition: 0.15s ease-in-out;
+  -moz-transition: 0.15s ease-in-out;
+  -o-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
 
   background: rgba(0, 0, 0, 0.65);
 }
@@ -162,9 +177,30 @@ title: Aluminum Narwhals
   right: 0px;
 }
 
+.newbutton {
+  align: center;
+  padding: 5px;
+  color: white;
+  background-color: #1b3a98;
+}
+
+.newbutton:hover {
+  background-color: #2653d9;
+  cursor: pointer;
+}
+
+.indexpost {
+  background-color: white;
+}
+
+.indexpost:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
 </style>
 
-<div class="home">
+<div style="background: white" class="home">
     <table class="carouselTable" cellspacing="0px" cellpadding="0px" width="100%">
       <tr width="100%" >
         <td width="100%">
@@ -174,10 +210,10 @@ title: Aluminum Narwhals
               <div onClick="location.href='{{ card.link }}'" width="25%" class="card">
                 <img class="imgCard" width="100%" src="{{ card.imageSource }}"></img>
                 <div class="cardInfo">
-                  <table width="97%" height="100%">
+                  <table cellpadding="15px" width="100%" height="100%">
                     <tr height="100%">
-                      <td height="100%" width="40%">
-                        <span style="text-align:left;display:inline-block;vertical-align: bottom;"><h1 class="cardTitle">{{ card.title }}</h1></span>
+                      <td style="text-align: left" height="100%" width="40%">
+                        <span style="text-align:center;display:inline-block;vertical-align: bottom;"><h2 class="cardTitle">{{ card.title }}</h2></span>
                       </td>
                       <td style="text-align: right" height="100%" width="60%">
                         <span style="display:inline-block;vertical-align: bottom;"><h4 class="cardInfoText">{{ card.info }}</h4></span>
@@ -193,14 +229,14 @@ title: Aluminum Narwhals
       </tr>
     </table>
 
-    <table id="tiny" cellpadding="0px" style="background-color: white;">
+    <table id="tiny" cellpadding="0px" style="background-color: #e6e6e6; color: black">
       <tr cellpadding="0px">
         <td cellpadding="0px">
           <table width="100%">
             <tr width="100%">
               <td align="center">
                 <div height="100%" width="100%">
-                  <h1 id="center-text">Check out what's going on...</h2>
+                  <h2 id="center-text">Check out what's going on...</h2>
                 </div>
               </td>
             </tr>
@@ -216,7 +252,7 @@ title: Aluminum Narwhals
               <tr>
                 <td style="vertical-align: top;" width="25%" height="100%">
                   <div style="vertical-align: text-top;">
-                      <h2><a href="{{ card.link }}">{{ card.title }}</a></h2>
+                      <h3><a href="{{ card.link }}">{{ card.title }}</a></h3>
                       {{ card.info }}
                   </div>
                 </td>
@@ -226,32 +262,114 @@ title: Aluminum Narwhals
         </td>
       </tr>
     </table>
-  <br>
-    <table width="100%">
-      <tr>
-        <td>
-          <h1 style="margin-left: 20px;" width="100%" height="100%">Latest Updates</h1>
+
+    <table style="table-layout:fixed" cellpadding="0px" cellspacing="0px" width="100%">
+      <tr width="100%">
+        <td align="center" width="100%" style="padding-right: 15px; padding-left:10px; padding-top:15px;">
+          <div width="100%">
+            <h4>Team 3128 is a student-run, high-school robotics team from Canyon Crest Academy.</h4>
+          </div>
         </td>
       </tr>
-    </table>
-    <table width="100%" style="background-color: white;" cellpadding="20px">
-      <tr>
+
+      <tr width="100%" style="background-color: #e6e6e6">
         <td>
-          <ul class="post-list">
-            {% for post in site.posts limit: 5 %}
-              <li>
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
-                <h2>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
-              </li>
+          <table width="100%">
+            <tr width="100%">
+              <td style="vertical-align: top; width: 80px;">
+                <img src="/resources/graphics/quote.png" style="margin-right: 10px; margin-left:10px; margin-top:10px; margin-bottom:35px"></img>
+              </td>
+              <td style="vertical-align: top;">
+                <h4 style="margin-right: 10px; margin-left:20px; margin-top:35px; margin-bottom:35px"><i>Our mission is to provide a positive high school team experience through robotics while inspiring intellectual creativity, fostering a passion for science, technology, and engineering, and developing critical thinking, problem solving and team building skills.</i></h4>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr width="100%" style="background-color: #174d82">
+        <td>
+          <h1 style="color: white;margin-right: 10px; margin-left:20px; margin-top:15px;">What We Do</h1>
+        </td>
+      </tr>
+
+      <tr width="100%">
+        <td>
+          <table width="100%" cellpadding="10px">
+            <tr width="100%">
+              <td width="25%" class="homeimage">
+                <a href="http://www.firstinspires.org/robotics/frc"><img src="/resources/homepage/frc.png"></img></a>
+              </td>
+              <td width="75%">
+                <h2>FIRST Robotics Competiton</h2>
+                Our team competes in the FIRST Robotics Competition, a program created by FIRST - For Recognition and Inspiration of Science and Technology. FIRST's founder Dean Kamen had two goals; one was to make robotics a competitive sport that drove students of all grade levels to strive to build and design amazing machines, but the other was to create a cooperative environment where innovation and creativity could thrive and students could become leaders in science and technology. The FIRST Robotics Competition was created for high school students to build 100-pound robots to form alliances and compete with teams from around the world.
+                <br><br>
+                <div onClick="javascript:location.href='http://www.firstinspires.org/robotics/frc'" align="center"><h4 class="newbutton hoverAnimate">Learn more</h4></div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr width="100%" style="background-color: #e6e6e6">
+        <td>
+          <table width="100%" cellpadding="10px">
+            <tr width="100%">
+              <td width="75%">
+                <h2>Robotics Summer Camp</h2>
+                Over the Summer, our robotics team runs a 5-week long camp for students grades 1-8. For one week, students get to design, build, program, and drive their very own robots. Our goal as a camp is to create an atmosphere for preteens and middle school students to become aware of and excited about science, technology, engineering and math. We want to provide a safe space where students can explore and become passionate about new subjects that they might desire to pursue in middle school, high school, and possibly throughout the rest of their lives.
+                <br><br>
+                <div onClick="javascript:location.href='/camp/'" align="center"><h4 class="newbutton hoverAnimate">Learn more</h4></div>
+              </td>
+              <td width="25%" class="homeimage">
+                <a href="/camp/"><img src="/resources/homepage/camp.png"></img></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+
+      <tr width="100%" style="background-color: #174d82">
+        <td>
+          <h1 style="color: white;margin-right: 10px; margin-left:20px; margin-top:15px;">Latest Updates</h1>
+        </td>
+      </tr>
+
+      <tr style="background-color: grey">
+        <td>
+
+          <table class="normwidthupdates" style="table-layout:fixed" width="100%" cellspacing="15px" cellpadding="20px">
+            <tr width="100%" height="150px">
+              {% for post in site.posts limit: 4 %}
+                <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hoverAnimate" width="25%" style="vertical-align: top">
+                  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+                  <h4>{{ post.title }}</h4>
+                </td>
+              {% endfor %}
+            </tr>
+          </table>
+
+          <table class="smallwidthupdates hoverAnimate" style="table-layout:fixed" width="100%" cellspacing="15px">
+            {% for post in site.posts limit: 4 %}
+              <tr width="100%">
+                <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hoverAnimate" width="33%" style="text-align: center;vertical-align: middle; padding-top: 25px; padding-right: 15px; padding-left: 15px; padding-bottom:10px;">
+                  <span>
+                    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+                    <h4>{{ post.title }}</h4>
+                  </span>
+                </td>
+              </tr>
             {% endfor %}
-          </ul>
-          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+          </table>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div style="margin-right: 15px; margin-left:15px; margin-top:15px;" onClick="javascript:location.href='{{ "/feed.xml" | prepend: site.baseurl }}'" align="center"><h4 class="newbutton hoverAnimate">Subscribe via RSS</h4></div>
         </td>
       </tr>
     </table>
-  <br>
-  <br>
-</div>
 </div>

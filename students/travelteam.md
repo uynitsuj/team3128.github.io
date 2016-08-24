@@ -15,7 +15,7 @@ This year’s trip is to the Orange County Regional. The following documents hav
 
 + [Frequently Asked Questions](/students/travelfaq/)
 + Trip Itinerary
-+ [Travel Team Commitment Form](/resources/TravelRequestForm2016.pdf)
++ [Travel Team Commitment Form](/resources//documents/TravelRequestForm2016.pdf)
 + Field Trip Permission Form
 
 ## Key Dates:

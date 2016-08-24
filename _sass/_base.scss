@@ -171,10 +171,44 @@ pre {
 	@media screen and (max-width: 900px) {
 		  max-width: 100%;
 
-    	margin-right: 10px;
-    	margin-left: 10px;
+      margin-right: 10px;
+      margin-left: 10px;
 
     }
+}
+
+/**
+ * Homepage Wrapper
+ */
+.homepagewrapper {
+	align: center;
+  z-index: 0;
+
+	@media screen and (min-width: 1300px) {
+    	width: 1300px;
+
+    	margin-right: auto;
+      margin-left: auto;
+      margin-top: 0px;
+      margin-bottom: 0px;
+	}
+
+	@media screen and (max-width: 1300px) {
+      max-width: 100%;
+
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+}
+
+.homeimage {
+  @media screen and (min-width: 800px) {
+    	display: table-cell;
+	}
+
+	@media screen and (max-width: 800px) {
+      display: none;
+  }
 }
 
 

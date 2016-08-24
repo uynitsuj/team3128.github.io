@@ -1,0 +1,15 @@
+---
+layout: post
+title: "2016 World Championships - Day 1"
+date: 2016-04-28 6:00:00 -0800
+author: Kiran R. and Orson W.
+categories: website
+---
+
+Hello, it's Kiran R. and Orson W.
+
+We are part of the mechanical/pit crew team. Our job is mainly to get our robot up and running and to make sure that everything is good.
+
+Today was mostly a travel day which most of us spent studying for our AP tests. When we landed in St. Louis the pit crew dashed off to America’s Center where we unpacked our crate and set up our pit and started installing the climbing mechanism which we built beforehand. Meanwhile, the rest of the team dropped off the luggage at the hotel and then joined the pit crew at the center. Afterwards, the pit crew finished rerouting the robot wiring and installing the aforementioned modifications, while the rest attended various talks. When the pit crew was finished with the robot, it was already 9:00, so we scrambled to find a restaurant, as most of our planned options were closed. We found a restaurant, ate, and went to the hotel, where we washed up and went to bed.
+
+About St. Louis, it is a decently large city by Midwestern standards, but would be merely a small suburban town in Southern California. The weather here was pretty clear but humid by San Diegan standards. Anyway, we hope to have some great qualifying matches tomorrow.

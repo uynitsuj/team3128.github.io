@@ -57,21 +57,28 @@ layout: default
   padding-bottom: 10px;
 }
 
-
-
 .tab {
   align: left;
   position: relative;
   z-index: 2;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   vertical-align: middle;
+}
 
-/*
-  -moz-border-radius: 6px 0px 0px 6px;
-  -webkit-border-radius: 6px 0px 0px 6px;
-  border-radius: 6px 0px 0px 6px;
-*/
+.topTab {
+  -moz-border-radius: 12px 12px 0px 0px;
+  -webkit-border-radius: 12px 12px 0px 0px;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.bottomTab {
+  -moz-border-radius: 0px 0px 12px 12px;
+  -webkit-border-radius: 0px 0px 12px 12px;
+  border-radius: 0px 0px 12px 12px;
 }
 
 .tab:hover {
@@ -90,18 +97,24 @@ layout: default
 
 #tabbar {
   position: absolute;
-  left: 5px;
+  left: 0px;
   z-index: 0;
+
+  margin: 15px;
 
   float: right;
 
   background-color: white;
-  width: 50%;
+
+  -moz-border-radius: 12px 12px 12px 12px;
+  -webkit-border-radius: 12px 12px 12px 12px;
+  border-radius: 12px 12px 12px 12px;
 }
 
 #tabbar.stick {
   position: fixed;
   top: 0px;
+  left: 0px;
 }
 
 .subtab:hover {
@@ -111,10 +124,9 @@ layout: default
 
 .subtab {
   text-align: center;
-  vertical-align: middle;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1300px) {
   #subbutton {
     display: block;
   }
@@ -126,7 +138,7 @@ layout: default
   }
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1300px) {
   #subbutton {
     display: none;
   }

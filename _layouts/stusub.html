@@ -56,21 +56,28 @@ layout: default
   padding-bottom: 10px;
 }
 
-
-
 .tab {
   align: left;
   position: relative;
   z-index: 2;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   vertical-align: middle;
+}
 
-/*
-  -moz-border-radius: 6px 0px 0px 6px;
-  -webkit-border-radius: 6px 0px 0px 6px;
-  border-radius: 6px 0px 0px 6px;
-*/
+.topTab {
+  -moz-border-radius: 12px 12px 0px 0px;
+  -webkit-border-radius: 12px 12px 0px 0px;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.bottomTab {
+  -moz-border-radius: 0px 0px 12px 12px;
+  -webkit-border-radius: 0px 0px 12px 12px;
+  border-radius: 0px 0px 12px 12px;
 }
 
 .tab:hover {
@@ -89,18 +96,24 @@ layout: default
 
 #tabbar {
   position: absolute;
-  left: 5px;
+  left: 0px;
   z-index: 0;
+
+  margin: 15px;
 
   float: right;
 
   background-color: white;
-  width: 50%;
+
+  -moz-border-radius: 12px 12px 12px 12px;
+  -webkit-border-radius: 12px 12px 12px 12px;
+  border-radius: 12px 12px 12px 12px;
 }
 
 #tabbar.stick {
   position: fixed;
   top: 0px;
+  left: 0px;
 }
 
 .subtab:hover {
@@ -110,10 +123,9 @@ layout: default
 
 .subtab {
   text-align: center;
-  vertical-align: middle;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1300px) {
   #subbutton {
     display: block;
   }
@@ -125,7 +137,7 @@ layout: default
   }
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1300px) {
   #subbutton {
     display: none;
   }
@@ -141,20 +153,18 @@ layout: default
 
 
 <article class="post">
-  <div>
-    <table id="tabbar" cellspacing="0px" cellpadding="10px">
-      <tr height="20px">
-      </tr>
+  <div id="tabbar">
+    <table cellspacing="0px">
       {% for subpage in site.data.students-subpages %}
       {% if subpage.title == page.subtitle %}
       <tr>
-        <td class="tab hoverAnimate" style="font-weight: bolder; vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+        <td class="tab topTab hoverAnimate" style="font-weight: bolder; vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
           <font class="tabtext">{{ subpage.title }}</font>
         </td>
       </tr>
       {% else %}
       <tr>
-        <td class="tab hoverAnimate" style="vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+        <td class="tab bottomTab hoverAnimate" style="vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
             <font class="tabtext">{{ subpage.title }}</font>
         </td>
       </tr>
@@ -206,7 +216,7 @@ layout: default
               <table cellpadding="0px" cellspacing="0px" id="submenu" width="100%">
                 {% for subpage in site.data.students-subpages %}
                 <tr>
-                  <td class="subtab" style="vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+                  <td class="subtab" onClick="javascript:location.href='{{ subpage.permalink }}'" >
                       <h3>{{ subpage.title }}</h3>
                   </td>
                 </tr>

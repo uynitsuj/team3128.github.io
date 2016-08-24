@@ -82,14 +82,27 @@
     }
 
     .hoverAnimate {
-      transition: background .25s ease-in-out;
-      -moz-transition: background .25s ease-in-out;
-      -webkit-transition: background .25s ease-in-out;
+      transition: background .15s ease-in-out;
+      -moz-transition: background .15s ease-in-out;
+      -webkit-transition: background .15s ease-in-out;
     }
 
     .shadow {
       box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
     }
+
+    .newbutton {
+      align: center;
+      padding: 5px;
+      color: white;
+      background-color: #1b3a98;
+    }
+
+    .newbutton:hover {
+      background-color: #2653d9;
+      cursor: pointer;
+    }
+
   </style>
 
   <body>
@@ -99,8 +112,8 @@
     <div class="page-content">
       {% if page.showtitle != false %}
       <div>
-        <img id="pageimage" src="/resources/home_image.jpeg"></img>
-        <div class="page-heading" style="background-color: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px; top: -75px;">
+        <img id="pageimage" src="/resources/page_headers/standard.jpeg"></img>
+        <div class="page-heading" style="background-color: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px; bottom: 74px">
           <div class="wrapper" style="padding-left: 37px;">{{ page.title }}</div>
         </div>
       </div>
@@ -113,7 +126,7 @@
 
       <script>
       $(function(){
-        $('#wrap').css("margin-top", "-70px");
+        $('#wrap').css("margin-top", "-74px");
       });
       </script>
 

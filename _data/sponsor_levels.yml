@@ -1,0 +1,11 @@
+  - level: Platinum
+    color: "#c2c0bc"
+
+  - level: Gold
+    color: gold
+
+  - level: Silver
+    color: grey
+
+  - level: Bronze
+    color: "#CD7F32"
