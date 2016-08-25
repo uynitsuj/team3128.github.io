@@ -2,149 +2,9 @@
 layout: default
 ---
 
-<style>
-#button {
-  background-color: #025E86;
-}
-
-#subHover:hover {
-  background-color: #038ec9;
-  color: white;
-  cursor: pointer;
-}
-
-#subbutton {
-  color: #0064C9;
-  background: white;
-  border-right: 2px solid #0064C9;
-  border-top: 2px solid #0064C9;
-  border-left: 2px solid #0064C9;
-  display: inline-block;
-
-  margin-bottom: 0px;
-}
-
-#subbutton:hover {
-  cursor: pointer;
-
-  color: white;
-  background: #0064C9;
-}
-
-.valignmiddle {
-  display: inline-block;
-  vertical-align: top;
-
-  font-size: 40px;
-}
-
-#submenu {
-  margin-bottom: 10px;
-  border-bottom: 2px solid #0064C9;
-  border-right: 2px solid #0064C9;
-  border-left: 2px solid #0064C9;
-}
-
-#subdiv {
-  overflow: hidden;
-}
-
-#subHover {
-  padding-right: 7px;
-  padding-left: 7px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.tab {
-  align: left;
-  position: relative;
-  z-index: 2;
-  padding-left: 20px;
-  padding-right: 30px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-
-  vertical-align: middle;
-  -moz-border-radius: 12px 12px 12px 12px;
-  -webkit-border-radius: 12px 12px 12px 12px;
-  border-radius: 12px 12px 12px 12px;
-}
-
-.tab:hover {
-  background: #edf2f8;
-  cursor: pointer;
-}
-
-.tabtext {
-  color: black;
-}
-
-.aboveDiv {
-  position: relative;
-  z-index: 1;
-}
-
-#tabbar {
-  position: absolute;
-  left: 0px;
-  z-index: 0;
-
-  margin: 15px;
-
-  float: right;
-
-  background-color: white;
-
-  -moz-border-radius: 12px 12px 12px 12px;
-  -webkit-border-radius: 12px 12px 12px 12px;
-  border-radius: 12px 12px 12px 12px;
-}
-
-#tabbar.stick {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-}
-
-.subtab:hover {
-  cursor: pointer;
-  color: grey;
-}
-
-.subtab {
-  text-align: center;
-}
-
-@media screen and (max-width: 1300px) {
-  #subbutton {
-    display: block;
-  }
-  #tabbar {
-    display: none;
-  }
-  .tabline {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 1300px) {
-  #subbutton {
-    display: none;
-  }
-  #tabbar {
-    display: table;
-  }
-  .tabline {
-    display: none;
-  }
-}
-
-</style>
-
 <article class="post">
-  <div>
-    <table id="tabbar" cellspacing="0px" cellpadding="10px">
+  <div id="tabbar">
+    <table cellspacing="0px" cellpadding="10px">
       {% for subpage in site.data.parents-subpages %}
       {% if subpage.title == page.subtitle %}
       <tr>
@@ -200,7 +60,7 @@ layout: default
       <tr cellpadding="0px">
           <td cellpadding="0px">
             <div class="hoverAnimate" id="subbutton" onclick="togglesubmenu()" align="center">
-              <span class="valignmiddle">☰</span>
+              <span style="font-size: 40px;">☰</span>
             </div>
             <div id="subdiv">
               <table cellpadding="0px" cellspacing="0px" id="submenu" width="100%">

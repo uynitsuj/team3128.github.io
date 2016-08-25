@@ -1,5 +1,5 @@
 ---
-layout: parpage
+layout: parent-page
 title: Parents
 subtitle: Calendar
 permalink: /parents/calendar/

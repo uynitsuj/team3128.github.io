@@ -1,5 +1,5 @@
 ---
-layout: stusub
+layout: student-page
 title: Students
 subtitle: Workshops
 permalink: /students/workshops/

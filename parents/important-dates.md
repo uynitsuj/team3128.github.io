@@ -1,5 +1,5 @@
 ---
-layout: parpage
+layout: parent-page
 title: Parents
 subtitle: Important Dates
 permalink: /parents/important-dates/

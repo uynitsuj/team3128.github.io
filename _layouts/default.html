@@ -32,25 +32,6 @@
       padding: 20px;
     }
 
-    .button-text {
-      color: white;
-      vertical-align: middle;
-      display: table-cell;
-    }
-
-    #real-button {
-      background: #025E86;
-      color: white;
-      padding: 10px;
-    }
-
-    #real-button:hover {
-      background: #038ec9;
-      color: white;
-      padding: 10px;
-      cursor: pointer;
-    }
-
     @media screen and (min-width: 700px) {
       .leftimage {
         float: left;
@@ -103,6 +84,135 @@
       cursor: pointer;
     }
 
+
+
+  /* MARK: BEGIN CSS FOR PAGES WITH SUBPAGES */
+
+  #subHover {
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #subHover:hover {
+    background-color: #038ec9;
+    color: white;
+    cursor: pointer;
+  }
+
+  #subbutton {
+    color: #0064C9;
+    background: white;
+    border-right: 2px solid #0064C9;
+    border-top: 2px solid #0064C9;
+    border-left: 2px solid #0064C9;
+    display: inline-block;
+
+    margin-bottom: 0px;
+  }
+
+  #subbutton:hover {
+    cursor: pointer;
+
+    color: white;
+    background: #0064C9;
+  }
+
+  #submenu {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0064C9;
+    border-right: 2px solid #0064C9;
+    border-left: 2px solid #0064C9;
+  }
+
+  #subdiv {
+    overflow: hidden;
+  }
+
+  .tab {
+    align: left;
+    position: relative;
+    z-index: 2;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    vertical-align: middle;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+    border-radius: 12px 12px 12px 12px;
+  }
+
+  .tab:hover {
+    background: #edf2f8;
+    cursor: pointer;
+  }
+
+  .tabtext {
+    color: black;
+  }
+
+  #tabbar {
+    position: absolute;
+    left: 0px;
+    z-index: 0;
+
+    margin: 15px;
+
+    float: right;
+
+    background-color: white;
+
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+    border-radius: 12px 12px 12px 12px;
+  }
+
+  #tabbar.stick {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+
+  .subtab:hover {
+    cursor: pointer;
+    background-color: #efefef;
+  }
+
+  .subtab {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+
+  @media screen and (max-width: 1300px) {
+    #subbutton {
+      display: block;
+    }
+    #tabbar {
+      display: none;
+    }
+    .tabline {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 1300px) {
+    #subbutton {
+      display: none;
+    }
+    #tabbar {
+      display: table;
+    }
+    .tabline {
+      display: none;
+    }
+  }
+
+  /* MARK: END CSS FOR PAGES WITH SUBPAGES */
+
   </style>
 
   <body>
@@ -113,8 +223,8 @@
       {% if page.showtitle != false %}
       <div>
         <img id="pageimage" src="/resources/page_headers/standard.jpeg"></img>
-        <div class="page-heading" style="background-color: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px; bottom: 74px">
-          <div class="wrapper" style="padding-left: 37px;">{{ page.title }}</div>
+        <div class="page-heading" style="background-color: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px; bottom: 59px">
+          <div class="wrapper" style="padding-left: 10px;">{{ page.title }}</div>
         </div>
       </div>
 
@@ -126,7 +236,7 @@
 
       <script>
       $(function(){
-        $('#wrap').css("margin-top", "-74px");
+        $('#wrap').css("margin-top", "-59px");
       });
       </script>
 

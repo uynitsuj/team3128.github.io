@@ -1,5 +1,5 @@
 ---
-layout: stusub
+layout: student-page
 title: Students
 subtitle: Build Seasons
 permalink: /students/build-seasons/

@@ -1,5 +1,5 @@
 ---
-layout: stusub
+layout: student-page
 title: Students
 subtitle: Getting Started
 permalink: /students/
@@ -74,7 +74,7 @@ Our leadership team and mentors create appointed positions when needed. Appointe
 + Ensures that all members know what mechanical is doing at the moment
 + Manages CAD and Design
 + Mediates communication between new and experienced members
-+ Ensures that all new members are comfortable with the 
++ Ensures that all new members are comfortable with the
 + Works with Controls to ensure robot functionailty
 
 **Head of Controls:**
@@ -94,15 +94,15 @@ Our leadership team and mentors create appointed positions when needed. Appointe
 + Makes strong relationships with local teams
 + Mediates communication between new and experienced members
 + Ensures that all new members are comfortable with the team
- 
+
 **Head of Awards:**
 
 + Prepares awards submissions
 + Mediates communication between new and experienced members
 + Ensures that all new members are comfortable with the team
- 
+
 <!--
-Chairman's. 
+Chairman's.
 Actually this time.
 For real
 100%
