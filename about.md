@@ -5,9 +5,9 @@ shownav: true
 permalink: /about/
 ---
 
-Team 3128 Aluminum Narwhals is a high school robotics team at Canyon Crest Academy in San Diego, California. We are currently in the off competition season, and prepping for an exciting 2015-2016 year.
+Team 3128 Aluminum Narwhals is a high school robotics team at Canyon Crest Academy in San Diego, California. We are currently in the off competition season, and prepping for an exciting 2016-2017 year.
 
-## Our History
+### Our History
 
 Our team was founded in September of 2009 at Canyon Crest Academy in San Diego, California, at a school where math, science, and technology were valued, but hadn’t found a way to be manifested yet. A handful of students, one engineering mentor, and a computer programming teacher felt those values were important – and thus the Aluminum Narwhals were born.
 
@@ -16,9 +16,10 @@ Our robotics team, along with several others found at our school, participates i
 During the 2010 competition season, our team entered brand new and won the Rookie All-Star award for our stellar performance despite being a first-year team, landing us a spot in the FRC World Competition.
 
 We grew for the next 6 years, developing our [Robotics Summer Camp](/camp/), a week-long session for students grades 1 through 8 to design, build, and program their very own robots over the summer.
-<img src="/resources/cantstopwontstopwinning.jpg">
+
+<img src="/resources/cantstopwontstopwinning.jpg" class="leftimage">
+
 All of our hard work paid off in the 2016 competition season. We put all of our time and effort into constructing a robust, able robot for FIRST Stronghold, a challenge that involved overcoming obstacles and scoring dodgeballs into goals. With the culmination of enthusiastic mentors' support, skilled drive, mechanical, strategy, electronics, programming, and outreach teams, and over 3000 hours of effort, we were able to win the Engineering Inspiration Awards and a $5,000 dollar sponsorship from NASA to attend the FRC Worlds Tournament in April of 2016.
 
-## Our Mission
-
-*“Our mission is to provide a positive high school team experience through robotics while inspiring intellectual creativity, fostering a passion for science, technology, and engineering, and developing critical thinking, problem solving and team building skills.”*
+### Our Mission  
+*“Provide a positive high school team experience through robotics while inspiring intellectual creativity, fostering a passion for science, technology, and engineering, and developing critical thinking, problem solving and team building skills.”*
