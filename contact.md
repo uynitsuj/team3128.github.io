@@ -19,13 +19,13 @@ Lead Mentor
 
 **Student Leadership**
 
-*Maya Z.*  
-President  
-[maya@team3128.org](mailto:maya@team3128.org)  
-
 *Raylen L.*  
+President  
+[raylen@team3128.org](mailto:raylen@team3128.org)  
+
+*Caroline M.*  
 Vice President  
-[raylen@team3128.org](mailto:raylen@team3128.org)
+[caroline@team3128.org](mailto:caroline@team3128.org)
 
 **Item Requests:**  
 If you would like to request an item for the workshop, the robot, or robotics, [tell us here](https://docs.google.com/forms/d/e/1FAIpQLSeDOGKZMsi8F6hn1Md16a8cnNyxb3TEy5sdJTwQK0GUv-Sf8w/viewform)
