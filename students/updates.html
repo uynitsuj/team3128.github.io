@@ -4,17 +4,30 @@ title: Students
 subtitle: Updates
 permalink: /students/updates/
 ---
+<style>
+  @media screen and (max-width: 1300px) {
+    .smallwidthupdates {
+      margin-top: 10px;
+    }
+  }
 
-<h1>Updates</h1>
+  @media screen and (min-width: 1300px) {
+    .smallwidthupdates {
+      margin: -22px;
+    }
+  }
+</style>
 
-<ul class="post-list">
-    {% for post in site.posts %}
-    <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
-        <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-    </li>
-    {% endfor %}
-</ul>
-<div style="margin-right: 15px; margin-left:15px; margin-top:15px;" onClick="javascript:location.href='{{ "/feed.xml" | prepend: site.baseurl }}'" align="center"><h4 class="newbutton hoverAnimate">Subscribe via RSS</h4></div>
+<table class="smallwidthupdates" style="table-layout:fixed; background-color: grey;" cellspacing="15px">
+  {% for post in site.posts %}
+    <tr width="100%">
+      <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hoverAnimate" width="33%">
+        <span>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+          <h4>{{ post.title }}</h4>
+        </span>
+      </td>
+    </tr>
+  {% endfor %}
+</table>
+<div style="margin-right: 0px; margin-left:0px; margin-top:39px; margin-bottom: -18px;" onClick="javascript:location.href='{{ "/feed.xml" | prepend: site.baseurl }}'" align="center"><h4 class="newbutton hoverAnimate">Subscribe via RSS</h4></div>

@@ -5,8 +5,6 @@ subtitle: Getting Started
 permalink: /students/
 ---
 
-# Getting Started
-
 Becoming a part of robotics is very easy. There are just a few steps:
 
 1. Sign up on our [team roster](https://docs.google.com/a/team3128.org/forms/d/1VpWMkgvuBatdemjuj_hHUDzjsSfe2zWboS45fhb6Fz8/viewform). This will get you added to our mailing list so you know everything that is going on.

@@ -84,7 +84,21 @@
       cursor: pointer;
     }
 
+    .indexpost {
+      background-color: white;
 
+      text-align: center;
+      vertical-align: middle;
+      padding-top: 25px;
+      padding-right: 15px;
+      padding-left: 15px;
+      padding-bottom:10px;
+    }
+
+    .indexpost:hover {
+      background-color: #e6e6e6;
+      cursor: pointer;
+    }
 
   /* MARK: BEGIN CSS FOR PAGES WITH SUBPAGES */
 
@@ -110,6 +124,8 @@
     display: inline-block;
 
     margin-bottom: 0px;
+
+    padding-bottom: 4px;
   }
 
   #subbutton:hover {
@@ -183,8 +199,14 @@
 
   .subtab {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 0px;
+  }
+
+  .tabline {
+    height: 2px;
+    margin-bottom: 10px;
+    background: #0064C9;
   }
 
   @media screen and (max-width: 1300px) {
@@ -224,7 +246,13 @@
       <div>
         <img id="pageimage" src="/resources/page_headers/standard.jpeg"></img>
         <div class="page-heading" style="background-color: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px; bottom: 59px">
-          <div class="wrapper" style="padding-left: 10px;">{{ page.title }}</div>
+          <div class="wrapper" style="padding-left: 10px;">
+            {% if page.subtitle %}
+              {{ page.subtitle }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}
+          </div>
         </div>
       </div>
 

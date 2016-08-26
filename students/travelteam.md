@@ -5,8 +5,6 @@ subtitle: Travel Team
 permalink: /students/travel-team/
 ---
 
-# Travel Team
-
 Each year our team gathers a group of dedicated students to take a couple days off from school and travel to a regional outside of the San Diego area. This is a great opportunity to dedicate time specifically to work as hard as possible to achieve success at a competition where we get to meet new teams and share ideas.
 
 ## Trip Information
