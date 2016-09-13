@@ -1,0 +1,59 @@
+- title: Our Team
+  permalink: /about/
+  directory: About
+
+- title: Our Robots
+  permalink: /about/our-robots/
+  directory: About
+
+- title: FIRST
+  permalink: /about/first/
+  directory: About
+
+- title: Our Website
+  permalink: /about/website/
+  directory: About
+
+- title: Outreach
+  permalink: /outreach/
+  directory: About
+
+- title: FAQ
+  permalink: /parents/faq/
+  directory: Parents
+
+- title: Important Dates
+  permalink: /parents/important-dates/
+  directory: Parents
+
+- title: Calendar
+  permalink: /parents/calendar/
+  directory: Parents
+
+- title: Volunteer
+  permalink: /parents/volunteer/
+  directory: Parents
+
+- title: Donate
+  permalink: /donate/
+  directory: Parents
+
+- title: Getting Started
+  permalink: /students/
+  directory: Students
+
+- title: Calendar
+  permalink: /students/calendar/
+  directory: Students
+
+- title: GitHub
+  permalink: /students/github/
+  directory: Students
+
+- title: Travel Team
+  permalink: /students/travel-team/
+  directory: Students
+
+- title: Updates
+  permalink: /students/updates/
+  directory: Students

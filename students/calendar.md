@@ -1,5 +1,5 @@
 ---
-layout: student-page
+layout: subpage
 title: Students
 subtitle: Calendar
 permalink: /students/calendar/

@@ -1,5 +1,5 @@
 ---
-layout: student-page
+layout: subpage
 title: Students
 subtitle: Tool Certification
 permalink: /students/tool-certification/

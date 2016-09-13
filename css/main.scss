@@ -17,7 +17,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #1b347e;
+$background: #1b347e;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -29,7 +29,10 @@ $light-blue: #17a6e8;
 $dark-blue: #0b5374;
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    900px;
+$sidebar-width:    150px;
+
+$homepage-width:   1300px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -55,5 +58,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "team3128"
 ;

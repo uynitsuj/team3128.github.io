@@ -1,5 +1,5 @@
 ---
-layout: student-page
+layout: subpage
 title: Students
 subtitle: Getting Started
 permalink: /students/
@@ -110,15 +110,45 @@ Literally
 
 ### Leadership Meetings
 
-Each month, the leadership team holds a meeting where they discuss the happenings of the team and set the course for the overall year. For the 2015-2016 year, the leadership meetings will happen on the following dates and times in the CCA Cage or Robotics Room unless otherwise noted.
+Each month, the leadership team holds a meeting where they discuss the happenings of the team and set the course for the overall year. For the 2016-17 year, the leadership meetings will happen on the following dates and times in the CCA Cage or Robotics Room unless otherwise noted. Find out more about our leadership team.
 
-+ August 31st @ 5:00 pm – 6:30 pm
-+ October 5th @ 5:00 pm – 6:30 pm
-+ November 2nd @ 5:00 pm – 6:30 pm
-+ December 7th @ 5:00 pm – 6:30 pm
-+ January 4th @ 6:00 pm – 7:30 pm
-+ February 1st @ 6:00 pm – 7:30 pm
-+ March 7th @ 5:00 pm – 6:30 pm
-+ April 11th @ 5:00 pm – 6:30 pm
-+ May 2nd @ 5:00 pm – 6:30 pm
-+ May 23rd @ 5:00 pm – 6:30 pm
++ Friday, September 2nd @ 4:00 pm - 5:00 pm
++ Friday, September 9th @ 4:00 pm - 5:00 pm
++ Friday, September 16th @ 4:00 pm - 5:00 pm
++ Friday, September 23rd @ 4:00 pm - 5:00 pm
++ Friday, September 30th @ 4:00 pm - 5:00 pm
++ Friday, October 7th @ 4:00 pm - 5:00 pm
++ Friday, October 14th @ 4:00 pm - 5:00 pm
++ Friday, October 21st @ 4:00 pm - 5:00 pm
++ Friday, October 28th @ 4:00 pm - 5:00 pm
++ Friday, November 4th @ 4:00 pm - 5:00 pm
++ Friday, November 11th @ 4:00 pm - 5:00 pm
++ Friday, November 18th @ 4:00 pm - 5:00 pm
++ Friday, November 25th @ 4:00 pm - 5:00 pm
++ Friday, December 2nd @ 4:00 pm - 5:00 pm
++ Friday, December 9th @ 4:00 pm - 5:00 pm
++ Friday, December 16th @ 4:00 pm - 5:00 pm
++ Friday, January 6th @ 4:00 pm - 5:00 pm
++ Friday, January 13th @ 4:00 pm - 5:00 pm
++ Friday, January 20th @ 4:00 pm - 5:00 pm
++ Friday, January 27th @ 4:00 pm - 5:00 pm
++ Friday, February 3rd @ 4:00 pm - 5:00 pm
++ Friday, February 10th @ 4:00 pm - 5:00 pm
++ Friday, February 17th @ 4:00 pm - 5:00 pm
++ Friday, February 24th @ 4:00 pm - 5:00 pm
++ Friday, March 3rd @ 4:00 pm - 5:00 pm
++ Friday, March 10th @ 4:00 pm - 5:00 pm
++ Friday, March 17th @ 4:00 pm - 5:00 pm
++ Friday, March 24th @ 4:00 pm - 5:00 pm
++ Friday, March 31st @ 4:00 pm - 5:00 pm
++ Friday, April 7th @ 4:00 pm - 5:00 pm
++ Friday, April 14th @ 4:00 pm - 5:00 pm
++ Friday, April 21st @ 4:00 pm - 5:00 pm
++ Friday, April 28th @ 4:00 pm - 5:00 pm
++ Friday, May 5th @ 4:00 pm - 5:00 pm
++ Friday, May 12th @ 4:00 pm - 5:00 pm
++ Friday, May 19th @ 4:00 pm - 5:00 pm
++ Friday, May 26th @ 4:00 pm - 5:00 pm
++ Friday, June 2nd @ 4:00 pm - 5:00 pm
++ Friday, June 9th @ 4:00 pm - 5:00 pm
++ Friday, June 16th @ 4:00 pm - 5:00 pm

@@ -1,5 +1,5 @@
 ---
-layout: student-page
+layout: subpage
 title: Students
 subtitle: Project Teams
 permalink: /students/project-teams/

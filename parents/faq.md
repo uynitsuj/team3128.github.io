@@ -1,11 +1,9 @@
 ---
-layout: parent-page
+layout: subpage
 title: Parents
-subtitle: FAQ
+subtitle: Frequently Asked Questions
 permalink: /parents/faq/
 ---
-
-## Frequently Asked Questions
 
 Have a question about our robotics program? Here are some of the most often asked questions and our answers to them. If your question is not listed, feel free to shoot us an [email](/contact/).
 

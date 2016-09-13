@@ -6,237 +6,6 @@
 
   {% include head.html %}
 
-  <style>
-    #wrap {
-      background: white;
-    }
-    body {
-      background-repeat: no-repeat;
-      background-position: left 0px;
-    }
-
-    @media screen and (min-width: 1600px) {
-      body {
-        background-size: contain;
-      }
-    }
-
-    @media screen and (max-width: 1600px) {
-      body {
-        background-size: 1600px;
-      }
-    }
-
-    .titleblue {
-      background-color: #0078AD;
-      padding: 20px;
-    }
-
-    @media screen and (min-width: 700px) {
-      .leftimage {
-        float: left;
-        width: 300px;
-        margin: 0px 30px 10px 0px;
-      }
-      .rightimage {
-        float: right;
-        width: 300px;
-        margin: 0px 0px 10px 30px;
-      }
-      .verticalimage {
-        float: left;
-        width: 300px;
-        margin: 0px 30px 10px 0px;
-      }
-    }
-
-    @media screen and (max-width: 700px) {
-      .leftimage {
-        width: 100%;
-      }
-      .rightimage {
-        width: 100%;
-      }
-      .verticalimage {
-        width: 100%;
-      }
-    }
-
-    .hoverAnimate {
-      transition: background .15s ease-in-out;
-      -moz-transition: background .15s ease-in-out;
-      -webkit-transition: background .15s ease-in-out;
-    }
-
-    .shadow {
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
-    }
-
-    .newbutton {
-      align: center;
-      padding: 5px;
-      color: white;
-      background-color: #1b3a98;
-    }
-
-    .newbutton:hover {
-      background-color: #2653d9;
-      cursor: pointer;
-    }
-
-    .indexpost {
-      background-color: white;
-
-      text-align: center;
-      vertical-align: middle;
-      padding-top: 25px;
-      padding-right: 15px;
-      padding-left: 15px;
-      padding-bottom:10px;
-    }
-
-    .indexpost:hover {
-      background-color: #e6e6e6;
-      cursor: pointer;
-    }
-
-  /* MARK: BEGIN CSS FOR PAGES WITH SUBPAGES */
-
-  #subHover {
-    padding-right: 7px;
-    padding-left: 7px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  #subHover:hover {
-    background-color: #038ec9;
-    color: white;
-    cursor: pointer;
-  }
-
-  #subbutton {
-    color: #0064C9;
-    background: white;
-    border-right: 2px solid #0064C9;
-    border-top: 2px solid #0064C9;
-    border-left: 2px solid #0064C9;
-    display: inline-block;
-
-    margin-bottom: 0px;
-
-    padding-bottom: 4px;
-  }
-
-  #subbutton:hover {
-    cursor: pointer;
-
-    color: white;
-    background: #0064C9;
-  }
-
-  #submenu {
-    margin-bottom: 10px;
-    border-bottom: 2px solid #0064C9;
-    border-right: 2px solid #0064C9;
-    border-left: 2px solid #0064C9;
-  }
-
-  #subdiv {
-    overflow: hidden;
-  }
-
-  .tab {
-    align: left;
-    position: relative;
-    z-index: 2;
-    padding-left: 20px;
-    padding-right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-
-    vertical-align: middle;
-    -moz-border-radius: 12px 12px 12px 12px;
-    -webkit-border-radius: 12px 12px 12px 12px;
-    border-radius: 12px 12px 12px 12px;
-  }
-
-  .tab:hover {
-    background: #edf2f8;
-    cursor: pointer;
-  }
-
-  .tabtext {
-    color: black;
-  }
-
-  #tabbar {
-    position: absolute;
-    left: 0px;
-    z-index: 0;
-
-    margin: 15px;
-
-    float: right;
-
-    background-color: white;
-
-    -moz-border-radius: 12px 12px 12px 12px;
-    -webkit-border-radius: 12px 12px 12px 12px;
-    border-radius: 12px 12px 12px 12px;
-  }
-
-  #tabbar.stick {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-  }
-
-  .subtab:hover {
-    cursor: pointer;
-    background-color: #efefef;
-  }
-
-  .subtab {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 0px;
-  }
-
-  .tabline {
-    height: 2px;
-    margin-bottom: 10px;
-    background: #0064C9;
-  }
-
-  @media screen and (max-width: 1300px) {
-    #subbutton {
-      display: block;
-    }
-    #tabbar {
-      display: none;
-    }
-    .tabline {
-      display: block;
-    }
-  }
-
-  @media screen and (min-width: 1300px) {
-    #subbutton {
-      display: none;
-    }
-    #tabbar {
-      display: table;
-    }
-    .tabline {
-      display: none;
-    }
-  }
-
-  /* MARK: END CSS FOR PAGES WITH SUBPAGES */
-
-  </style>
-
   <body>
 
     {% include header.html %}
@@ -245,10 +14,10 @@
       {% if page.showtitle != false %}
       <div>
         <img id="pageimage" src="/resources/page_headers/standard.jpeg"></img>
-        <div class="page-heading" style="background-color: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px; bottom: 59px">
-          <div class="wrapper" style="padding-left: 10px;">
+        <div id="page-header" class="page-heading" style="background: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px;">
+          <div class="{% if page.layout == 'subpage' %} subpagewrapper {% else %} wrapper {% endif %}" style="padding-left: 20px;">
             {% if page.subtitle %}
-              {{ page.subtitle }}
+              {{ page.title }}: {{ page.subtitle }}
             {% else %}
               {{ page.title }}
             {% endif %}
@@ -258,13 +27,20 @@
 
       {% endif %}
 
-      <div id="wrap" class="wrapper">
-        {{ content }}
-      </div>
+      {{ content }}
 
       <script>
-      $(function(){
-        $('#wrap').css("margin-top", "-59px");
+      $( '#page-header' ).ready(function(){
+        $('#wrap').css("margin-top", "-" + ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+        $('#page-header').css("bottom", ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+      });
+
+      var width = $(window).width();
+      $(window).resize(function(){
+        if($(this).width() != width){
+          $('#wrap').css("margin-top", "-" + ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+          $('#page-header').css("bottom", ($('#page-header').height() - 1 * $('#page-header').height() / 60) + "px");
+        }
       });
       </script>
 

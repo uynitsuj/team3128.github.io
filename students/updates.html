@@ -1,5 +1,5 @@
 ---
-layout: student-page
+layout: subpage
 title: Students
 subtitle: Updates
 permalink: /students/updates/
@@ -7,18 +7,19 @@ permalink: /students/updates/
 <style>
   @media screen and (max-width: 1300px) {
     .smallwidthupdates {
+      margin: -20px;
       margin-top: 10px;
     }
   }
 
   @media screen and (min-width: 1300px) {
     .smallwidthupdates {
-      margin: -22px;
+      margin: -20px;
     }
   }
 </style>
 
-<table class="smallwidthupdates" style="table-layout:fixed; background-color: grey;" cellspacing="15px">
+<table class="smallwidthupdates" style="table-layout:fixed; background: grey;" cellspacing="15px">
   {% for post in site.posts %}
     <tr width="100%">
       <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hoverAnimate" width="33%">

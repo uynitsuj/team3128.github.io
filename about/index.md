@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: subpage
 title: About
-shownav: true
+subtitle: Our Team
 permalink: /about/
 ---
 

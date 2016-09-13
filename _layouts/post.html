@@ -1,16 +1,17 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <table cellpadding="20px" width="100%" style="background-color: white;">
-      <tr cellpadding="0px">
-          <td cellpadding="0px">
-            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
-            <br>
-            <br>
-            {{ content }}
-          </td>
-      </tr>
-  </table>
-</article>
+<div id="wrap" class="wrapper">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <table cellpadding="20px" width="100%" style="background: white;">
+        <tr cellpadding="0px">
+            <td cellpadding="0px">
+              <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+              <br>
+              <br>
+              {{ content }}
+            </td>
+        </tr>
+    </table>
+  </article>
+</div>

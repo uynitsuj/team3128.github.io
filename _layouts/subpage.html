@@ -1,0 +1,87 @@
+---
+layout: default
+---
+<div id="wrap" class="subpagewrapper">
+  <article class="post">
+      <script>
+        function sticky_relocate() {
+          var window_top = $(window).scrollTop();
+          var div_top = $('#tabbar').offset().top;
+
+          var image_h = $('#pageimage').height() + 80;
+
+          if (window_top > image_h) {
+            $('#tabbar').addClass('stick');
+          } else {
+            $('#tabbar').removeClass('stick');
+          }
+        }
+
+
+        $(document).ready(function() {
+          $("#subdiv").css("height", "0px");
+          $(window).scroll(sticky_relocate);
+          sticky_relocate();
+        });
+
+        function togglesubmenu() {
+          var sdiv = $("#subdiv");
+
+          if (sdiv.css("height") == "0px") {
+            sdiv.animate({height: $("#submenu").css("height")}, "fast");
+          }
+          else {
+            sdiv.animate({height: '0px'}, "fast");
+          }
+        }
+      </script>
+
+      <table id="maincontenttable" style="background:white; z-index: 1; position: relative;" cellpadding="0px" cellspacing="0px" width="100%">
+        <tr cellpadding="0px">
+          <td style="vertical-align: top; padding: 0px; background: #bfbfbf;">
+            <table id="tabbar" cellspacing="0px" cellpadding="10px">
+              {% for subpage in site.data.subpages %}
+              {% if subpage.directory == page.title %}
+              {% if subpage.title == page.subtitle %}
+              <tr>
+                <td class="tab hoverAnimate" style="font-weight: bolder; background: white;vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+                  <font class="tabtext">{{ subpage.title }}</font>
+                </td>
+              </tr>
+              {% else %}
+              <tr>
+                <td class="tab hoverAnimate" style="vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+                    <font class="tabtext">{{ subpage.title }}</font>
+                </td>
+              </tr>
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+            </table>
+          </td>
+          <td style="padding: 20px;" width="100%">
+            <div class="hoverAnimate" id="subbutton" onclick="togglesubmenu()" align="center">
+              <span style="font-size: 40px;">☰</span>
+            </div>
+            <div id="subdiv">
+              <table cellpadding="0px" cellspacing="0px" id="submenu" width="100%">
+                {% for subpage in site.data.subpages %}
+                  {% if subpage.directory == page.title %}
+                  <tr>
+                    <td class="subtab hoverAnimate" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+                        {{ subpage.title }}
+                    </td>
+                  </tr>
+                  {% endif %}
+                {% endfor %}
+              </table>
+            </div>
+            <div class="tabline"></div>
+
+            {{ content }}
+
+            </td>
+          </tr>
+      </table>
+  </article>
+</div>
