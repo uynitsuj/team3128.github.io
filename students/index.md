@@ -11,7 +11,8 @@ Becoming a part of robotics is very easy. There are just a few steps:
 2. Sign up on [STIMS](https://my.usfirst.org/stims/Login.aspx), our league information manager. This will let you attend tournaments and be involved in official robotics events off-campus. This step requires a parental unit to finish.
 3. Show up! We meet at the Robotics Workshop under the Media Center next to the Nest. You can check out our [calendar](/students/calendar/), build season [schedule](/students/build-seasons/), and [blog updates](/students/updates/) to find out about all the things happening in robotics. You can also [email our leaders](/contact/) to ask any questions you may have.
 4. Like us on [Facebook](https://www.facebook.com/aluminumnarwhals). Announcements, photos, and all sorts of awesome stuff will go out through there as well.
-5. [Join GitHub.](/students/github/) GitHub is the place where all team information, discussion, and collaboration will occur in the future. Any information that the team needs to know can be found on our organization's GitHub, as well as new projects and code.
+5. [Join GitHub.](/students/github/) GitHub is the place where all team information, discussion, and collaboration will occur in the future. Any information that the team needs to know can be found on our organization's GitHub, as well as new projects and code.  
+**IMPORTANT: All member information will be posted on the [info repository](https://github.com/Team3128/info/wiki) on the team's GitHub account**
 
 ## Growing Your Skills
 

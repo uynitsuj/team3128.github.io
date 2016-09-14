@@ -203,14 +203,11 @@ body {
   .tabline {
     display: block;
   }
-  //
-  // .normaltitle {
-  //   display: none;
-  // }
-  //
-  // .smalltitle {
-  //   display: inline;
-  // }
+
+  .smallwidthupdates {
+    margin: -20px;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: $sidebar-width + $content-width) {
@@ -223,14 +220,127 @@ body {
   .tabline {
     display: none;
   }
-  //
-  // .normaltitle {
-  //   display: block;
-  // }
-  //
-  // .smalltitle {
-  //   display: block;
-  // }
+
+  .smallwidthupdates {
+    margin: -20px;
+  }
 }
 
 /* MARK: END CSS FOR PAGES WITH SUBPAGES */
+
+/* MARK: BEGIN CSS FOR HEADER */
+
+.nounder:hover {
+  text-decoration: none;
+}
+
+.nounder {
+  text-transform: uppercase;
+}
+
+#smallmenu {
+  display: table;
+}
+
+#hover:hover {
+  background: #0066cc;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#mail:hover {
+  content: url(/resources/header/social/mail-selected.png);
+  cursor: pointer;
+}
+
+#facebook:hover {
+  content: url(/resources/header/social/facebook-selected.png);
+  cursor: pointer;
+}
+
+#github:hover {
+  content: url(/resources/header/social/github-selected.png);
+  cursor: pointer;
+}
+
+#instagram:hover {
+  content: url(/resources/header/social/instagram-selected.png);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .trigger {
+    display: none;
+  }
+  .smallertab {
+    display: table-cell;
+  }
+  .normalsocial {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .trigger {
+    display: table-cell;
+  }
+  .smallertab {
+    display: none;
+  }
+  .normalsocial {
+    display: table-cell;
+  }
+}
+
+#smallertab {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 1125px) {
+  .normaltitle {
+    display: none;
+  }
+  .smalltitle {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 1275px) and (min-width: 1125px) {
+  .normaltitle {
+    display: none;
+  }
+  .smalltitle {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1275px) {
+  .normaltitle {
+    display: block;
+  }
+  .smalltitle {
+    display: none;
+  }
+}
+
+.smallertab {
+  background: #2445a8;
+}
+.smallertab:hover {
+  background: #122254;
+  cursor: pointer;
+}
+
+.hoverAnimateImage {
+  transition: img .25s ease-in-out;
+  -moz-transition: img .25s ease-in-out;
+  -webkit-transition: img .25s ease-in-out;
+}
+
+#pagesdiv {
+  overflow: hidden;
+}
+
+/* MARK: END CSS FOR PAGES WITH HEADER */
