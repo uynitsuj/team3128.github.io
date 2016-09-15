@@ -208,6 +208,10 @@ body {
     margin: -20px;
     margin-top: 10px;
   }
+
+  .sidebar-td {
+    display: none;
+  }
 }
 
 @media screen and (min-width: $sidebar-width + $content-width) {
@@ -223,6 +227,9 @@ body {
 
   .smallwidthupdates {
     margin: -20px;
+  }
+  .sidebar-td {
+    display: table-cell;
   }
 }
 
