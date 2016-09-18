@@ -18,19 +18,19 @@ title: Aluminum Narwhals
 }
 
 @media screen and (max-width: 1250px){
-  .normwidthupdates {
+  .normwidthupdate {
     display: none;
   }
-  .smallwidthupdates {
-    display: table;;
+  .smallwidthupdate {
+    display: table;
   }
 }
 
 @media screen and (min-width: 1250px) {
-  .normwidthupdates {
+  .normwidthupdate {
     display: table;
   }
-  .smallwidthupdates {
+  .smallwidthupdate {
     display: none;
   }
 }
@@ -333,7 +333,7 @@ title: Aluminum Narwhals
       <tr style="background: grey">
         <td>
 
-          <table class="normwidthupdates" style="table-layout:fixed" width="100%" cellspacing="15px" cellpadding="20px">
+          <table class="normwidthupdate" style="table-layout:fixed" width="100%" cellspacing="15px" cellpadding="20px">
             <tr width="100%" height="150px">
               {% for post in site.posts limit: 4 %}
                 <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hoverAnimate" width="25%" style="vertical-align: top">
@@ -344,7 +344,7 @@ title: Aluminum Narwhals
             </tr>
           </table>
 
-          <table class="smallwidthupdates hoverAnimate" style="table-layout:fixed" width="100%" cellspacing="15px">
+          <table class="smallwidthupdate" style="table-layout:fixed" width="100%" cellspacing="15px">
             {% for post in site.posts limit: 4 %}
               <tr width="100%">
                 <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hoverAnimate" width="33%" style="text-align: center;vertical-align: middle; padding-top: 25px; padding-right: 15px; padding-left: 15px; padding-bottom:10px;">
