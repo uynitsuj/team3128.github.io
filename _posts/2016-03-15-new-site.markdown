@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to Team 3128's New Website"
 date: 2016-03-15 6:00:00 -0800
-author: Webmaster
+author: Ronak R.
 categories: website
 ---
 Over the past couple of weeks, we have been (rather secretively) moving our website to a new platform. We are proud to announce that the transfer is finally complete! The website is up and running on a modern platform that makes our lives easier and allows us to put more useful information right where it can be used. Additionally, our [camp site](/camp/) has been updated as well, so don't forget to check that out as well.

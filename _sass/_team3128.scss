@@ -351,3 +351,196 @@ body {
 }
 
 /* MARK: END CSS FOR PAGES WITH HEADER */
+
+/* MARK: BEGIN CSS FOR HOMEPAGE */
+
+#center-text {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+#up-text {
+  vertical-align: top;
+}
+
+#inbox {
+  vertical-align: middle;
+  color: white;
+}
+
+@media screen and (max-width: 1250px){
+  .normwidthupdate {
+    display: none;
+  }
+  .smallwidthupdate {
+    display: table;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .normwidthupdate {
+    display: table;
+  }
+  .smallwidthupdate {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 800px){
+  .carouselTable {
+    display: none;
+  }
+  #tiny {
+    display: table;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .carouselTable {
+    display: table;
+  }
+  #tiny {
+    display:none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .normwidthaction {
+    display: table;
+  }
+  .smallwidthaction {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .normwidthaction {
+    display: none;
+  }
+  .smallwidthaction {
+    display: table;
+  }
+}
+
+.card {
+  position: relative;
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 100%;
+
+  display: inline;
+  vertical-align: top;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+
+  white-space:0;
+}
+
+.imageCard {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  white-space:0;
+}
+
+@keyframes carousel{
+  0%    { left:0; }
+  31%   { left:0; }
+  36%   { left:-100%; }
+  64%   { left:-100%; }
+  69%   { left:-200%; }
+  97%   { left:-200%; }
+  100%  { left: 0% }
+}
+
+@-webkit-keyframes carousel{
+  0%    { left:0; }
+  31%   { left:0; }
+  36%   { left:-100%; }
+  64%   { left:-100%; }
+  69%   { left:-200%; }
+  97%   { left:-200%; }
+  100%  { left: 0% }
+}
+
+.inlineblock {
+  position: relative;
+  left: 0px;
+
+  display: flex;
+  width: 100%;
+
+  -webkit-animation: carousel 30s infinite; /* Chrome, Safari, Opera */
+  animation: carousel 30s infinite;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.cardInfo:hover {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.cardInfo {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 0px;
+
+  color: white;
+  text-align: center;
+
+  -webkit-transition: 0.15s ease-in-out;
+  -moz-transition: 0.15s ease-in-out;
+  -o-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
+
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.cardTitle {
+  text-shadow: 3px 3px 5px black;
+  font-weight: bolder;
+}
+
+.cardInfoText {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.home {
+  position: relative;
+  left: 0px;
+  right: 0px;
+}
+
+.newbutton {
+  align: center;
+  padding: 5px;
+  color: white;
+  background: #1b3a98;
+}
+
+.newbutton:hover {
+  background: #2653d9;
+  cursor: pointer;
+}
+
+.indexpost {
+  background: white;
+}
+
+.indexpost:hover {
+  background: #e6e6e6;
+  cursor: pointer;
+}
+
+/* MARK: END CSS FOR HOMEPAGE */
