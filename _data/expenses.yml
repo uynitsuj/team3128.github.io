@@ -1,0 +1,54 @@
+- category: General
+  name: General
+
+- category: General
+  name: Coaching and Mentors
+  cost: $7,000
+
+- category: General
+  name: Workshop Improvements
+  cost: $12,500
+
+- category: Construction
+  name: Construction
+
+- category: Construction
+  name: Build Season Robot
+  cost: $6,500
+
+- category: Construction
+  name: Off-Season Robot
+  cost: $4,500
+
+- category: Construction
+  name: Outreach Robot
+  cost: $1,072
+
+- category: Travel & Lodging
+  name: Travel & Lodging
+
+- category: Travel & Lodging
+  name: Travel Regional
+  cost: $6,000
+
+- category: Event Fees
+  name: Event Fees
+
+- category: Event Fees
+  name: Regional Competitions
+  cost: $9,000
+
+- category: Event Fees
+  name: Off-Season Competitions
+  cost: $500
+
+- category: Marketing
+  name: Marketing
+
+- category: Marketing
+  name: Team Spirit Wear
+  cost: $2,500
+
+- category: Marketing
+  name: Miscellaneous
+  cost: $500

@@ -2,8 +2,12 @@
   permalink: /about/
   directory: About
 
+- title: Our History
+  permalink: /about/history/
+  directory: About
+
 - title: Our Robots
-  permalink: /about/our-robots/
+  permalink: /about/robots/
   directory: About
 
 - title: FIRST

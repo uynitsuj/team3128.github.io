@@ -1,0 +1,118 @@
+---
+layout: subpage
+title: About
+subtitle: Our Team
+permalink: /about/
+---
+
+Team 3128 Aluminum Narwhals is a high school robotics team at Canyon Crest Academy in San Diego, California. We are currently in the off competition season, and prepping for an exciting 2016-2017 year.
+<p />
+<h3>Our Mission</h3>
+<i>“Provide a positive high school team experience through robotics while inspiring intellectual creativity, fostering a passion for science, technology, and engineering, and developing critical thinking, problem solving and team building skills.”</i>
+<p />
+<h3>Demographics Information</h3>
+<table style="width: 100%;">
+  <tr style="width: 100%;">
+    <td style="vertical-align: top; text-align: center; width: 50%; padding-right: 10px; padding-left: 10px;">
+      <h4>Member Gender Demographics</h4>
+      <img src="/resources/team-info/gender-demographics.png" />
+      <p />
+
+      <div style="background: #01C701; color: white; font-size: 20px; padding: 5px;">Males</div>
+      <div style="background: #0096FF; color: white; font-size: 20px; padding: 5px;">Females</div>
+    </td>
+    <td style="vertical-align: top; text-align: center; width: 50%; padding-right: 10px; padding-left: 10px;">
+      <h4>Member Grade Level Demographics</h4>
+      <img src="/resources/team-info/grade-demographics.png" />
+      <p />
+
+      <div style="background: #0096FF; color: white; font-size: 20px; padding: 5px;">Freshmen</div>
+      <div style="background: #01C701; color: white; font-size: 20px; padding: 5px;">Sophmores</div>
+      <div style="background: #FF9300; color: white; font-size: 20px; padding: 5px;">Juniors</div>
+      <div style="background: #FF2600; color: white; font-size: 20px; padding: 5px;">Seniors</div>
+    </td>
+  </tr>
+</table>
+<p />
+<h3>Budget and Expenses Information</h3>
+<h4>2016-17 Overall Spending Budget</h4>
+<table style="width: 100%; font-size: 20px;" border="0px" cellpadding="5px" cellspacing="0px">
+  {% for expense in site.data.expenses %}
+    {% if expense.category == expense.name %}
+      <tr style="color: white;background-color:#2a7ae2">
+        <td width="50%">
+          {{ expense.category }}
+        </td>
+        <td width="50%">
+        </td>
+      </tr>
+    {% else %}
+      <tr style="color: black;">
+        <td style="text-align: right; background-color: #efefef" width="50%">
+          {{ expense.name }}
+        </td>
+        <td style="text-align: right;" width="50%">
+          {{ expense.cost }}
+        </td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+  <tr style="color: black;">
+    <td style="text-align: right; background-color: white" width="50%">
+      <b>Total Cost</b>
+    </td>
+    <td style="text-align: right;" width="50%">
+      <b>$50,072</b>
+    </td>
+  </tr>
+</table>
+<p />
+<h4>2016-17 Competition Robot Estimated Cost</h4>
+<table style="width: 100%; font-size: 20px;" border="0px" cellpadding="5px" cellspacing="0px">
+  <tr style="color: white;background-color:#2a7ae2">
+    <td width="50%">
+      Robot Part
+    </td>
+    <td width="50%">
+    </td>
+  </tr>
+  <tr style="color: black;">
+    <td style="text-align: right; background-color: #efefef" width="50%">
+      Raw Materials
+    </td>
+    <td style="text-align: right;" width="50%">
+      $3,000
+    </td>
+  </tr>
+  <tr style="color: black;">
+    <td style="text-align: right; background-color: #efefef" width="50%">
+      Electronics
+    </td>
+    <td style="text-align: right;" width="50%">
+      $1,400
+    </td>
+    <tr style="color: black;">
+      <td style="text-align: right; background-color: #efefef" width="50%">
+        Drivetrain
+      </td>
+      <td style="text-align: right;" width="50%">
+        $1,100
+      </td>
+    </tr>
+    <tr style="color: black;">
+      <td style="text-align: right; background-color: #efefef" width="50%">
+        Gears and Gearboxes
+      </td>
+      <td style="text-align: right;" width="50%">
+        $1,000
+      </td>
+    </tr>
+    <tr style="color: black;">
+      <td style="text-align: right; background-color: #efefef" width="50%">
+        <b>Total Cost</b>
+      </td>
+      <td style="text-align: right;" width="50%">
+        $6,500
+      </td>
+    </tr>
+</table>
