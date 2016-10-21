@@ -11,9 +11,20 @@ All of your donations to the Aluminum Narwhals are tax deductible. If you would 
 ### How do your donations help us?
 We love what we do, and we wish we could achieve everything we think up. The only problem is that everything we need - electronics, lumber, gear boxes, aluminum, polycarbonate, coaching, travel - costs money. That's why we need you; with your donation, we are able to realize our dreams and learn valuable skills.
 
+<table width="100%" cellpadding="5px">
+<tr>
+<td width="50%">
+<div class="newbutton hoverAnimate" style="text-align: center;" onClick="javascript:location.href='/resources/team-info/TeamInfoPacket.pdf'">
+	Team Info Packet (.pdf)
+</div>
+</td>
+<td width="50%">
 <div class="newbutton hoverAnimate" style="text-align: center;" onClick="javascript:location.href='/about/'">
 	Learn more about why we need donations
 </div>
+</td>
+</tr>
+</table>
 <p />
 
 ### How to donate:
