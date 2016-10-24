@@ -2,10 +2,6 @@
   permalink: /about/
   directory: About
 
-- title: Our History
-  permalink: /about/history/
-  directory: About
-
 - title: Our Robots
   permalink: /about/robots/
   directory: About
@@ -22,6 +18,10 @@
   permalink: /outreach/
   directory: About
 
+- title: Budget
+  permalink: /about/budget/
+  directory: About
+  
 - title: FAQ
   permalink: /parents/faq/
   directory: Parents

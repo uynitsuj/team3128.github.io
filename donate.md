@@ -19,7 +19,7 @@ We love what we do, and we wish we could achieve everything we think up. The onl
 </div>
 </td>
 <td width="50%">
-<div class="newbutton hoverAnimate" style="text-align: center;" onClick="javascript:location.href='/about/'">
+<div class="newbutton hoverAnimate" style="text-align: center;" onClick="javascript:location.href='/about/budget/'">
 	Learn more about why we need donations
 </div>
 </td>
@@ -30,8 +30,8 @@ We love what we do, and we wish we could achieve everything we think up. The onl
 ### How to donate:
 + Use our [online form](http://weblink.donorperfect.com/QuestRobotics) to make a donation directly to our team
 + You can also write a check payable to ‘Canyon Crest Academy Foundation’ with ‘QUEST/Robotics’ on the memo line, and drop it off or mail it to:  
-  <b>5951 E Village Middle Loop Rd  
-  San Diego, CA 92130</b>
+  *5951 E Village Middle Loop Rd  
+  San Diego, CA 92130*
 
 ### Donation Levels
 All of our donors are incredibly important to us. We recognize all of our donor in accordance with their giving level.

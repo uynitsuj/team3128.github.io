@@ -15,13 +15,15 @@
       <div>
         <img id="pageimage" src="/resources/page_headers/standard.jpeg"></img>
         <div id="page-header" class="page-heading" style="background: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px;">
-          <div class="{% if page.layout == 'subpage' %} subpagewrapper {% else %} wrapper {% endif %}" style="padding-left: 20px;">
-            {% if page.subtitle %}
-              {{ page.title }}: {{ page.subtitle }}
-            {% else %}
-              {{ page.title }}
-            {% endif %}
+          {% if page.subtitle %}
+          <div class="subpagewrapper" style="padding-left: 20px;">
+            {{ page.title }}: {{ page.subtitle }}
           </div>
+          {% else %}
+          <div class="wrapper" style="padding-left: 20px;">
+            {{ page.title }}
+          </div>
+          {% endif %}
         </div>
       </div>
 
