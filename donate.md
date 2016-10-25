@@ -29,8 +29,8 @@ We love what we do, and we wish we could achieve everything we think up. The onl
 
 ### How to donate:
 + Use our [online form](http://weblink.donorperfect.com/QuestRobotics) to make a donation directly to our team
-+ You can also write a check payable to ‘Canyon Crest Academy Foundation’ with ‘QUEST/Robotics’ on the memo line, and drop it off or mail it to:  
-  *5951 E Village Middle Loop Rd  
++ You can also write a check payable to ‘Canyon Crest Academy Foundation’ with ‘QUEST/Robotics’ on the memo line, and drop it off or mail it to:
+  *5951 E Village Middle Loop Rd
   San Diego, CA 92130*
 
 ### Donation Levels
@@ -38,37 +38,37 @@ All of our donors are incredibly important to us. We recognize all of our donor 
 For additional benefits, see the [CCA Foundation Giving Levels]("http://www.canyoncrestfoundation.org/recognition/giving-levels-and-donor-premiums")
 
 <table class="levels" width="100%" border="0" cellpadding="10" cellspacing="0">
-{% for level in site.data.sponsor_levels %}
-  <tr>
-    <td bgcolor="{{ level.color }}" align="center">
-      <b><font color="white" size="40px">{{ level.level }}</font></b>
-      <br>
-      <font color="white">{{ level.money }}</font>
-    </td>
-    <td>
-      <ul>
-         {{ level.benefits }}
-      </ul>
-    </td>
-  </tr>
+	{% for level in site.data.sponsor_levels %}
+	  <tr>
+	    <td bgcolor="{{ level.color }}" align="center">
+	      <b><font color="white" size="40px">{{ level.level }}</font></b>
+	      <br>
+	      <font color="white">{{ level.money }}</font>
+	    </td>
+	    <td>
+	      <ul>
+	         {{ level.benefits }}
+	      </ul>
+	    </td>
+	  </tr>
 	{% endfor %}
 </table>
 
 <table class="mobilelevels" width="100%" border="0" cellpadding="10" cellspacing="0">
-{% for level in site.data.sponsor_levels %}
-  <tr>
-    <td bgcolor="{{ level.color }}" align="center">
-      <b><font color="white" size="40px">{{ level.level }}</font></b>
-      <br>
-      <font color="white">{{ level.money }}</font>
-    </td>
-	</tr>
-	<tr>
-    <td>
-      <ul>
-         {{ level.benefits }}
-      </ul>
-    </td>
-  </tr>
+	{% for level in site.data.sponsor_levels %}
+  	<tr>
+    	<td bgcolor="{{ level.color }}" align="center">
+      	<b><font color="white" size="40px">{{ level.level }}</font></b>
+      	<br>
+      	<font color="white">{{ level.money }}</font>
+    	</td>
+		</tr>
+		<tr>
+    	<td>
+      	<ul>
+         	{{ level.benefits }}
+      	</ul>
+    	</td>
+  	</tr>
 	{% endfor %}
 </table>
