@@ -96,6 +96,15 @@ body {
   cursor: pointer;
 }
 
+.sponsor {
+  background: white;
+}
+
+.sponsor:hover {
+  background: #efefef;
+  cursor: pointer;
+}
+
 /* MARK: BEGIN CSS FOR PAGES WITH SUBPAGES */
 
 #subHover {
@@ -544,3 +553,21 @@ body {
 }
 
 /* MARK: END CSS FOR HOMEPAGE */
+
+@media screen and (max-width: 750px) {
+  .levels {
+    display: none;
+  }
+  .mobilelevels {
+    display: table;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .levels {
+    display: table;
+  }
+  .mobilelevels {
+    display: none;
+  }
+}

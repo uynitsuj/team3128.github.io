@@ -5,7 +5,7 @@ permalink: /sponsor/
 ---
 
 <style>
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
   .smallsponsors {
     display: none;
   }
@@ -14,7 +14,7 @@ permalink: /sponsor/
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .smallsponsors {
     display: table;
   }
@@ -24,9 +24,9 @@ permalink: /sponsor/
 }
 </style>
 
-<div class="smallsponsors">
+<div class="normalsponsors">
 {% for sponsorlevel in site.data.sponsor_levels %}
-	<table width="100%" border="0px" cellpadding="20px" cellspacing="0px">
+	<table width="100%" border="0px" cellpadding="0px" cellspacing="0px">
 		<tr width="100%">
 			<div style="padding-top: 15px; text-align: center;background: {{ sponsorlevel.color }}; color: white; height: 100%"><span><h1>{{ sponsorlevel.level }} Sponsors</h1></span></div>
 		</tr>
@@ -34,14 +34,20 @@ permalink: /sponsor/
 		{% for sponsor in site.data.sponsors %}
 			{% if sponsorlevel.level == sponsor.level %}
 				<tr width="100%" height="200px">
-					<td width="35%">
-						<a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}"></img></a>
-					</td>
+          <td class="sponsor hoverAnimate" onClick="javascript:location.href='{{ sponsor.link }}'">
+            <table cellpadding="15px" width="100%">
+              <tr>
+  					   <td width="35%">
+  		             <img src="{{ sponsor.logo }}"></img>
+  					    </td>
 
-					<td width="65%">
-						<h3>{{ sponsor.name }}</h3>
-						{{ sponsor.description }}
-					</td>
+  					    <td width="65%">
+    						  <h3>{{ sponsor.name }}</h3>
+    			        {{ sponsor.description }}
+  					    </td>
+              </tr>
+            </table>
+          </td>
 				</tr>
 			{% endif %}
 		{% endfor %}
@@ -49,9 +55,9 @@ permalink: /sponsor/
 {% endfor %}
 </div>
 
-<div class="normalsponsors">
+<div class="smallsponsors">
 {% for sponsorlevel in site.data.sponsor_levels %}
-	<table width="100%" border="0px" cellpadding="20px" cellspacing="0px">
+	<table width="100%" border="0px" cellpadding="0px" cellspacing="0px">
 		<tr width="100%">
 			<div style="padding-top: 15px; text-align: center;background: {{ sponsorlevel.color }}; color: white; height: 100%"><span><h1>{{ sponsorlevel.level }} Sponsors</h1></span></div>
 		</tr>
@@ -59,16 +65,23 @@ permalink: /sponsor/
 		{% for sponsor in site.data.sponsors %}
 			{% if sponsorlevel.level == sponsor.level %}
 				<tr width="100%" height="200px">
-					<td width="35%">
-						<a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}"></img></a>
-					</td>
-				</tr>
-				<tr>
-					<td width="100%">
-						<h2>{{ sponsor.name }}</h2>
-						{{ sponsor.description }}
-					</td>
-				</tr>
+          <td class="sponsor hoverAnimate" onClick="javascript:location.href='{{ sponsor.link }}'">
+            <table cellpadding="15px" width="100%">
+              <tr>
+                <td width="100%">
+                  <img src="{{ sponsor.logo }}"></img>
+      					</td>
+      				</tr>
+
+              <tr>
+      					<td width="100%">
+      						<h2>{{ sponsor.name }}</h2>
+      						{{ sponsor.description }}
+      					</td>
+      				</tr>
+            </table>
+          </td>
+        </tr>
 			{% endif %}
 		{% endfor %}
 	</table>

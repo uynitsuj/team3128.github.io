@@ -1,14 +1,43 @@
-  - level: "Title"
+  - level: Title
     color: "#2a7ae2"
+    money: "$10,000+"
+    benefits:
+        "<li>Featured as Primary Sponsor for Team at Key Events (FRC Competitions, Off-Season Events)
+         <li>Formal Banquet in honor of sponsor</li>
+         <li>Mentioned in all publications and media interviews</li>
+         <li>Company logo on website, robot, and team shirts.</li>
+         <li>Company logo displayed at team pit-area table.</li>
+         <li>Personalized thank you plaque from team.</li>
+         <li>Personal demonstration of robot at sponsor facility.</li>
+         <li>50 team buttons & wristbands</li>"
 
   - level: Platinum
     color: "#c2c0bc"
+    money: "$5,000+"
+    benefits:
+        "<li>Company logo on website, robot, and team shirts.</li>
+        <li>Company logo displayed at team pit-area table.</li>
+        <li>Personalized thank you plaque from team.</li>
+        <li>Personal demonstration of robot at sponsor facility.</li>
+        <li>50 team buttons & wristbands</li>"
 
   - level: Gold
     color: gold
+    money: "$2,500+"
+    benefits:
+      "<li>Company logo on website, robot, and team shirts.</li>
+       <li>Personalized thank you plaque from team.</li>
+       <li>50 team buttons & wristbands</li>"
 
   - level: Silver
     color: grey
+    money: "$1,000"
+    benefits:
+      "<li>Company logo on website, robot, and team shirts.</li>
+      <li>50 team buttons & wristbands</li>"
 
   - level: Bronze
     color: "#CD7F32"
+    money: "$500+"
+    benefits:
+      "<li>Company logo on website, robot, and team shirts.</li>"

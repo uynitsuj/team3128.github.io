@@ -12,20 +12,20 @@ All of your donations to the Aluminum Narwhals are tax deductible. If you would 
 We love what we do, and we wish we could achieve everything we think up. The only problem is that everything we need - electronics, lumber, gear boxes, aluminum, polycarbonate, coaching, travel - costs money. That's why we need you; with your donation, we are able to realize our dreams and learn valuable skills.
 
 <table width="100%" cellpadding="5px">
-<tr>
-<td width="50%">
-<div class="newbutton hoverAnimate" style="text-align: center;" onClick="javascript:location.href='/resources/team-info/TeamInfoPacket.pdf'">
-	Team Info Packet (.pdf)
-</div>
-</td>
-<td width="50%">
-<div class="newbutton hoverAnimate" style="text-align: center;" onClick="javascript:location.href='/about/budget/'">
-	Learn more about why we need donations
-</div>
-</td>
-</tr>
+	<tr>
+		<td width="50%">
+			<div class="newbutton hoverAnimate" style="text-align: center;" onClick="javascript:location.href='/resources/team-info/TeamInfoPacket.pdf'">
+				Team Info Packet (.pdf)
+			</div>
+		</td>
+		<td width="50%">
+			<div class="newbutton hoverAnimate" style="text-align: center;" onClick="javascript:location.href='/about/budget/'">
+				Learn more about why we need donations
+			</div>
+		</td>
+	</tr>
 </table>
-<p />
+
 
 ### How to donate:
 + Use our [online form](http://weblink.donorperfect.com/QuestRobotics) to make a donation directly to our team
@@ -37,72 +37,38 @@ We love what we do, and we wish we could achieve everything we think up. The onl
 All of our donors are incredibly important to us. We recognize all of our donor in accordance with their giving level.
 For additional benefits, see the [CCA Foundation Giving Levels]("http://www.canyoncrestfoundation.org/recognition/giving-levels-and-donor-premiums")
 
-<table width="100%" border="0" cellpadding="10" cellspacing="0">
+<table class="levels" width="100%" border="0" cellpadding="10" cellspacing="0">
+{% for level in site.data.sponsor_levels %}
   <tr>
-    <td bgcolor="#2a7ae2" align="center">
-      <b><font color="white" size="40px">Title</font></b>
+    <td bgcolor="{{ level.color }}" align="center">
+      <b><font color="white" size="40px">{{ level.level }}</font></b>
       <br>
-      <font color="white">$10,000+</font>
+      <font color="white">{{ level.money }}</font>
     </td>
     <td>
       <ul>
-         <li>Featured as Primary Sponsor for Team at Key Events (FRC Competitions, Off-Season Events)          <li>Formal Banquet in honor of sponsor</li>         <li>Mentioned in all publications and media interviews</li>         <li>Company logo on website, robot, and team shirts.</li>         <li>Company logo displayed at team pit-area table.</li>         <li>Personalized thank you plaque from team.</li>         <li>Personal demonstration of robot at sponsor facility.</li>         <li>50 team buttons & wristbands</li>
+         {{ level.benefits }}
       </ul>
     </td>
   </tr>
+	{% endfor %}
+</table>
+
+<table class="mobilelevels" width="100%" border="0" cellpadding="10" cellspacing="0">
+{% for level in site.data.sponsor_levels %}
   <tr>
-    <td bgcolor="#c2c0bc" align="center">
-      <b><font color="white" size="40px">Platinum</font></b>
+    <td bgcolor="{{ level.color }}" align="center">
+      <b><font color="white" size="40px">{{ level.level }}</font></b>
       <br>
-      <font color="white">$5,000+</font>
+      <font color="white">{{ level.money }}</font>
     </td>
+	</tr>
+	<tr>
     <td>
       <ul>
-        <li>Company logo on website, robot, and team shirts.</li>
-        <li>Company logo displayed at team pit-area table.</li>
-        <li>Personalized thank you plaque from team.</li>
-        <li>Personal demonstration of robot at sponsor facility.</li>
-        <li>50 team buttons & wristbands</li>
+         {{ level.benefits }}
       </ul>
     </td>
   </tr>
-  <tr>
-    <td bgcolor="gold" align="center">
-      <b><font color="white" size="40px">Gold</font></b>
-      <br>
-      <font color="white">$2,500+</font>
-    </td>
-    <td>
-      <ul>
-        <li>Company logo on website, robot, and team shirts.</li>
-        <li>Personalized thank you plaque from team.</li>
-        <li>50 team buttons & wristbands</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td bgcolor="grey" align="center">
-      <b><font color="white" size="40px">Silver</font></b>
-      <br>
-      <font color="white">$1,000+</font>
-    </td>
-    <td>
-      <ul>
-        <li>Company logo on website, robot, and team shirts.</li>
-        <li>50 team buttons & wristbands</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td bgcolor="CD7F32" align="center">
-      <b><font color="white" size="40px">Bronze</font></b>
-      <br>
-      <font color="white">$500+</font>
-    </td>
-    <td>
-      <ul>
-        <li>Company logo on website, robot, and team shirts.</li>
-      </ul>
-    </td>
-  </tr>
+	{% endfor %}
 </table>
