@@ -59,9 +59,9 @@ body {
 }
 
 .hoverAnimate {
-  transition: background .15s ease-in-out;
-  -moz-transition: background .15s ease-in-out;
-  -webkit-transition: background .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -webkit-transition: all .15s ease-in-out;
 }
 
 .shadow {
@@ -102,6 +102,33 @@ body {
 
 .sponsor:hover {
   background: #efefef;
+  cursor: pointer;
+}
+
+.crossed {
+  text-decoration: line-through;
+  color: #d1d1d1;
+}
+
+.circle {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  vertical-align: middle;
+
+  clip-path: circle(60px at center);
+  -webkit-clip-path: circle(60px at center);
+}
+
+.circle.expanded {
+  clip-path: circle(70px at center);
+  -webkit-clip-path: circle(70px at center);
+}
+
+.circle:hover {
+  clip-path: circle(70px at center);
+  -webkit-clip-path: circle(70px at center);
+
   cursor: pointer;
 }
 
@@ -349,12 +376,6 @@ body {
   cursor: pointer;
 }
 
-.hoverAnimateImage {
-  transition: img .25s ease-in-out;
-  -moz-transition: img .25s ease-in-out;
-  -webkit-transition: img .25s ease-in-out;
-}
-
 #pagesdiv {
   overflow: hidden;
 }
@@ -509,8 +530,6 @@ body {
   text-align: center;
 
   -webkit-transition: 0.15s ease-in-out;
-  -moz-transition: 0.15s ease-in-out;
-  -o-transition: 0.15s ease-in-out;
   transition: 0.15s ease-in-out;
 
   background: rgba(0, 0, 0, 0.65);
@@ -554,7 +573,7 @@ body {
 
 /* MARK: END CSS FOR HOMEPAGE */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 830px) {
   .levels {
     display: none;
   }
@@ -563,7 +582,7 @@ body {
   }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 830px) {
   .levels {
     display: table;
   }
