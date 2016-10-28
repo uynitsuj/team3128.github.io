@@ -9,11 +9,10 @@
   <body>
 
     {% include header.html %}
-
+    <img id="pageimage" src="/resources/page_headers/standard.jpeg"></img>
     <div class="page-content">
       {% if page.showtitle != false %}
       <div>
-        <img id="pageimage" src="/resources/page_headers/standard.jpeg"></img>
         <div id="page-header" class="page-heading" style="background: rgba(0,0,0,.55); width: 100%; position: relative; left: 0px;">
           {% if page.subtitle %}
           <div class="subpagewrapper" style="padding-left: 20px;">

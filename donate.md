@@ -35,7 +35,8 @@ We love what we do, and we wish we could achieve everything we think up. The onl
 
 ### Donation Levels
 All of our donors are incredibly important to us. We recognize all of our donor in accordance with their giving level.
-For additional benefits, see the [CCA Foundation Giving Levels]("http://www.canyoncrestfoundation.org/recognition/giving-levels-and-donor-premiums")
+For additional benefits, see the [CCA Foundation Giving Levels](http://www.canyoncrestfoundation.org/recognition/giving-levels-and-donor-premiums).
+
 
 <script>
 function toggle(level) {
@@ -61,7 +62,9 @@ $( document ).ready(function() {
 });
 </script>
 
-<table class="levels" width="100%" border="0" cellpadding="10" cellspacing="0">
+<div class="levels">
+<div style="text-align: center;"><i>Click one of the donation levels below to learn about the benefits.</i></div>
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
 	<tr>
 	{% for level in site.data.sponsor_levels %}
 	    <td width="172px" height="152px" align="center" class="circle hoverAnimate" id="{{ level.level }}" style="background: {{ level.color }};" onClick='toggle("{{ level.level }}")'>
@@ -73,7 +76,6 @@ $( document ).ready(function() {
 	</tr>
 </table>
 
-<div class="levels">
 {% for level in site.data.sponsor_levels %}
 	<table id="{{ level.level }}info" style="display: none;" width="100%" border="0" cellpadding="10" cellspacing="0">
 		<tr>

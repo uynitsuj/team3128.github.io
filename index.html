@@ -32,36 +32,34 @@ title: Aluminum Narwhals
       </tr>
     </table>
 
-    <table id="tiny" cellpadding="0px" style="background: #e6e6e6; color: black">
+    <table id="tiny" cellpadding="0px" style="background: grey; color: black">
       <tr cellpadding="0px">
         <td cellpadding="0px">
           <table width="100%">
             <tr width="100%">
               <td align="center">
                 <div height="100%" width="100%">
-                  <h2 id="center-text">Check out what's going on...</h2>
+                  <h2 style="color: white;" id="center-text">Check out what's going on...</h2>
                 </div>
               </td>
             </tr>
           </table>
 
-          <table cellpadding="5px" cellspacing="5px" width="100%">
+          <table cellpadding="15px" cellspacing="10px" width="100%">
             {% for card in site.data.cards %}
               <tr>
-                <td>
-                  <img width="100%" src="{{ card.fullImage }}"></img>
-                </td>
-              </tr>
-              <tr>
-                <td style="vertical-align: top;" width="25%" height="100%">
+                <td onClick="javascript:location.href='{{ card.link }}'" class="indexpost hoverAnimate" width="33%" style="vertical-align: top; padding: 10px;" width="25%" height="100%">
                   <div style="vertical-align: text-top;">
-                      <h3><a href="{{ card.link }}">{{ card.title }}</a></h3>
-                      {{ card.info }}
+                    <h3>{{ card.title }}</h3>
+                    <img width="100%" src="{{ card.fullImage }}" />
+                    <br><br>
+                    {{ card.info }}
                   </div>
                 </td>
               </tr>
             {% endfor %}
           </table>
+
         </td>
       </tr>
     </table>
@@ -80,7 +78,7 @@ title: Aluminum Narwhals
           <table width="100%">
             <tr width="100%">
               <td style="vertical-align: top; width: 80px;">
-                <img src="/resources/graphics/quote.png" style="margin-right: 10px; margin-left:10px; margin-top:10px; margin-bottom:35px"></img>
+                <img src="/resources/graphics/quote.png" style="margin-right: 10px; margin-left:10px; margin-top:10px; margin-bottom:35px; opacity: .35"></img>
               </td>
               <td style="vertical-align: top;">
                 <h4 style="margin-right: 10px; margin-left:20px; margin-top:35px; margin-bottom:35px"><i>Our mission is to provide a positive high school team experience through robotics while inspiring intellectual creativity, fostering a passion for science, technology, and engineering, and developing critical thinking, problem solving and team building skills.</i></h4>

@@ -6,9 +6,21 @@
   background: white;
 }
 
+a {
+  transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -webkit-transition: all .15s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 body {
   background-repeat: no-repeat;
   background-position: left 0px;
+
+  position: static;
 }
 
 @media screen and (min-width: 1600px) {
@@ -22,6 +34,19 @@ body {
     background-size: 1600px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  #pageimage {
+    min-width: 600px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #pageimage {
+    min-width: 100%;
+  }
+}
+
 
 .titleblue {
   background: #0078AD;
@@ -88,7 +113,7 @@ body {
   padding-top: 25px;
   padding-right: 15px;
   padding-left: 15px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 .indexpost:hover {
