@@ -11,7 +11,6 @@ Each year our team gathers a group of dedicated students to take a couple days o
 
 This year’s trip is to the [Sacramento Regional](https://www.thebluealliance.com/event/2017cada). The following documents have been provided for your convenience. Please know that the all of the following is tentative and subject to change. Make sure to follow our [updates feed](/students/updates/) to see any changes that might be made.
 
-// + Frequently Asked Questions (TBD)
 + Trip Itinerary (TBA)
 + Travel Team Commitment Form (TBA)
 + Field Trip Permission Form (TBA)
