@@ -2,10 +2,6 @@
   background: white;
 }
 
-.wrap {
-  background: white;
-}
-
 a {
   transition: all .15s ease-in-out;
   -moz-transition: all .15s ease-in-out;
@@ -35,13 +31,13 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #pageimage {
-    min-width: 600px;
+    min-width: 800px;
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   #pageimage {
     min-width: 100%;
   }
@@ -573,18 +569,6 @@ body {
   position: relative;
   left: 0px;
   right: 0px;
-}
-
-.newbutton {
-  align: center;
-  padding: 5px;
-  color: white;
-  background: #1b3a98;
-}
-
-.newbutton:hover {
-  background: #2653d9;
-  cursor: pointer;
 }
 
 .indexpost {
