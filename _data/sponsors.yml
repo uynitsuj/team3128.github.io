@@ -10,6 +10,12 @@
    logo: /resources/sponsorlogos/viasat.png
    link: http://viasat.com
 
+ - level: Platinum
+   name: Nordson Asymtek
+   description: Nordson Asymtek is a Carlsbad based company that specializes in precision manufacturing of electronics using advanced fluid-dispensing systems.
+   logo: /resources/sponsorlogos/nordsonasymtek.png
+   link: http://nordson.com/en/divisions/asymtek
+
  - level: Gold
    name: Leidos
    description: Leidos is one of the largest defense contractors, and provides scientific, engineering, systems integration, and technical services. Founded in La Jolla, Leidos works with the Department of Defense, the Department of Homeland Security, and the National Security Agency.
