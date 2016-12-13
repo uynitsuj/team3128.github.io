@@ -1,4 +1,9 @@
  - level: Platinum
+   name: Gene Haas Foundation
+   description: Founded by Gene Haas in the early 2000s, the Gene Haas Foundation has provided charitable donations to many groups, including STEM organizations in San Diego.
+   logo: /resources/sponsorlogos/genehaas.png
+
+ - level: Platinum
    name: National Aeronautics and Space Administration
    description: NASA is the American agency responsible for space and atmospheric flight research. American space exploration, astrophysics research, maintenance of the International Space Station, and military research are all conducted by NASA.
    logo: /resources/sponsorlogos/NASA.png
