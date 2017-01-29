@@ -16,7 +16,7 @@ During the 2010 competition season, our team entered brand new and won the Rooki
 
 We grew for the next 6 years, developing our [Robotics Summer Camp](/camp/), a week-long session for students grades 1 through 8 to design, build, and program their very own robots over the summer.
 
-<img src="/resources/cantstopwontstopwinning.jpg" class="leftimage">
+<img src="/assets/cantstopwontstopwinning.jpg" class="leftimage">
 
 All of our hard work paid off in the 2016 competition season. We put all of our time and effort into constructing a robust, able robot for FIRST Stronghold, a challenge that involved overcoming obstacles and scoring dodgeballs into goals. With the culmination of enthusiastic mentors' support, skilled drive, mechanical, strategy, electronics, programming, and outreach teams, and over 3000 hours of effort, we were able to win the Engineering Inspiration Awards and a $5,000 dollar sponsorship from NASA to attend the FRC Worlds Tournament in April of 2016.
 
@@ -28,7 +28,7 @@ All of our hard work paid off in the 2016 competition season. We put all of our 
   <tr style="width: 100%;">
     <td style="vertical-align: top; text-align: center; width: 50%; padding-right: 10px; padding-left: 10px;">
       <h4>Member Gender Demographics</h4>
-      <img src="/resources/team-info/gender-demographics.png" />
+      <img src="/assets/team-info/gender-demographics.png" />
       <p />
 
       <div style="background: #01C701; color: white; font-size: 20px; padding: 5px;">Males</div>
@@ -36,7 +36,7 @@ All of our hard work paid off in the 2016 competition season. We put all of our 
     </td>
     <td style="vertical-align: top; text-align: center; width: 50%; padding-right: 10px; padding-left: 10px;">
       <h4>Member Grade Level Demographics</h4>
-      <img src="/resources/team-info/grade-demographics.png" />
+      <img src="/assets/team-info/grade-demographics.png" />
       <p />
 
       <div style="background: #0096FF; color: white; font-size: 20px; padding: 5px;">Freshmen</div>

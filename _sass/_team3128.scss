@@ -230,6 +230,10 @@ body {
   width: $sidebar-width;
 }
 
+.contentdiv {
+  width: $content-width;
+}
+
 .subtab:hover {
   cursor: pointer;
   background: #efefef;
@@ -314,22 +318,22 @@ body {
 }
 
 #mail:hover {
-  content: url(/resources/header/social/mail-selected.png);
+  content: url(/assets/header/social/mail-selected.png);
   cursor: pointer;
 }
 
 #facebook:hover {
-  content: url(/resources/header/social/facebook-selected.png);
+  content: url(/assets/header/social/facebook-selected.png);
   cursor: pointer;
 }
 
 #github:hover {
-  content: url(/resources/header/social/github-selected.png);
+  content: url(/assets/header/social/github-selected.png);
   cursor: pointer;
 }
 
 #instagram:hover {
-  content: url(/resources/header/social/instagram-selected.png);
+  content: url(/assets/header/social/instagram-selected.png);
   cursor: pointer;
 }
 

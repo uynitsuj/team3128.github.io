@@ -14,7 +14,7 @@ We love what we do, and we wish we could achieve everything we think up. The onl
 <table width="100%" cellpadding="5px">
 	<tr>
 		<td width="50%">
-			<div class="newbutton hoverAnimate" style="text-align: center;" onClick="javascript:location.href='/resources/team-info/TeamInfoPacket.pdf'">
+			<div class="newbutton hoverAnimate" style="text-align: center;" onClick="javascript:location.href='/assets/team-info/TeamInfoPacket.pdf'">
 				Team Info Packet (.pdf)
 			</div>
 		</td>

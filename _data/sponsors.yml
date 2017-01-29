@@ -1,47 +1,47 @@
  - level: Platinum
    name: Gene Haas Foundation
    description: Founded by Gene Haas in the early 2000s, the Gene Haas Foundation has provided charitable donations to many groups, including STEM organizations in San Diego.
-   logo: /resources/sponsorlogos/genehaas.png
+   logo: /assets/sponsorlogos/genehaas.png
    link: http://ghaasfoundation.org
 
  - level: Platinum
    name: National Aeronautics and Space Administration
    description: NASA is the American agency responsible for space and atmospheric flight research. American space exploration, astrophysics research, maintenance of the International Space Station, and military research are all conducted by NASA.
-   logo: /resources/sponsorlogos/NASA.png
+   logo: /assets/sponsorlogos/NASA.png
    link: http://nasa.gov
 
  - level: Platinum
    name: ViaSat
    description: ViaSat Inc. is a San Diego-based provider of satellite wireless and broadband services, infrastructure, and technology. They provide satellite internet servies to consumers, businesses, governments, and military worldwide.
-   logo: /resources/sponsorlogos/viasat.png
+   logo: /assets/sponsorlogos/viasat.png
    link: http://viasat.com
 
  - level: Platinum
    name: Nordson Asymtek
    description: Nordson Asymtek is a Carlsbad based company that specializes in precision manufacturing of electronics using advanced fluid-dispensing systems.
-   logo: /resources/sponsorlogos/nordsonasymtek.png
+   logo: /assets/sponsorlogos/nordsonasymtek.png
    link: http://nordson.com/en/divisions/asymtek
 
  - level: Gold
    name: Leidos
    description: Leidos is one of the largest defense contractors, and provides scientific, engineering, systems integration, and technical services. Founded in La Jolla, Leidos works with the Department of Defense, the Department of Homeland Security, and the National Security Agency.
-   logo: /resources/sponsorlogos/leidos.png
+   logo: /assets/sponsorlogos/leidos.png
    link: http://leidos.com
 
  - level: Gold
    name: Solidworks
    description: Solidworks is a Computer Aided Design program created by Dassault Systems that allows organizations of all industries to model in 3D. Additionally, FRC teams such as our own are provided with Solidworks licenses in order to design our robots.
-   logo: /resources/sponsorlogos/solidworks.png
+   logo: /assets/sponsorlogos/solidworks.png
    link: http://www.3ds.com/products-services/solidworks/
 
  - level: Gold
    name: Qualcomm
    description:	Qualcomm is an American technology company that specializes in semiconductors and telecommunications. Qualcomm designs and produces technology such as WiFi Platforms, Cellular Networking Devices, and Mobile Proccessors that are applied over numerous industries.
-   logo: /resources/sponsorlogos/qualcomm.png
+   logo: /assets/sponsorlogos/qualcomm.png
    link: http://qualcomm.com
 
  - level: Silver
    name: Lockheed Martin
    description: Lockheed Martin is an American aerospace, defense, security, and advanced technologies company that operates globally and is contracted by the United States Department of Defense.
-   logo: /resources/sponsorlogos/lockheedmartin.png
+   logo: /assets/sponsorlogos/lockheedmartin.png
    link: http://www.lockheedmartin.com/

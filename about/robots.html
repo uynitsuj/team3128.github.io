@@ -8,7 +8,7 @@ permalink: /about/robots/
   {% for item in site.data.our-robots %}
     <tr width="100%">
       <td style="text-align: left; vertical-align: top; background: {% if item.color == 0 %} white {% else %} #efefef {% endif %}; padding: 15px">
-        <img width="35%" style="float: left; margin-right: 20px; margin-bottom: 0px;" src="/resources/robots/{{ item.year }}.png"></img>
+        <img width="35%" style="float: left; margin-right: 20px; margin-bottom: 0px;" src="/assets/robots/{{ item.year }}.png"></img>
         <h3>"{{ item.name }}"</h3>
         <a href="{% if item.year == 2016 %} http://www.firstinspires.org/resource-library/frc/competition-manual-qa-system {% else %}http://www.firstinspires.org/resource-library/frc/archived-game-documentation{% endif %}"><h4 style="margin-top: -15px; margin-bottom: 5px;">{{ item.year }} FRC Game: {{ item.game }}</h4></a>
         {{ item.description }}
