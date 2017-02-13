@@ -20,10 +20,10 @@ Even if you’re not part of the competition team, workshop hours still do count
 
 #### Subteam Updates:
 
-**Mechanical:** *(drafted by Christian Cooper)*  
+**Mechanical:** *(drafted by Christian C.)*  
 “This week has been a bit slow for mechanical due to many people being sick and prototyping slowing down.  Not much has been going on other than CAD, but CAD is almost complete with just a few details needing to be added here and there. We are a little behind, but everything is starting to catch back up.”
 
-**Controls:** *(developed by Jamie Smith)*  
+**Controls:** *(developed by Jamie S.)*  
 “This week in controls, we continued helping Mechanical prototype components for the robot. With the installation of a 3:1 gearbox on the new shooter prototype, we can now control its speed precisely using a feedback loop. We were able to score balls with 2/3 accuracy using this setup, and we might be able to increase that even further on the actual robot since it has tighter tolerances. We also organized all of the robot electronics parts into bins on the parts array.  Lastly, the attendance scanner broke on Wednesday this week because someone yanked on the cord and damaged the power port on the Raspberry Pi. It's been patched for now with a liberal application of VHB tape, but please be careful with it in the future.”
 
 

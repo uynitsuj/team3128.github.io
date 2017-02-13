@@ -22,19 +22,19 @@ Remember to keep signing both in and out every meeting you attend. Every minute 
 
 #### Subteam Updates, Written by Our Heads:
 
-**Mechanical:** *(drafted by our beloved Christian Cooper)*  
+**Mechanical:** *(drafted by our beloved Christian C.)*  
 This has, no doubt, been a hectic week for mechanical. With the challenge having been released this last Saturday, there have been a plethora of things to do. The whole mechanical division had to split up to tackle individual tasks, the biggest of which being field construction. Our construction team has started building the field for this year’s competition so we would have something to test the robot on. Everyone else in mechanical has also been hard at work as well, whether it be on prototyping new mechanisms, such as the shooter, or CAD’ing (Computer Aided Designing) the robot in Solidworks. The teams that worked on different mechanisms in mechanical are climbing, headed by Sam Reissmann and Kiran Raj; gear manipulation, lead by Jannie Yu, Raylen Li, and Orson Wang; shooter being lead by Joshua Fuller; and finally drivetrain and chassis being headed by myself.
 
-**Controls:** *(developed by Master Jamie Smith)*  
+**Controls:** *(developed by Master Jamie S.)*  
 This week, we've been hard at work helping Mechanical prototype components for the final robot. Our first task was to handle FIRST's changes to the FRC programming environment, and I'm happy to report that both real robots and the simulator are working again. We've also been experimenting with using an encoder to control the speed of the shooter wheel in order to make our shots more consistent, and have gotten some promising results! Finally, we've been planning out our autonomous programs, and adapting our vision system to support this year's game. Next week, once Mechanical finalizes the robot's design, we'll start planning the wiring and writing the code for real. We've got plenty of time to do that though, so coming up is the calm before the storm of testing and debugging.
 
-**Strategy:** *(formulated by our Marquis de Stratege, Daniel Bruce)*  
+**Strategy:** *(formulated by our Marquis de Stratege, Daniel B.)*  
 Over the past week, strategy has assembled a comprehensive priority list and set of match strategies. These strategies are currently being compiled into book format for later use during competition. We are moving to analyzing the teams that will be competing against us in San Diego and Sacramento and will transition to preparing scouting tools in about a week. Throughout the week, we have also gone over rules and will continue to do so in subsequent weeks.
 
-**Business:** *(reported by Madame Jannie Yu)*  
+**Business:** *(reported by Madame Jannie Y.)*  
 Now that build season is finally up and in full gear, business is shifting to update the team’s marketing resources. Our main objective during this week was to revamp our official business plan to reflect on our most recent outreach projects and changes that we made to the structure of the team. The business plan condenses our team’s objectives, organization, financial plan, and much more into one booklet for judges and potential sponsors during competition events. We have also finalized our competition t-shirt design and will be ordering them soon in the following weeks. In subsequent months, business plans to heavily collaborate with mechanical to increase the visibility of robot performance & design to spectators and with submissions to assist with our Chairman’s Award preparation.
 
-**Submissions:** *(authored by Head of Submissions, Sarah Cheney)*  
+**Submissions:** *(authored by Head of Submissions, Sarah C.)*  
 For the past few weeks, we have finalized the Chairman’s long essay. We are reviewing the Chairman’s short essays and Entrepreneurship Award as well. We have finalized the script and questions for the Chairman’s video coming up. We are brainstorming ideas for the Chairman’s presentation and will be starting on Woodie Flowers soon!
 
 
