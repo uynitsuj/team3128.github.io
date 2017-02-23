@@ -36,7 +36,7 @@ layout: default
         }
       </script>
 
-      <table id="maincontenttable" style="background:white; z-index: 1; position: relative;" cellpadding="0px" cellspacing="0px" width="100%">
+      <table style="background:white; z-index: 1; position: relative;" cellpadding="0px" cellspacing="0px" width="100%">
         <tr cellpadding="0px">
           <td class="sidebar-td" style="vertical-align: top; padding: 0px; background: #bfbfbf;">
             <table id="tabbar" cellspacing="0px" cellpadding="10px">
@@ -85,9 +85,10 @@ layout: default
                     {% endif %}
                   {% endfor %}
                 </table>
-                </div>
-                <div class="tabline"></div>
-                {{ content }}
+              </div>
+              <div class="tabline"></div>
+              {{ content }}
+
               </div>
             </td>
           </tr>
