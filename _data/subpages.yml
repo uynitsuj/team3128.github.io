@@ -21,7 +21,7 @@
 - title: Budget
   permalink: /about/budget/
   directory: About
-  
+
 - title: FAQ
   permalink: /parents/faq/
   directory: Parents
@@ -61,3 +61,7 @@
 - title: Updates
   permalink: /students/updates/
   directory: Students
+
+- title: Home
+  permalink: /resources/
+  directory: Resources

@@ -1,23 +1,23 @@
 - title: We Aren't Quite Finished...
   link: /students/
-  imageSource: /assets/homepage/teamsignups.jpeg
-  fullImage: /assets/homepage/teamsignups-full.jpeg
-  info: Build Season may have just wrapped up, but there's still a lot more year left ahead of us. Check out our students page to learn more about how to get invloved.
+  imageSource: /assets/homepage/join.jpeg
+  fullImage: /assets/homepage/join-full.jpeg
+  info: Build Season may have just wrapped up, but there's still a lot more left to do. Check out our students page to learn more about how to get invloved.
 
-- title: 2016-17 Dates Updated
-  link: /students/calendar/
-  imageSource: /assets/homepage/fallworkshops.jpeg
-  fullImage: /assets/homepage/fallworkshops-full.jpeg
-  info: The calendar for the 2016-17 year has been updated. Check out the calendar to see how to get involved this year, as well as be aware of important dates.
-
-- title: Donate Now
-  link: /donate/
-  imageSource: /assets/homepage/calendar.jpeg
-  fullImage: /assets/homepage/calendar-full.jpeg
-  info: Be a part of creating an amazing STEM based program for our students. Every donation enables us to engage and inspire our students to pursue their passions in science, technology, engineering, and math.
+- title: Giving Back to the Community
+  link: /outreach/
+  imageSource: /assets/homepage/outreach.jpeg
+  fullImage: /assets/homepage/outreach-full.jpeg
+  info: Our team may focus a lot on engineering, there's a lot more to robotics than just robots. Check out some of the work we do in our local area to inspire others to persure learning in STEM.
 
 - title: Robotics Summer Camp
   link: /camp/
   imageSource: /assets/homepage/camp.jpeg
   fullImage:  /assets/homepage/camp-full.jpeg
   info: Interested in our 2017 Robotics Summer Camp? Let us know over at our camp site.
+
+- title: Donate Now
+  link: /donate/
+  imageSource: /assets/homepage/calendar.jpeg
+  fullImage: /assets/homepage/calendar-full.jpeg
+  info: Be a part of creating an amazing STEM-based program for our students. Every donation enables us to engage and inspire our students to pursue their passions in science, technology, engineering, and math.
