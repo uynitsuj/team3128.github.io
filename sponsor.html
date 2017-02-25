@@ -59,6 +59,7 @@ permalink: /sponsor/
 
 <div class="smallsponsors">
 {% for sponsorlevel in site.data.sponsor_levels %}
+{% if sponsorlevel.show == "yes" %}
 	<table width="100%" border="0px" cellpadding="0px" cellspacing="0px">
 		<tr width="100%">
 			<div style="padding-top: 15px; text-align: center;background: {{ sponsorlevel.color }}; color: white; height: 100%"><span><h1>{{ sponsorlevel.level }} Sponsors</h1></span></div>
@@ -87,6 +88,7 @@ permalink: /sponsor/
 			{% endif %}
 		{% endfor %}
 	</table>
+{% endif %}
 {% endfor %}
 </div>
 

@@ -5,12 +5,6 @@
    link: http://ghaasfoundation.org
 
  - level: Platinum
-   name: National Aeronautics and Space Administration
-   description: NASA is the American agency responsible for space and atmospheric flight research. American space exploration, astrophysics research, maintenance of the International Space Station, and military research are all conducted by NASA.
-   logo: /assets/sponsorlogos/NASA.png
-   link: http://nasa.gov
-
- - level: Platinum
    name: ViaSat
    description: ViaSat Inc. is a San Diego-based provider of satellite wireless and broadband services, infrastructure, and technology. They provide satellite internet servies to consumers, businesses, governments, and military worldwide.
    logo: /assets/sponsorlogos/viasat.png
