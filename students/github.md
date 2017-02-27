@@ -9,9 +9,8 @@ permalink: /students/github/
 
 Team 3128 has an organization GitHub account, which allows all of the members and mentors to collaborate and view all shared repositories.
 
-## Joining
+#### Info Repository
+On our GitHub account, we have an info repository, and the wiki there contains all the necessary information for members and mentors. You don't need a GitHub account to view it, and you can get to it by going to our organization account or [here](https://github.com/Team3128/info/wiki).
 
-TBA
-
-<br>
-<br>
+#### Joining GitHub
+If you would like to contribute to our code, create a GitHub account and ask a mentor, President, or Head of Controls for an invite to join our team's organization.
