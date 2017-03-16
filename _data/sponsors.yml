@@ -3,6 +3,18 @@
    description: Founded by Gene Haas in the early 2000s, the Gene Haas Foundation has provided charitable donations to many groups, including STEM organizations in San Diego.
    logo: /assets/sponsorlogos/genehaas.png
    link: http://ghaasfoundation.org
+   
+ - level: Platinum
+   name: Leidos
+   description: Leidos is one of the largest defense contractors, and provides scientific, engineering, systems integration, and technical services. Founded in La Jolla, Leidos works with the Department of Defense, the Department of Homeland Security, and the National Security Agency.
+   logo: /assets/sponsorlogos/leidos.png
+   link: http://leidos.com
+
+ - level: Silver
+   name: Lockheed Martin
+   description: Lockheed Martin is an American aerospace, defense, security, and advanced technologies company that operates globally and is contracted by the United States Department of Defense.
+   logo: /assets/sponsorlogos/lockheedmartin.png
+   link: http://www.lockheedmartin.com/
 
  - level: Platinum
    name: ViaSat
@@ -17,12 +29,6 @@
    link: http://nordson.com/en/divisions/asymtek
 
  - level: Gold
-   name: Leidos
-   description: Leidos is one of the largest defense contractors, and provides scientific, engineering, systems integration, and technical services. Founded in La Jolla, Leidos works with the Department of Defense, the Department of Homeland Security, and the National Security Agency.
-   logo: /assets/sponsorlogos/leidos.png
-   link: http://leidos.com
-
- - level: Gold
    name: Solidworks
    description: Solidworks is a Computer Aided Design program created by Dassault Systems that allows organizations of all industries to model in 3D. Additionally, FRC teams such as our own are provided with Solidworks licenses in order to design our robots.
    logo: /assets/sponsorlogos/solidworks.png
@@ -33,9 +39,3 @@
    description:	Qualcomm is an American technology company that specializes in semiconductors and telecommunications. Qualcomm designs and produces technology such as WiFi Platforms, Cellular Networking Devices, and Mobile Proccessors that are applied over numerous industries.
    logo: /assets/sponsorlogos/qualcomm.png
    link: http://qualcomm.com
-
- - level: Silver
-   name: Lockheed Martin
-   description: Lockheed Martin is an American aerospace, defense, security, and advanced technologies company that operates globally and is contracted by the United States Department of Defense.
-   logo: /assets/sponsorlogos/lockheedmartin.png
-   link: http://www.lockheedmartin.com/
