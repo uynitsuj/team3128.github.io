@@ -43,7 +43,7 @@
   - level: Silver
     color: grey
     money: "$1,000"
-    show: "yes"
+    show: "no"
     benefits:
       "<text class='crossed'><li>Featured as Primary Sponsor for Team at Key Events (FRC Competitions, Off-Season Events)</li></text>
        <text class='crossed'><li>Formal Banquet in honor of sponsor</li></text>
