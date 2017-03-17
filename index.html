@@ -19,7 +19,7 @@ title: Aluminum Narwhals
                         <span style="text-align:center;display:inline-block;vertical-align: bottom;"><h2 class="cardTitle">{{ card.title }}</h2></span>
                       </td>
                       <td style="text-align: right" height="100%" width="60%">
-                        <span style="display:inline-block;vertical-align: bottom;"><h4 class="cardInfoText">{{ card.info }}</h4></span>
+                        <span class="cardInfoText" style="display:inline-block;vertical-align: bottom; font-size: 20px;">{{ card.info }}</span>
                       </td>
                     </tr>
                   </table>
@@ -48,11 +48,11 @@ title: Aluminum Narwhals
           <table cellpadding="15px" cellspacing="10px" width="100%">
             {% for card in site.data.cards %}
               <tr>
-                <td onClick="javascript:location.href='{{ card.link }}'" class="indexpost hoverAnimate" width="33%" style="vertical-align: top; padding: 10px;" width="25%" height="100%">
+                <td onClick="javascript:location.href='{{ card.link }}'" class="indexpost hover_animate" width="33%" style="vertical-align: top; padding: 10px;" width="25%" height="100%">
                   <div style="vertical-align: text-top;">
                     <h3>{{ card.title }}</h3>
-                    <img width="100%" src="{{ card.fullImage }}" />
-                    <br><br>
+                    <img width="100%" class="small_card_image hover_animate" src="{{ card.fullImage }}" />
+                    <br>
                     {{ card.info }}
                   </div>
                 </td>
@@ -66,7 +66,7 @@ title: Aluminum Narwhals
 
     <table style="table-layout:fixed" cellpadding="0px" cellspacing="0px" width="100%">
       <tr width="100%">
-        <td align="center" width="100%" style="padding-right: 15px; padding-left:10px; padding-top:15px;">
+        <td align="center" width="100%" style="padding: 15px;">
           <div width="100%">
             <h4>Team 3128 is a student-run, high-school robotics team from Canyon Crest Academy.</h4>
           </div>
@@ -90,7 +90,7 @@ title: Aluminum Narwhals
 
       <tr width="100%" style="background: #174d82">
         <td>
-          <h1 style="color: white;margin-right: 10px; margin-left:20px; margin-top:15px;">What We Do</h1>
+          <h1 class="headerBar">What We Do</h1>
         </td>
       </tr>
 
@@ -105,7 +105,7 @@ title: Aluminum Narwhals
                 <h2>FIRST Robotics Competiton</h2>
                 Our team competes in the FIRST Robotics Competition, a program created by FIRST - For Recognition and Inspiration of Science and Technology. FIRST's founder Dean Kamen had two goals; one was to make robotics a competitive sport that drove students of all grade levels to strive to build and design amazing machines, but the other was to create a cooperative environment where innovation and creativity could thrive and students could become leaders in science and technology. The FIRST Robotics Competition was created for high school students to build 100-pound robots to form alliances and compete with teams from around the world.
                 <br><br>
-                <div onClick="javascript:location.href='http://www.firstinspires.org/robotics/frc'" align="center"><h4 class="newbutton hoverAnimate">Learn more</h4></div>
+                <div onClick="javascript:location.href='http://www.firstinspires.org/robotics/frc'" align="center"><h4 class="button hover_animate">Learn more</h4></div>
               </td>
             </tr>
           </table>
@@ -120,7 +120,7 @@ title: Aluminum Narwhals
                 <h2>Robotics Summer Camp</h2>
                 Over the Summer, our robotics team runs a 5-week long camp for students grades 1-8. For one week, students get to design, build, program, and drive their very own robots. Our goal as a camp is to create an atmosphere for preteens and middle school students to become aware of and excited about science, technology, engineering and math. We want to provide a safe space where students can explore and become passionate about new subjects that they might desire to pursue in middle school, high school, and possibly throughout the rest of their lives.
                 <br><br>
-                <div onClick="javascript:location.href='/camp/'" align="center"><h4 class="newbutton hoverAnimate">Learn more</h4></div>
+                <div onClick="javascript:location.href='/camp/'" align="center"><h4 class="button hover_animate">Learn more</h4></div>
               </td>
               <td width="25%" class="homeimage">
                 <a href="/camp/"><img src="/assets/homepage/camp.png"></img></a>
@@ -133,7 +133,7 @@ title: Aluminum Narwhals
 
       <tr width="100%" style="background: #174d82">
         <td>
-          <h1 style="color: white;margin-right: 10px; margin-left:20px; margin-top:15px;">Latest Updates</h1>
+          <h1 class="headerBar">Latest Updates</h1>
         </td>
       </tr>
 
@@ -143,18 +143,23 @@ title: Aluminum Narwhals
           <table class="normwidthupdate" style="table-layout:fixed" width="100%" cellspacing="15px" cellpadding="20px">
             <tr width="100%" height="150px">
               {% for post in site.posts limit: 4 %}
-                <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hoverAnimate" width="25%" style="vertical-align: top">
+                <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hover_animate" width="25%" style="vertical-align: top">
                   <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
                   <h4>{{ post.title }}</h4>
                 </td>
               {% endfor %}
+            </tr>
+            <tr width="100%">
+              <td colspan="4" onClick="javascript:location.href='{{ "/students/updates" | prepend: site.baseurl }}'" class="indexpost hover_animate" width="33%" style="text-align: center;vertical-align: middle; padding: 10px;">
+                <h4>See more...</h4>
+              </td>
             </tr>
           </table>
 
           <table class="smallwidthupdate" style="table-layout:fixed" width="100%" cellspacing="15px">
             {% for post in site.posts limit: 4 %}
               <tr width="100%">
-                <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hoverAnimate" width="33%" style="text-align: center;vertical-align: middle; padding-top: 25px; padding-right: 15px; padding-left: 15px; padding-bottom:10px;">
+                <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hover_animate" width="33%" style="text-align: center;vertical-align: middle; padding-top: 25px; padding-right: 15px; padding-left: 15px; padding-bottom:25px;">
                   <span>
                     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
                     <h4>{{ post.title }}</h4>
@@ -162,14 +167,18 @@ title: Aluminum Narwhals
                 </td>
               </tr>
             {% endfor %}
+            <tr width="100%">
+              <td onClick="javascript:location.href='{{ "/students/updates" | prepend: site.baseurl }}'" class="indexpost hover_animate" width="33%" style="text-align: center;vertical-align: middle; padding: 10px;">
+                <h4>See more...</h4>
+              </td>
+            </tr>
           </table>
-
         </td>
       </tr>
 
       <tr>
         <td>
-          <div style="margin-right: 15px; margin-left:15px; margin-top:15px;" onClick="javascript:location.href='{{ "/feed.xml" | prepend: site.baseurl }}'" align="center"><h4 class="newbutton hoverAnimate">Subscribe via RSS</h4></div>
+          <div style="margin: 15px;" onClick="javascript:location.href='{{ "/feed.xml" | prepend: site.baseurl }}'" align="center"><h4 class="button hover_animate">Subscribe via RSS</h4></div>
         </td>
       </tr>
     </table>

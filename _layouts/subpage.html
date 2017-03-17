@@ -44,13 +44,13 @@ layout: default
               {% if subpage.directory == page.title %}
               {% if subpage.title == page.subtitle %}
               <tr>
-                <td class="tab hoverAnimate" style="font-weight: bolder; background: white;vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+                <td class="tab hover_animate" style="font-weight: bolder; background: white;vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
                   <font class="tabtext">{{ subpage.title }}</font>
                 </td>
               </tr>
               {% else %}
               <tr>
-                <td class="tab hoverAnimate" style="vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+                <td class="tab hover_animate" style="vertical-align: middle;" onClick="javascript:location.href='{{ subpage.permalink }}'" >
                     <font class="tabtext">{{ subpage.title }}</font>
                 </td>
               </tr>
@@ -70,7 +70,7 @@ layout: default
           </td>
           <td style="padding: 20px;" style="width: 100%; height: 100%; vertical-align: top;">
             <div class="contentdiv">
-              <div class="hoverAnimate" id="subbutton" onclick="togglesubmenu()" align="center">
+              <div class="hover_animate" id="subbutton" onclick="togglesubmenu()" align="center">
                 <span style="font-size: 40px;">☰</span>
               </div>
               <div id="subdiv">
@@ -78,7 +78,7 @@ layout: default
                   {% for subpage in site.data.subpages %}
                     {% if subpage.directory == page.title %}
                     <tr>
-                      <td class="subtab hoverAnimate" onClick="javascript:location.href='{{ subpage.permalink }}'" >
+                      <td class="subtab hover_animate" onClick="javascript:location.href='{{ subpage.permalink }}'" >
                           {{ subpage.title }}
                       </td>
                     </tr>

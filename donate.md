@@ -14,12 +14,12 @@ We love what we do, and we wish we could achieve everything we think up. The onl
 <table width="100%" cellpadding="5px">
 	<tr>
 		<td width="50%">
-			<div class="newbutton hoverAnimate" style="text-align: center;" onClick="javascript:location.href='/assets/team-info/TeamInfoPacket.pdf'">
+			<div class="button hover_animate" style="text-align: center;" onClick="javascript:location.href='/assets/team-info/TeamInfoPacket.pdf'">
 				Team Info Packet (.pdf)
 			</div>
 		</td>
 		<td width="50%">
-			<div class="newbutton hoverAnimate" style="text-align: center;" onClick="javascript:location.href='/about/budget/'">
+			<div class="button hover_animate" style="text-align: center;" onClick="javascript:location.href='/about/budget/'">
 				Budget
 			</div>
 		</td>
@@ -67,7 +67,7 @@ $( document ).ready(function() {
 <table width="100%" border="0" cellpadding="10" cellspacing="0">
 	<tr>
 	{% for level in site.data.sponsor_levels %}
-	    <td width="172px" height="152px" align="center" class="circle hoverAnimate" id="{{ level.level }}" style="background: {{ level.color }};" onClick='toggle("{{ level.level }}")'>
+	    <td width="172px" height="152px" align="center" class="circle hover_animate" id="{{ level.level }}" style="background: {{ level.color }};" onClick='toggle("{{ level.level }}")'>
 				<div>
 					{{ level.level }}
 				</div>

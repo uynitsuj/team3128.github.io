@@ -35,7 +35,7 @@ permalink: /sponsor/
 		{% for sponsor in site.data.sponsors %}
 			{% if sponsorlevel.level == sponsor.level %}
 				<tr width="100%" height="200px">
-          <td class="sponsor hoverAnimate" onClick="javascript:location.href='{{ sponsor.link }}'">
+          <td class="sponsor hover_animate" onClick="javascript:location.href='{{ sponsor.link }}'">
             <table cellpadding="15px" width="100%">
               <tr>
   					   <td width="35%">
@@ -68,7 +68,7 @@ permalink: /sponsor/
 		{% for sponsor in site.data.sponsors %}
 			{% if sponsorlevel.level == sponsor.level %}
 				<tr width="100%" height="200px">
-          <td class="sponsor hoverAnimate" onClick="javascript:location.href='{{ sponsor.link }}'">
+          <td class="sponsor hover_animate" onClick="javascript:location.href='{{ sponsor.link }}'">
             <table cellpadding="15px" width="100%">
               <tr>
                 <td width="100%">
@@ -100,5 +100,5 @@ By sponsoring our team, you can help our team to continue to realize our dreams 
 <br>
 <br>
 <div onClick="javascript:location.href='/donate/'">
-	<h4 align="center" class="newbutton hoverAnimate">Learn More</h4>
+	<h4 align="center" class="button hover_animate">Learn More</h4>
 </div>
