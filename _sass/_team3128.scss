@@ -3,9 +3,9 @@
 }
 
 a {
-  transition: all .15s ease-in-out;
-  -moz-transition: all .15s ease-in-out;
-  -webkit-transition: all .15s ease-in-out;
+  transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -webkit-transition: all .1s ease-in-out;
 }
 
 a:hover {
@@ -106,10 +106,7 @@ body {
 
   text-align: center;
   vertical-align: middle;
-  padding-top: 25px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 25px;
+  padding: 25px;
 }
 
 .indexpost:hover {
@@ -554,8 +551,8 @@ body {
   display: flex;
   width: 100%;
 
-  -webkit-animation: carousel 30s infinite; /* Chrome, Safari, Opera */
-  animation: carousel 30s infinite;
+  -webkit-animation: carousel 50s infinite; /* Chrome, Safari, Opera */
+  animation: carousel 50s infinite;
 }
 
 .card:hover {
