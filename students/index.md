@@ -9,10 +9,9 @@ Becoming a part of robotics is very easy. There are just a few steps:
 
 1. Sign up on our [team roster](https://docs.google.com/a/team3128.org/forms/d/1VpWMkgvuBatdemjuj_hHUDzjsSfe2zWboS45fhb6Fz8/viewform). This will get you added to our mailing list so you know everything that is going on.
 2. Sign up on [STIMS](https://my.usfirst.org/stims/Login.aspx), our league information manager. This will let you attend tournaments and be involved in official robotics events off-campus. This step requires a parental unit to finish.
-3. Show up! We meet at the Robotics Workshop under the Media Center next to the Nest. You can check out our [calendar](/students/calendar/), build season [schedule](/students/build-seasons/), and [blog updates](/students/updates/) to find out about all the things happening in robotics. You can also [email our leaders](/contact/) to ask any questions you may have.
+3. Show up! We meet at the Robotics Workshop that is located right under the Learning Commons and just past the Nest. It's somewhat hard to miss, with the robots, the stacks of wood, and all of us. You can check out our [calendar](/students/calendar/), build season [schedule](/students/build-seasons/), and [blog updates](/students/updates/) to find out about all the things happening in robotics. You can also [email our leaders](/contact/) to ask any questions you may have.
 4. Like us on [Facebook](https://www.facebook.com/aluminumnarwhals). Announcements, photos, and all sorts of awesome stuff will go out through there as well.
-5. [Join GitHub.](/students/github/) GitHub is the place where all team information, discussion, and collaboration will occur in the future. Any information that the team needs to know can be found on our organization's GitHub, as well as new projects and code.  
-**IMPORTANT: All member information will be posted on the [info repository](https://github.com/Team3128/info/wiki) on the team's GitHub account**
+5. [Join GitHub.](/students/github/) GitHub is the place where all team information, discussion, and collaboration will occur in the future. Any information that the team needs to know can be found on our organization's GitHub, as well as new projects and code. **Useful member information is posted on the [info repository](https://github.com/Team3128/info/wiki) on the team's GitHub account**
 
 ## Growing Your Skills
 
@@ -26,30 +25,30 @@ After you’ve signed up, there are lots of different ways to grow your skills:
 
 If you have any scheduling/team questions, you can also check out our [Frequently Asked Questions](/parents/faq/) page.
 
-## Workshop Hours
-
 <img src="/assets/dank-photos/2.JPG" class="rightimage">
+
+## Workshop Hours
 
 Tracking the time you spend at the workshop is important. Not only is having record of all your hard work and dedication a great college application point, but privileges like slots on our leadership team, competition team, or travel team all require certain minimum hour requirements. Here’s how to get started:
 
 + When you come to the workshop each day, find the Workshop Supervisor and sign in electronically with your Student ID card. You’ll need to talk to them again to sign out.
 + If you forgot/don’t have your Student ID card, fill out our [time log worksheet](/assets//documents/FRC_Time_Log_Workshop.pdf). You can also use this sheet if you remember you forgot to sign in with the Workshop Supervisor.
 
+<img src="/assets/dank-photos/6.JPG" class="leftimage">
+
 ## Team Leadership
 
 Our team is led by a group of elected officials and appointed officers.
-
-<img src="/assets/dank-photos/6.JPG" class="leftimage">
 
 They meet during the monthly Leadership meeting where the leadership, mentors, and project leaders discuss the current happenings of the team.
 
 ### Elected Positions
 
-Our elected leadership is chosen each May by a team vote. Anyone who has been on the team for at least one complete build season can self-nominate for an elected position, to which they will be either be voted on, or appointed to by the elected President. Positions are: President, Vice President, and Chief Financial Officer.
+Our elected leadership is chosen each May by a team vote. Anyone who has been on the team for at least one complete build season can self-nominate for an elected position, to which they will be either be voted on, or appointed to by the elected President.
 
-**Self-Nominations Open:** May 2nd \\
-**Self-Nominations Close:** May 13th \\
-**Election Day:** May 20th
+**Self-Nominations Open:** April 28th  
+**Self-Nominations Close:** May 11th  
+**Election Day:** May 19th
 
 **The President:**
 
@@ -74,7 +73,7 @@ Our leadership team and mentors create appointed positions when needed. Appointe
 + Manages CAD and Design
 + Mediates communication between new and experienced members
 + Ensures that all new members are comfortable with the
-+ Works with Controls to ensure robot functionailty
++ Works with controls to ensure robot functionality
 
 **Head of Controls:**
 
@@ -83,7 +82,7 @@ Our leadership team and mentors create appointed positions when needed. Appointe
 + Ensures that all members know what controls is doing at the moment
 + Mediates communication between new and experienced members
 + Ensures that all new members are comfortable with the team
-+ Works with Mechincals to ensure robot functionailty
++ Works with mechanical to ensure robot functionality
 
 **Head of Business:**
 
@@ -94,7 +93,7 @@ Our leadership team and mentors create appointed positions when needed. Appointe
 + Mediates communication between new and experienced members
 + Ensures that all new members are comfortable with the team
 
-**Head of Awards:**
+**Head of Submissions:**
 
 + Prepares awards submissions
 + Mediates communication between new and experienced members
