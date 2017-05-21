@@ -7,7 +7,7 @@ permalink: /students/
 
 Becoming a part of robotics is very easy. There are just a few steps:
 
-1. Sign up on our [team roster](https://docs.google.com/a/team3128.org/forms/d/1VpWMkgvuBatdemjuj_hHUDzjsSfe2zWboS45fhb6Fz8/viewform). This will get you added to our mailing list so you know everything that is going on.
+1. Sign up on our team roster. This will get you added to our mailing list so you know everything that is going on.
 2. Sign up on [STIMS](https://my.usfirst.org/stims/Login.aspx), our league information manager. This will let you attend tournaments and be involved in official robotics events off-campus. This step requires a parental unit to finish.
 3. Show up! We meet at the Robotics Workshop that is located right under the Learning Commons and just past the Nest. It's somewhat hard to miss, with the robots, the stacks of wood, and all of us. You can check out our [calendar](/students/calendar/), build season [schedule](/students/build-seasons/), and [blog updates](/students/updates/) to find out about all the things happening in robotics. You can also [email our leaders](/contact/) to ask any questions you may have.
 4. Like us on [Facebook](https://www.facebook.com/aluminumnarwhals). Announcements, photos, and all sorts of awesome stuff will go out through there as well.
@@ -19,9 +19,9 @@ After you’ve signed up, there are lots of different ways to grow your skills:
 
 <img src="/assets/dank-photos/1.jpg" class="leftimage">
 
-+ Get [Tool Certified](/students/tool-certification/) by going through a mentor-led workshop that will introduce you to how to safely use our robotics tools. Talk to a mentor about the next tool certification workshop.
-+ Getting Involved in Project Teams
-+ We assign different projects to different project leads. If we see a student is passionate and hard-working, we will assign them to head the project.
++ **Learn your way around the workshop.** Through various talks and hands-on explanations, mentors and students explain how to use various tools and the various procedures of the team.
++ **Attend Workshops and Classes,** Throughout preseason, our members and mentors will be giving lessons and working with new members to help them learn more and be ready for build season.
++ **Be Involved.** Often, the best learning experience comes with jumping right into it. With the guidance of more experienced mentors and members, pursue projects and participate in what interests you.
 
 If you have any scheduling/team questions, you can also check out our [Frequently Asked Questions](/parents/faq/) page.
 
@@ -44,11 +44,13 @@ They meet during the monthly Leadership meeting where the leadership, mentors, a
 
 ### Elected Positions
 
-Our elected leadership is chosen each May by a team vote. Anyone who has been on the team for at least one complete build season can self-nominate for an elected position, to which they will be either be voted on, or appointed to by the elected President.
+Our President is elected at the end of every year in May by a team vote. Anyone who has been on the team for at least one complete build season can self-nominate for President or Vice President. The President is then voted upon and appoints his or her Vice President, who must be approved by the team.
 
+<!--
 **Self-Nominations Open:** April 28th  
 **Self-Nominations Close:** May 11th  
 **Election Day:** May 19th
+-->
 
 **The President:**
 
@@ -63,7 +65,7 @@ Our elected leadership is chosen each May by a team vote. Anyone who has been on
 
 ### Appointed Positions
 
-Our leadership team and mentors create appointed positions when needed. Appointed officers are in charge of specific parts of the team that leadership has deemed necessary. Some appointed officers include: Head of Marketing, Head of Mechanics, Head of Controls, and Head of Strategy. These positions are created and terminated at will.
+Our leadership team and mentors create appointed positions when needed. Appointed officers are in charge of specific parts of the team that leadership has deemed necessary. Some appointed officers include: Head of Build, Head of Controls, Head of Business, and Head of Submissions. These positions are created to fit the various needs of the team, and may or may not remain from year to year.
 
 **Head of Build:**
 
