@@ -11,4 +11,4 @@ For Recognition and Inspiration of Science and Technology, or FIRST, is a progra
 
 Our team competes in the FIRST Robotics Competition, a challenge for teams of high school students to build 100-pound robots and form alliances and compete with teams from around the world.
 
-<div onClick="javascript:location.href='http://www.firstinspires.org'" align="center"><h4 class="button hover_animate">Learn more</h4></div>
+<div class="button hover_animate" onClick="javascript:location.href='http://www.firstinspires.org'" align="center">Learn more</div>
