@@ -24,6 +24,10 @@ permalink: /sponsor/
 }
 </style>
 
+<div onClick="javascript:location.href='/donate/'" class="button hover_animate" align="center">Support Us!</div>
+
+<br>
+
 <div class="normalsponsors">
 {% for sponsorlevel in site.data.sponsor_levels %}
 {% if sponsorlevel.show == "yes" %}
@@ -62,7 +66,7 @@ permalink: /sponsor/
 {% if sponsorlevel.show == "yes" %}
 	<table width="100%" border="0px" cellpadding="0px" cellspacing="0px">
 		<tr width="100%">
-			<div style="padding-top: 15px; text-align: center;background: {{ sponsorlevel.color }}; color: white; height: 100%"><span><h1>{{ sponsorlevel.level }} Sponsors</h1></span></div>
+			<div style="padding: 10px; text-align: center;background: {{ sponsorlevel.color }}; color: white; height: 100%"><span><h1>{{ sponsorlevel.level }} Sponsors</h1></span></div>
 		</tr>
 
 		{% for sponsor in site.data.sponsors %}
@@ -99,6 +103,4 @@ permalink: /sponsor/
 By sponsoring our team, you can help our team to continue to realize our dreams and allow our students to learn valuable skills.
 <br>
 <br>
-<div onClick="javascript:location.href='/donate/'">
-	<h4 align="center" class="button hover_animate">Learn More</h4>
-</div>
+<div onClick="javascript:location.href='/donate/'" class="button hover_animate" align="center">Learn More</div>

@@ -100,12 +100,11 @@ body {
 
   border: 4px solid #1b3a98;
 
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
 }
 
 .button:hover {
-  //background: #2653d9;
   background: white;
   color:  #1b3a98;
 
@@ -367,11 +366,11 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1140px) {
   .trigger {
     display: none;
   }
-  .smallertab {
+  .dropdown_button {
     display: table-cell;
   }
   .normalsocial {
@@ -379,11 +378,11 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1140px) {
   .trigger {
     display: table-cell;
   }
-  .smallertab {
+  .dropdown_button {
     display: none;
   }
   .normalsocial {
@@ -391,11 +390,7 @@ body {
   }
 }
 
-#smallertab {
-  vertical-align: middle;
-}
-
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1275px) {
   .normaltitle {
     display: none;
   }
@@ -404,8 +399,7 @@ body {
   }
 }
 
-
-@media screen and (max-width: 1275px) and (min-width: 1125px) {
+@media screen and (max-width: 1410px) and (min-width: 1275px) {
   .normaltitle {
     display: none;
   }
@@ -414,7 +408,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1275px) {
+@media screen and (min-width: 1410px) {
   .normaltitle {
     display: block;
   }
@@ -423,10 +417,10 @@ body {
   }
 }
 
-.smallertab {
+.dropdown_button {
   background: #2445a8;
 }
-.smallertab:hover {
+.dropdown_button:hover {
   background: #122254;
   cursor: pointer;
 }

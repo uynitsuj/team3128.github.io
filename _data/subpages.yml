@@ -62,6 +62,14 @@
   permalink: /students/updates/
   directory: Students
 
-- title: Home
+- title: Team Information
   permalink: /resources/
+  directory: Resources
+
+- title: Branding
+  permalink: /resources/Branding
+  directory: Resources
+
+- title: Technical
+  permalink: /resources/technical
   directory: Resources
