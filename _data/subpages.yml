@@ -18,10 +18,6 @@
   permalink: /outreach/
   directory: About
 
-- title: Budget
-  permalink: /about/budget/
-  directory: About
-
 - title: Frequently Asked Questions
   permalink: /parents/faq/
   directory: Parents
@@ -67,9 +63,9 @@
   directory: Resources
 
 - title: Branding
-  permalink: /resources/Branding
+  permalink: /resources/branding/
   directory: Resources
 
 - title: Technical
-  permalink: /resources/technical
+  permalink: /resources/technical/
   directory: Resources

@@ -1,0 +1,30 @@
+---
+layout: subpage
+---
+
+<table class="full_table" cellspacing="0px">
+  {% for resource in site.data.resources %} {% if resource.category == page.category %}
+    <tr width="100%">
+      <td colspan=2 width="33%" style="text-align: left; vertical-align: top; background: {% if resource.color == 0 %} white {% else %} #efefef {% endif %}; padding: 15px">
+        <img width="128px" style="float: left; margin-right: 10px; margin-bottom: 0px;" src="/assets/graphics/{{ resource.type }}-icon.png" />
+        <h3>{{ resource.name }}</h3>
+        {{ resource.description }}
+      </td>
+    </tr>
+    <tr width="100%">
+      {% if resource.type == 'pdf' %}
+      <td colspan=1 width="50%" style="text-align: left; vertical-align: top; background: {% if resource.color == 0 %} white {% else %} #efefef {% endif %}; padding: 15px">
+          <a href="{{ resource.link }}"><div class="button hover_animate" align="center">View</div></a>
+      </td>
+      <td colspan=1 width="50%" style="text-align: left; vertical-align: top; background: {% if resource.color == 0 %} white {% else %} #efefef {% endif %}; padding: 15px">
+          <a href="{{ resource.link }}" download><div class="button hover_animate" align="center">Download</div></a>
+      </td>
+      {% else if resource.type == 'link' %}
+        <td colspan=2 width="33%" style="text-align: left; vertical-align: top; background: {% if resource.color == 0 %} white {% else %} #efefef {% endif %}; padding: 15px">
+          <a href="{{ resource.link }}"><div class="button hover_animate" align="center">Visit Page</div></a>
+        </td>
+      {% endif %}
+      </td>
+    </tr>
+  {% endif %}{% endfor %}
+</table>

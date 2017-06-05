@@ -1,4 +1,50 @@
-- name:
-  category:
-  link:
-  description:
+- name: 2017 Business Plan
+  category: info
+  type: pdf
+  link: /resources/2017BusinessPlan.pdf
+  description: A detailed look at how our team manages its finances, the numerous efforts we take to spread the ideals of FIRST within our community, and the sustainable practices put into place to ensure that the team is effectively operated and able to pass down our love knowledge of and love for STEM to future generations of students.
+  color: 0
+
+- name: Team Information Packet
+  category: info
+  type: pdf
+  link: /resources/TeamInfoPacket.pdf
+  description: An overview of the multi-faceted approach our team takes to involvement in FIRST and how you can support us in our mission to inspire a passion for STEM.
+  color: 1
+
+- name: 2016/17 Team Demographics
+  category: info
+  type: pdf
+  link: /resources/201617Demographics.pdf
+  description: A breif look at the composition of Canyon Crest Academy and our team.
+  color: 0
+
+- name: IRS Letter of Determination
+  category: info
+  type: pdf
+  link: /resources/IRSLetterofDetermination.pdf
+  description: The official letter from the Internal Revenue Service that certifies Team 3128&#58; Aluminum Narwhals as a non-private, 501(c)(3) organization.
+  color: 1
+
+
+- name: Team 3128 Branding Guidelines
+  category: branding
+  type: pdf
+  link: /resources/Team3128BrandingGuidelines.pdf
+  description: For us, being a FIRST team has always been so much more than just building a robot in six weeks. Ever since our inception, we have always had our eyes on the big picture, and it really has been rewarding. Over the years, we have been able to bring diverse groups of people to do amazing things, and we now have not only subteams dedicated to engineering, but ones that focus on the business and outreach sides. It’s always been extremely important to us, the idea that a FRC team should seek not only to win competitions, but also to get involved in their communities in unexpected ways, invite as many members with varying outlooks sand opinions to join the conversation, and to function as a heterogeneous yet integrated organization of students and mentors doing fantastic things. <br><br> And that’s where branding comes in. How you appear is really just as important as what you do. This truth has always been evident to us, but never really been acted upon. Branding does not draw away from the main functions of an organization; it’s quite the contrary, actually. Having a coherent approach to digital and print media restores focus to the core message that the material seeks to convey. Branding also indisputably creates a sense of unity and purpose amongst those who work with it. Therefore, we found it necessary to create a set of branding guidelines.
+  color: 0
+
+
+- name: Mechanical Resources
+  category: technical
+  type: link
+  link: https://github.com/Team3128/info/wiki/mechanical
+  description: The team's resources pertaining to mechanical.
+  color: 0
+
+- name: Controls Resources
+  category: technical
+  type: link
+  link: https://github.com/Team3128/info/wiki/controls
+  description: The team's resources pertaining to controls.
+  color: 1

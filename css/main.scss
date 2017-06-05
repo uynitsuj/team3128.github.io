@@ -11,19 +11,19 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit: 30px;
+
+$navy:             #1b1464;
+$royal:            #1b347e;
+$light:            #1b3a98;
+$bright:           #2a7ae2;
 
 $text-color:       #111;
-$background:       #1b347e;
-$brand-color:      #2a7ae2;
+$background:       $navy;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
-
-$regular-blue: #1179AB;
-$light-blue: #17a6e8;
-$dark-blue: #0b5374;
 
 // Width of the content area
 $content-width:    900px;

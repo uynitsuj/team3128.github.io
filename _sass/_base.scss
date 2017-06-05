@@ -95,16 +95,20 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+
+    color: $bright;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 0%);
+        color: $bright
     }
 
     &:hover {
-        color: darken($brand-color, 50%);
-        text-decoration: underline;
+        color: $royal;
+        text-decoration: none;
     }
 }
 

@@ -1,8 +1,7 @@
 ---
-layout: subpage
+layout: resource_page
 title: Resources
 subtitle: Technical
+category: technical
 permalink: /resources/technical/
 ---
-
-This page is the future home for technical documents.

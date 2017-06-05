@@ -2,9 +2,9 @@
 * Site header
 */
 .site-header {
-  border-bottom: 0px solid $dark-blue;
+  border-bottom: 0px;
   min-height: 80px;
-  background: #1b347e;
+  background: $navy;
   position: relative;
   z-index: 20;
 
