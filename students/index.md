@@ -100,6 +100,16 @@ Our leadership team and mentors create appointed positions when needed. Appointe
 + Prepares awards submissions
 + Mediates communication between new and experienced members
 + Ensures that all new members are comfortable with the team
++ Works toward creating continuity between projects and our team's goals
+
+**Head of Construction**
++ Responsible for construction projects during off-season and build season
++ Establish a culture of safety and injury prevention system 
++ Teach members how to properly work with tools
++ Establishes the work ethic behind construction methods
++ Mediates communication between new and experienced members
++ Ensures that all new members are comfortable with the team
+
 
 <!--
 Chairman's.
@@ -112,33 +122,33 @@ Literally
 
 ### Leadership Meetings
 
-Each month, the leadership team holds a meeting where they discuss the happenings of the team and set the course for the overall year. For the 2016-17 year, the leadership meetings will happen on the following dates and times in the CCA Cage or Robotics Room unless otherwise noted. Find out more about our leadership team.
+Each month, the leadership team holds a meeting where they discuss the happenings of the team and set the course for the overall year. For the 2017-18 year, the leadership meetings will happen on the following dates and times in the CCA Cage or Robotics Room unless otherwise noted. Find out more about our leadership team.
 
-+ Friday, September 2nd @ 4:00 pm - 5:00 pm
-+ Friday, September 9th @ 4:00 pm - 5:00 pm
-+ Friday, September 16th @ 4:00 pm - 5:00 pm
-+ Friday, September 23rd @ 4:00 pm - 5:00 pm
-+ Friday, September 30th @ 4:00 pm - 5:00 pm
-+ Friday, October 7th @ 4:00 pm - 5:00 pm
-+ Friday, October 14th @ 4:00 pm - 5:00 pm
-+ Friday, October 21st @ 4:00 pm - 5:00 pm
-+ Friday, October 28th @ 4:00 pm - 5:00 pm
-+ Friday, November 4th @ 4:00 pm - 5:00 pm
-+ Friday, November 11th @ 4:00 pm - 5:00 pm
-+ Friday, November 18th @ 4:00 pm - 5:00 pm
-+ Friday, November 25th @ 4:00 pm - 5:00 pm
-+ Friday, December 2nd @ 4:00 pm - 5:00 pm
-+ Friday, December 9th @ 4:00 pm - 5:00 pm
-+ Friday, December 16th @ 4:00 pm - 5:00 pm
-+ Friday, January 6th @ 4:00 pm - 5:00 pm
-+ Friday, January 13th @ 4:00 pm - 5:00 pm
-+ Friday, January 20th @ 4:00 pm - 5:00 pm
-+ Friday, January 27th @ 4:00 pm - 5:00 pm
-+ Friday, February 3rd @ 4:00 pm - 5:00 pm
-+ Friday, February 10th @ 4:00 pm - 5:00 pm
-+ Friday, February 17th @ 4:00 pm - 5:00 pm
-+ Friday, February 24th @ 4:00 pm - 5:00 pm
-+ Friday, March 3rd @ 4:00 pm - 5:00 pm
++ Friday, September 2nd @ 5:00 pm - 6:00 pm
++ Friday, September 9th @ 5:00 pm - 6:00 pm
++ Friday, September 16th @ 5:00 pm - 6:00 pm
++ Friday, September 23rd @ 5:00 pm - 6:00 pm
++ Friday, September 30th @ 5:00 pm - 6:00 pm
++ Friday, October 7th @ 5:00 pm - 6:00 pm
++ Friday, October 14th @ 5:00 pm - 6:00 pm
++ Friday, October 21st @ 5:00 pm - 6:00 pm
++ Friday, October 28th @ 5:00 pm - 6:00 pm
++ Friday, November 4th @ 5:00 pm - 6:00 pm
++ Friday, November 11th @ 5:00 pm - 6:00 pm
++ Friday, November 18th @ 5:00 pm - 6:00 pm
++ Friday, November 25th @ 5:00 pm - 6:00 pm
++ Friday, December 2nd @ 5:00 pm - 6:00 pm
++ Friday, December 9th @ 5:00 pm - 6:00 pm
++ Friday, December 16th @ 5:00 pm - 6:00 pm
++ Friday, January 6th @ 5:00 pm - 6:00 pm
++ Friday, January 13th @ 5:00 pm - 6:00 pm
++ Friday, January 20th @ 5:00 pm - 6:00 pm
++ Friday, January 27th @ 5:00 pm - 6:00 pm
++ Friday, February 3rd @ 5:00 pm - 6:00 pm
++ Friday, February 10th @ 5:00 pm - 6:00 pm
++ Friday, February 17th @ 5:00 pm - 6:00 pm
++ Friday, February 24th @ 5:00 pm - 6:00 pm
++ Friday, March 3rd @ 5:00 pm - 6:00 pm
 + Friday, March 10th @ 4:00 pm - 5:00 pm
 + Friday, March 17th @ 4:00 pm - 5:00 pm
 + Friday, March 24th @ 4:00 pm - 5:00 pm
