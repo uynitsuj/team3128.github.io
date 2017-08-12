@@ -3,7 +3,7 @@ layout: post
 title: "2016 Las Vegas Regional - Day 3"
 date: 2016-04-02 6:00:00 -0800
 author: Daniel B.
-categories: website
+categories: competition-season
 ---
 
 Hello, my name is Daniel B. I am a part of the scouting team, a tight-knit, if sleep deprived, group. We gather data through watching the various matches and translate it into strategies. The first day of qualifiers is always the most intense for scouts. For most of the day, we were watching matches and recording our thoughts and observations with specially designed documents. We noted down information such as the number of defenses crossed or shots made as well as comments on how robots might be helpful in certain scenarios.

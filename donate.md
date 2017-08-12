@@ -11,10 +11,14 @@ All of your donations to the Aluminum Narwhals are tax deductible. If you would 
 ### How do your donations help us?
 We love what we do, and we wish we could achieve everything we think up. The only problem is that everything we need - electronics, lumber, gear boxes, aluminum, polycarbonate, coaching, travel - costs money. That's why we need you; with your donation, we are able to realize our dreams and learn valuable skills.
 
-<div class="button hover_animate" style="text-align: center;" onClick="javascript:location.href='/resources/'">
+<div>
+<a href="/resources/">
+<div class="button hover_animate" style="text-align: center;">
 Additional Team Information
 </div>
-
+</a>
+</div>
+<br>
 
 ### How to donate:
 + Use our [online form](http://weblink.donorperfect.com/QuestRobotics) to make a donation directly to our team

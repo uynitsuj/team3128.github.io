@@ -3,7 +3,7 @@ layout: post
 title: "2016 World Championships - Day 3"
 date: 2016-04-30 6:00:00 -0800
 author: Alex L. and Rory C.
-categories: website
+categories: competition-season
 ---
 
 This is Alex L. and Rory C., and we are on our team’s scouting team. We are responsible for watching matches and recording what teams can do.

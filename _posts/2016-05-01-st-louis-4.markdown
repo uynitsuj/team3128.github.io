@@ -3,7 +3,7 @@ layout: post
 title: "2016 World Championships - Day 4"
 date: 2016-05-01 6:00:00 -0800
 author: Caroline M.
-categories: website
+categories: competition-season
 ---
 
   My name is Caroline M. and I am the coach of the drive team over here at Team 3128. My job is to plan the strategy for each of our matches, and ensure the drivers understand and complete their task.

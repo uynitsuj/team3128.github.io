@@ -40,7 +40,7 @@ Tracking the time you spend at the workshop is important. Not only is having rec
 
 Our team is led by a group of elected officials and appointed officers.
 
-They meet during the monthly Leadership meeting where the leadership, mentors, and project leaders discuss the current happenings of the team.
+They meet during weekly Leadership meeting where the leadership, mentors, and project leaders discuss the current happenings of the team.
 
 ### Elected Positions
 
@@ -104,7 +104,7 @@ Our leadership team and mentors create appointed positions when needed. Appointe
 
 **Head of Construction**
 + Responsible for construction projects during off-season and build season
-+ Establish a culture of safety and injury prevention system 
++ Establish a culture of safety and injury prevention system
 + Teach members how to properly work with tools
 + Establishes the work ethic behind construction methods
 + Mediates communication between new and experienced members
@@ -116,14 +116,15 @@ Chairman's.
 Actually this time.
 For real
 100%
-No joke.
-Literally
+No joke
+Literally.
 -->
 
 ### Leadership Meetings
 
-Each month, the leadership team holds a meeting where they discuss the happenings of the team and set the course for the overall year. For the 2017-18 year, the leadership meetings will happen on the following dates and times in the CCA Cage or Robotics Room unless otherwise noted. Find out more about our leadership team.
+Each month, the leadership team holds a meeting where they discuss the happenings of the team and set the course for the overall year. For the 2017-18 year, the leadership meetings will happen every week in the CCA Cage or Robotics Room unless otherwise noted. Find out more about [our leadership team](/contact/).
 
+<!--
 + Friday, September 2nd @ 5:00 pm - 6:00 pm
 + Friday, September 9th @ 5:00 pm - 6:00 pm
 + Friday, September 16th @ 5:00 pm - 6:00 pm
@@ -164,3 +165,4 @@ Each month, the leadership team holds a meeting where they discuss the happening
 + Friday, June 2nd @ 4:00 pm - 5:00 pm
 + Friday, June 9th @ 4:00 pm - 5:00 pm
 + Friday, June 16th @ 4:00 pm - 5:00 pm
+-->

@@ -3,7 +3,7 @@ layout: post
 title: "2016 World Championships - Day 5"
 date: 2016-05-02 6:00:00 -0800
 author: Louie Z.
-categories: website
+categories: competition-season
 ---
 
 My name is Louie Z. and I am the lead scout on our travel team. My role is to ensure that we have adequate information on competing teams and synthesizing it into effective counterstrategies. As our trip has come to a close I would like to give a quick reflection on both the ending of our Championships adventure and our team.

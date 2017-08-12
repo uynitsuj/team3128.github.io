@@ -3,7 +3,7 @@ layout: post
 title: "2016 Las Vegas Regional - Day 5"
 date: 2016-04-04 6:00:00 -0800
 author: Josh B.
-categories: website
+categories: competition-season
 ---
 
 Hello, I'm Joshua B., also part of the scouting team.

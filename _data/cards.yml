@@ -1,8 +1,8 @@
-- title: Until Next Year...
-  link: /students/
+- title: Join Us!
+  link: /preseason/2017/08/10/narwhal-intro-2017.html
   imageSource: /assets/homepage/join.jpeg
   fullImage: /assets/homepage/join-full.jpeg
-  info: With the school year starting to wind down, we're just revisiting all of our hard work and preparing for next year. Can't wait? Neither can we. Check out the students page to find out ways to get involved next year.
+  info: The school year is right around the corner, and it's never to early to get ready! Learn more about how to become a Narwhal!
 
 - title: Giving Back to the Community
   link: /outreach/
@@ -10,11 +10,11 @@
   fullImage: /assets/homepage/outreach-full.jpeg
   info: Our team may focus heavily on engineering, but there's a lot more to robotics than just robots. Check out some of the work we do to inspire others to pursue learning in STEM.
 
-- title: Robotics Summer Camp
-  link: /camp/
-  imageSource: /assets/homepage/camp.jpeg
-  fullImage:  /assets/homepage/camp-full.jpeg
-  info: Signups for our 2017 Robotics Summer Camp have opened! Head over to our camp site to learn more!
+# - title: Robotics Summer Camp
+#   link: /camp/
+#   imageSource: /assets/homepage/camp.jpeg
+#   fullImage:  /assets/homepage/camp-full.jpeg
+#   info: Signups for our 2017 Robotics Summer Camp have opened! Head over to our camp site to learn more!
 
 - title: Donate Now
   link: /donate/

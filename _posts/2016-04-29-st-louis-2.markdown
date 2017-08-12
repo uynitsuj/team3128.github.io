@@ -3,7 +3,7 @@ layout: post
 title: "2016 World Championships - Day 2"
 date: 2016-04-29 6:00:00 -0800
 author: Ronak R.
-categories: website
+categories: competition-season
 ---
 
 Thursday marked the beginning of qualification matches, a series of competitors that would determine which teams would leave each division to compete in Einstein, the final battle for champion of FRC. The day began with pit crew rising early to finish off wiring and assembling the remainder of the robot. Later came the rest of the team, responsible for driving, strategizing, and communicating with other teams and judges. The robot was prepped for the first of 4 matches that we would participate in the day, where our drive team coordinated effective strategies for winning the matches. While we began with a loss, we were able to repair the robot and correlate an effort alongside out alliance partners to win the next match. Following the victory, our team left for lunch at a nearby Mediterranean place that served delicious pita and rice plates.
