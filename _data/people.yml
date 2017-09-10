@@ -1,0 +1,55 @@
+- group: leaders
+  name: Caroline McSherry
+  photo: caroline
+  title: President
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 0
+
+- group: leaders
+  name: Jannie Yu
+  photo: jannie
+  title: Vice President
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 1
+
+- group: leaders
+  name: Joshua Fuller
+  photo: josh
+  title: Head of Build
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 0
+
+- group: leaders
+  name: Ronak Roy
+  photo: ronak
+  title: Head of Controls
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 1
+
+- group: leaders
+  name: Zoë Chan
+  photo: zoe
+  title: Head of Business
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 0
+
+- group: leaders
+  name: Harris Beg
+  photo: harris
+  title: Head of Submissions
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 1
+
+- group: leaders
+  name: Drake Taylor
+  photo: drake
+  title: Head of Construction
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 0
+
+- group: leaders
+  name: Alex Lillian
+  photo: alex
+  title: Head of Strategy
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 1

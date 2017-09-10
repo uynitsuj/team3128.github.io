@@ -1,7 +1,11 @@
 - year: 2017
   game: Steamworks
   name: Ferb
-  description: Details coming soon!
+  stats: true
+  dimensions: 34.5" W x 31.25" L x 24" H
+  weight: 95 lbs
+  speed: 9.5 mph
+  description: With out 2017 robot, we wanted to build a robot that excelled at the key elements of the game. Throughout numerous revisions and designs, we settled on Ferb. Ferb had a reliable scaling mechansim that efficently and effectively hooked on to the rope and scaled in just under 5 seconds. Ferb also sported an active gear mechanism that allowed for gear intake from both the loading zone and the ground, allowing us to ensure that all gears that ended up by the airship made it on. Ferb was sturdy and reliable and ended up allowing our team to become the Finalist Alliance Captain at the San Diego Regional, securing our spot at the FRC World Championship in Houston.
   color: 0
 
 - year: 2016
@@ -13,7 +17,7 @@
 - year: 2015
   game: Recycle Rush
   name: The Claw
-  description: Our robo this year was a versatile machine with a really, really large claw. It moved quickly and was able to move and stackt he trash cans with ease. The Claw also had a state of the art autonomous, which dealt with trash cans with ease.
+  description: Our robot this year was a versatile machine with a really, really large claw. It moved quickly and was able to move and stackt he trash cans with ease. The Claw also had a state of the art autonomous, which dealt with trash cans with ease.
   color: 0
 
 - year: 2014
@@ -38,7 +42,7 @@
 - year: 2011
   game: Logo Motion
   name: U.M.A.R
-  description: One of the key features that place our robot above the competition was our robots modular electronics box designed to be easily removed from the robot to make electronic repairs easier and more streamlined. Our goals for the Ultra Mega Awesom Robot were to score on all three levels, swiftly deploy a mini bot to the pole during the end game, outmaneuver the competition using our Mecanum wheels, and lift tubes off the ground that have been thrown by our human player
+  description: One of the key features that place our robot above the competition was our robots modular electronics box designed to be easily removed from the robot to make electronic repairs easier and more streamlined. Our goals for the Ultra Mega Awesome Robot were to score on all three levels, swiftly deploy a mini bot to the pole during the end game, outmaneuver the competition using our Mecanum wheels, and lift tubes off the ground that have been thrown by our human player.
   color: 1
 
 - year: 2010
