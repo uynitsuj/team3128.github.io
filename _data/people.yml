@@ -1,3 +1,38 @@
+- group: mentors
+  name: Tony Mauro
+  photo: mauro
+  title: Lead Mentor
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 0
+
+- group: mentors
+  name: Tyler Carter
+  photo: tyler
+  title: Mentor - Business
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 1
+
+- group: mentors
+  name: Garrison Price
+  photo: garrison
+  title: Mentor - Mechanical, Controls
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 0
+
+- group: mentors
+  name: Larry Jankauski
+  photo: larry
+  title: Mentor - Controls
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 1
+
+- group: mentors
+  name: Christine Low
+  photo: christine
+  title: Mentor - Mechanical
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis dignissim sollicitudin. Ut nibh mauris, suscipit eu ex vel, lobortis pharetra est. Nulla quam est, condimentum vel lacinia nec, placerat vel ligula. In hac habitasse platea dictumst. Duis euismod pharetra urna, vitae vehicula dolor auctor in. Donec vehicula lobortis enim, nec tempor dui pellentesque vel. Donec eu sapien non nisl facilisis cursus. Pellentesque luctus, purus sed tincidunt aliquam, felis urna convallis orci, ut maximus nisi leo sed turpis. Sed maximus posuere massa posuere feugiat. Nulla scelerisque feugiat augue, eu placerat arcu ultrices a. In vel nibh molestie, viverra lacus et, dictum lectus. Etiam aliquet neque sed euismod bibendum. Curabitur euismod tellus in euismod auctor.
+  color: 0
+
 - group: leaders
   name: Caroline McSherry
   photo: caroline

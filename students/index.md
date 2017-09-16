@@ -61,7 +61,7 @@ Our President is elected at the end of every year in May by a team vote. Anyone 
 
 **Vice President:**
 
-+ Assists president and takes care of team paperworks and reports
++ Assists president and takes care of team paperwork and reports
 
 ### Appointed Positions
 
@@ -103,6 +103,7 @@ Our leadership team and mentors create appointed positions when needed. Appointe
 + Works toward creating continuity between projects and our team's goals
 
 **Head of Construction**
+
 + Responsible for construction projects during off-season and build season
 + Establish a culture of safety and injury prevention system
 + Teach members how to properly work with tools

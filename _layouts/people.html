@@ -2,11 +2,13 @@
 layout: subpage
 ---
 
+{{ content }}
+
 <table class="full_table" cellspacing="0px">
   {% for person in site.data.people %} {% if person.group == page.group %}
     <tr width="100%">
-      <td width="33%" style="text-align: left; vertical-align: top; background: {% if person.color == 0 %} white {% else %} #efefef {% endif %}; padding: 15px; padding-right: 5px;">
-        <img style="margin-right: 10px; margin-bottom: 0px; height: 100%;" src="/assets/headshots/{{ person.photo }}.png" />
+      <td width="33%" style="text-align: left; vertical-align: center; background: {% if person.color == 0 %} white {% else %} #efefef {% endif %}; padding: 15px; padding-right: 5px;">
+        <img style="margin-right: 10px; margin-bottom: 0px; width: 100%;" src="/assets/headshots/{{ person.photo }}.png" />
       </td>
       <td width="100%" style="text-align: left; vertical-align: top; background: {% if person.color == 0 %} white {% else %} #efefef {% endif %}; padding: 15px; padding-left: 5px;">
         <h2 style="margin-bottom: -6px;">{{ person.name }}</h2>
