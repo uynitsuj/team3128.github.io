@@ -21,10 +21,41 @@ Additional Team Information
 <br>
 
 ### How to donate:
-+ Use our [online form](http://weblink.donorperfect.com/QuestRobotics) to make a donation directly to our team
-+ You can also write a check payable to ‘Canyon Crest Academy Foundation’ with ‘QUEST/Robotics’ on the memo line, and drop it off or mail it to:  
-  *5951 E Village Middle Loop Rd  
-	San Diego, CA 92130*
+In order to keep developing our skills and pursuing our goals, our requested donation is $650. There are two ways to support our team:
+
+<table width="100%">
+<tr>
+<td width="50%" style="text-align: center; background: #1b1464">
+<font style="font-size:20pt; color: white;">Online</font>
+<br>
+</td>
+<td width="50%" style="text-align: center; background: #072682">
+<font style="font-size:20pt; color: white;">By Check</font>
+</td>
+</tr>
+<tr>
+<td width="50%" style="padding:5px;vertical-align: top;">
+<b>You can donate directly to our team using the online donation form.</b>
+<ol>
+<li>Head over to the <a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E113627&id=20">CCA Foundation online donation form</a>.</li>
+<li>Select the "Gift to a Quest Program" checkbox.</li>
+<li>Select "Robotics Team" from the dropdown.</li>
+</ol>
+
+</td>
+<td width="50%" style="padding:5px;vertical-align: top; background: #f0f0f0">
+<b>You can also donate directly to our team by writing us a check.</b>
+<ol>
+<li>Make the check payable to:</li>
+<i>‘Canyon Crest Academy Foundation’</i>
+<li>Include <i>‘QUEST/Robotics’</i> on the memo line</li>
+<li>Drop off the check or mail it to:</li>
+<i>5951 E Village Middle Loop Rd <br>
+San Diego, CA 92130</i>
+</ol>
+</td>
+</tr>
+</table>
 
 ### Donation Levels
 All of our donors are incredibly important to us. We recognize all of our donor in accordance with their giving level.
