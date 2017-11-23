@@ -3,7 +3,9 @@ layout: default
 ---
 <div id="wrap" class="subpagewrapper">
   <article class="post">
+
       <script>
+
         function sticky_relocate() {
           var window_top = $(window).scrollTop();
           var div_top = $('#tabbar').offset().top;
@@ -36,7 +38,7 @@ layout: default
         }
       </script>
 
-      <table style="background:white; z-index: 1; position: relative;" cellpadding="0px" cellspacing="0px" width="100%">
+      <table style="background:white; z-index: 1; position: relative; height: 1px;" cellpadding="0px" cellspacing="0px" width="100%">
         <tr cellpadding="0px">
           <td class="sidebar-td" style="vertical-align: top; padding: 0px; background: #bfbfbf;">
             <table id="tabbar" cellspacing="0px" cellpadding="10px">
@@ -69,7 +71,7 @@ layout: default
 
           </td>
           <td style="padding: 20px;" style="width: 100%; height: 100%; vertical-align: top;">
-            <div class="contentdiv">
+            <div class="contentdiv" style="height: 100%">
               <div class="hover_animate" id="subbutton" onclick="togglesubmenu()" align="center">
                 <span style="font-size: 40px;">☰</span>
               </div>

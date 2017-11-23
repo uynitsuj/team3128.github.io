@@ -1,17 +1,19 @@
 ---
-layout: subpage
-title: Students
-subtitle: Updates
-permalink: /students/updates/
+layout: page
+title: Blog
+permalink: /blog/
 ---
 
-<table class="full_table" style="background: grey;" cellspacing="15px">
+<table style="background: grey; margin: -22px" cellspacing="15px">
   {% for post in site.posts %}
     <tr width="100%">
       <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hover_animate" width="33%">
-        <span>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+        <span class="post-top">
           <h4>{{ post.title }}</h4>
+        </span>
+        <span class="post-excerpt">
+          {{ post.content | strip_html | truncatewords: 50 }}
         </span>
       </td>
     </tr>

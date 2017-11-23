@@ -26,45 +26,37 @@
   permalink: /outreach/
   directory: About
 
+- title: Getting Started
+  permalink: /members/
+  directory: Members
+
 - title: Frequently Asked Questions
-  permalink: /parents/faq/
-  directory: Parents
+  permalink: /members/faq/
+  directory: Members
 
 - title: Important Dates
-  permalink: /parents/important-dates/
-  directory: Parents
+  permalink: /members/important-dates/
+  directory: Members
 
 - title: Calendar
-  permalink: /parents/calendar/
-  directory: Parents
+  permalink: /members/calendar/
+  directory: Members
 
-- title: Volunteer
-  permalink: /parents/volunteer/
-  directory: Parents
+- title: GitHub
+  permalink: /members/github/
+  directory: Members
+
+- title: Travel Team
+  permalink: /members/travel-team/
+  directory: Members
+
+- title: Parent Volunteers
+  permalink: /members/volunteer/
+  directory: Members
 
 - title: Donate
   permalink: /donate/
-  directory: Parents
-
-- title: Getting Started
-  permalink: /students/
-  directory: Students
-
-- title: Calendar
-  permalink: /students/calendar/
-  directory: Students
-
-- title: GitHub
-  permalink: /students/github/
-  directory: Students
-
-- title: Travel Team
-  permalink: /students/travel-team/
-  directory: Students
-
-- title: Updates
-  permalink: /students/updates/
-  directory: Students
+  directory: Members
 
 - title: Team Information
   permalink: /resources/

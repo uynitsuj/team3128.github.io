@@ -1,15 +1,15 @@
 ---
 layout: subpage
-title: Students
+title: Members
 subtitle: Getting Started
-permalink: /students/
+permalink: /members/
 ---
 
 Becoming a part of robotics is very easy. There are just a few steps:
 
 1. Sign up on our team roster. This will get you added to our mailing list so you know everything that is going on.
 2. Sign up on [STIMS](https://my.usfirst.org/stims/Login.aspx), our league information manager. This will let you attend tournaments and be involved in official robotics events off-campus. This step requires a parental unit to finish.
-3. Show up! We meet at the Robotics Workshop that is located right under the Learning Commons and just past the Nest. It's somewhat hard to miss, with the robots, the stacks of wood, and all of us. You can check out our [calendar](/students/calendar/) and [blog updates](/students/updates/) to find out about all the things happening in robotics. You can also [email our leaders](/contact/) to ask any questions you may have.
+3. Show up! We meet at the Robotics Workshop that is located right under the Learning Commons and just past the Nest. It's somewhat hard to miss, with the robots, the stacks of wood, and all of us. You can check out our [calendar](/students/calendar/) and [blog updates](/blog/) to find out about all the things happening in robotics. You can also [email our leaders](/contact/) to ask any questions you may have.
 4. Like us on [Facebook](https://www.facebook.com/aluminumnarwhals). Announcements, photos, and all sorts of awesome stuff will go out through there as well.
 5. [Join GitHub.](/students/github/) GitHub is the place where all team information, discussion, and collaboration will occur in the future. Any information that the team needs to know can be found on our organization's GitHub, as well as new projects and code. **Useful member information is posted on the [info repository](https://github.com/Team3128/info/wiki) on the team's GitHub account**
 
@@ -123,7 +123,7 @@ Literally.
 
 ### Leadership Meetings
 
-Each month, the leadership team holds a meeting where they discuss the happenings of the team and set the course for the overall year. For the 2017-18 year, the leadership meetings will happen every week in the CCA Cage or Robotics Room unless otherwise noted. Find out more about [our leadership team](/contact/).
+Each month, the leadership team holds a meeting where they discuss the happenings of the team and set the course for the overall year. For the 2017-18 year, the leadership meetings will happen every week in the CCA Cage or Robotics Room unless otherwise noted. Find out more about [our leadership team](/about/leaders/).
 
 <!--
 + Friday, September 2nd @ 5:00 pm - 6:00 pm
