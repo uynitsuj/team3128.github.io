@@ -19,6 +19,10 @@
           <div class="subpagewrapper" style="padding-left: 20px;">
             {{ page.title }}: {{ page.subtitle }}
           </div>
+          {% elsif page.layout == "post" %}
+          <div class="subpagewrapper" style="padding-left: 20px;">
+            {{ page.title }}
+          </div>
           {% else %}
           <div class="wrapper" style="padding-left: 20px;">
             {{ page.title }}

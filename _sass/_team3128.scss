@@ -101,10 +101,26 @@ body {
   cursor: pointer;
 }
 
+.post-excerpt {
+  text-align: left;
+  vertical-align: top;
+
+  padding-top: 5px;
+}
+
+.post-top {
+  text-align: center;
+  vertical-align: top;
+
+  bottom: 0px;
+}
+
+.post-meta {
+  text-align: center;
+}
+
 .indexpost {
   background: white;
-
-  text-align: center;
   vertical-align: middle;
   padding: 25px;
 }
@@ -378,7 +394,7 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1100px) {
   .trigger {
     display: none;
   }
@@ -390,7 +406,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1100px) {
   .trigger {
     display: table-cell;
   }
@@ -402,7 +418,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1240px) {
   .normaltitle {
     display: none;
   }
@@ -411,7 +427,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1410px) and (min-width: 1275px) {
+@media screen and (max-width: 1390px) and (min-width: 1240px) {
   .normaltitle {
     display: none;
   }
@@ -420,7 +436,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1410px) {
+@media screen and (min-width: 1390px) {
   .normaltitle {
     display: block;
   }
@@ -457,6 +473,35 @@ body {
 #inbox {
   vertical-align: middle;
   color: white;
+}
+
+.whatwedo-image-small {
+  text-align: center;
+  width: 100%;
+
+  margin-bottom: 14px;
+
+  img {
+    max-width: 230px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .whatwedo-image-large {
+    display: table-cell;
+  }
+  .whatwedo-image-small {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .whatwedo-image-large {
+    display: none;
+  }
+  .whatwedo-image-small {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 1250px){

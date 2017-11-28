@@ -50,7 +50,9 @@ title: Aluminum Narwhals
               <tr>
                 <td onClick="javascript:location.href='{{ card.link }}'" class="indexpost hover_animate" width="33%" style="vertical-align: top; padding: 10px;" width="25%" height="100%">
                   <div style="vertical-align: text-top;">
-                    <h3>{{ card.title }}</h3>
+                    <span style="text-align: center">
+                      <h4>{{ card.title }}</h4>
+                    </span>
                     <img width="100%" class="small_card_image hover_animate" src="{{ card.fullImage }}" />
                     <br>
                     {{ card.info }}
@@ -98,10 +100,13 @@ title: Aluminum Narwhals
         <td>
           <table width="100%" cellpadding="10px">
             <tr width="100%">
-              <td width="25%" class="homeimage">
+              <td width="250px" class="whatwedo-image-large" >
                 <a href="http://www.firstinspires.org/robotics/frc"><img src="/assets/homepage/frc.png"></img></a>
               </td>
-              <td width="75%">
+              <td>
+                <div class="whatwedo-image-small">
+                  <a href="http://www.firstinspires.org/robotics/frc"><img src="/assets/homepage/frc.png"></img></a>
+                </div>
                 <h2>FIRST Robotics Competiton</h2>
                 Our team competes in the FIRST Robotics Competition, a program created by FIRST - For Recognition and Inspiration of Science and Technology. FIRST's founder Dean Kamen had two goals; one was to make robotics a competitive sport that drove students of all grade levels to strive to build and design amazing machines, but the other was to create a cooperative environment where innovation and creativity could thrive and students could become leaders in science and technology. The FIRST Robotics Competition was created for high school students to build 100-pound robots to form alliances and compete with teams from around the world.
                 <br><br>
@@ -116,13 +121,17 @@ title: Aluminum Narwhals
         <td>
           <table width="100%" cellpadding="10px">
             <tr width="100%">
-              <td width="75%">
+              <td>
+                <div class="whatwedo-image-small">
+                  <a href="/camp/"><img src="/assets/homepage/camp.png"></img></a>
+                </div>
+
                 <h2>Robotics Summer Camp</h2>
                 Over the Summer, our robotics team runs a 5-week long camp for students grades 1-8. For one week, students get to design, build, program, and drive their very own robots. Our goal as a camp is to create an atmosphere for preteens and middle school students to become aware of and excited about science, technology, engineering and math. We want to provide a safe space where students can explore and become passionate about new subjects that they might desire to pursue in middle school, high school, and possibly throughout the rest of their lives.
                 <br><br>
                 <a href="/camp/"><div class="button hover_animate" align="center">Learn more</div></a>
               </td>
-              <td width="25%" class="homeimage">
+              <td width="250px" class="whatwedo-image-large">
                 <a href="/camp/"><img src="/assets/homepage/camp.png"></img></a>
               </td>
             </tr>
@@ -142,17 +151,20 @@ title: Aluminum Narwhals
 
           <table class="normwidthupdate" style="table-layout:fixed" width="100%" cellspacing="15px" cellpadding="20px">
             <tr width="100%" height="150px">
-              {% for post in site.posts limit: 4 %}
-                <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hover_animate" width="25%">
-                  <div>
-                    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
-                    <h4>{{ post.title }}</h4>
-                  </div>
+              {% for post in site.posts limit: 3 %}
+                <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hover_animate" style="width: 100%">
+                      <div class="post-top">
+                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
+                        <h4>{{ post.title }}</h4>
+                      </div>
+                      <div class="post-excerpt">
+                        {{ post.content | strip_html | truncatewords: 30 }}
+                      </div>
                 </td>
               {% endfor %}
             </tr>
             <tr width="100%">
-              <td colspan="4" onClick="javascript:location.href='{{ "/students/updates" | prepend: site.baseurl }}'" class="indexpost hover_animate" width="33%" style="text-align: center;vertical-align: middle; padding: 10px;">
+              <td colspan="3" onClick="javascript:location.href='{{ "/blog/" | prepend: site.baseurl }}'" class="indexpost hover_animate" style="text-align: center;vertical-align: middle; padding: 10px;">
                 <h4>See more...</h4>
               </td>
             </tr>
@@ -162,15 +174,16 @@ title: Aluminum Narwhals
             {% for post in site.posts limit: 4 %}
               <tr width="100%">
                 <td onClick="javascript:location.href='{{ post.url | prepend: site.baseurl }}'" class="indexpost hover_animate" width="33%">
-                  <div>
+                  <div style="text-align: center">
                     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</span>
                     <h4>{{ post.title }}</h4>
                   </div>
+                  {{ post.content | strip_html | truncatewords: 30 }}
                 </td>
               </tr>
             {% endfor %}
             <tr width="100%">
-              <td onClick="javascript:location.href='{{ "/students/updates" | prepend: site.baseurl }}'" class="indexpost hover_animate" width="33%" style="text-align: center;vertical-align: middle; padding: 10px;">
+              <td onClick="javascript:location.href='{{ "/blog/" | prepend: site.baseurl }}'" class="indexpost hover_animate" width="33%" style="text-align: center;vertical-align: middle; padding: 10px;">
                 <h4>See more...</h4>
               </td>
             </tr>
