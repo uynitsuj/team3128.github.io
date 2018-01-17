@@ -1,8 +1,8 @@
- - level: Title
-   name: Gene Haas Foundation
-   description: Founded by Gene Haas in the early 2000s, the Gene Haas Foundation has provided charitable donations to many groups, including STEM organizations in San Diego.
-   logo: /assets/sponsorlogos/genehaas.png
-   link: http://ghaasfoundation.org
+ # - level: Title
+ #   name: Gene Haas Foundation
+ #   description: Founded by Gene Haas in the early 2000s, the Gene Haas Foundation has provided charitable donations to many groups, including STEM organizations in San Diego.
+ #   logo: /assets/sponsorlogos/genehaas.png
+ #   link: http://ghaasfoundation.org
 
  - level: Platinum
    name: Leidos
@@ -10,11 +10,11 @@
    logo: /assets/sponsorlogos/leidos.png
    link: http://leidos.com
 
- - level: Platinum
-   name: Lockheed Martin
-   description: Lockheed Martin is an American aerospace, defense, security, and advanced technologies company that operates globally and is contracted by the United States Department of Defense.
-   logo: /assets/sponsorlogos/lockheedmartin.png
-   link: http://www.lockheedmartin.com/
+ # - level: Platinum
+ #   name: Lockheed Martin
+ #   description: Lockheed Martin is an American aerospace, defense, security, and advanced technologies company that operates globally and is contracted by the United States Department of Defense.
+ #   logo: /assets/sponsorlogos/lockheedmartin.png
+ #   link: http://www.lockheedmartin.com/
 
  - level: Platinum
    name: ViaSat
@@ -27,6 +27,18 @@
    description: The Nordson Corporation specializes in precision manufacturing of electronics using advanced fluid-dispensing systems.
    logo: /assets/sponsorlogos/nordson.png
    link: http://nordson.com/
+
+ - level: Gold
+   name: HP Inc.
+   description: HP Inc. develops personal computers, printers, and other related supplies. HP is dedicated to developing technology that allows creators, engineers, and inventors in order to reinvent the way the world operates. Of their technology, HP develops the Sprout Pro that brings rich content to life, with a projector and a pressure sensitive pen for writing upon the tabletop display, as well as a touchscreen LCD. The Sprout is powerful and allows our team advanced CAD capabilities, not to mention the 3D scanner that allows us to digitize real-life objects.
+   logo: /assets/sponsorlogos/hp.png
+   link: http://hp.com
+
+ - level: Gold
+   name: C2SDK
+   description: Computers 2 San Diego Kids' goal is to put a computer in the hands of every family in San Diego, regaurdless of their income level and socioeconomic status. Every year, C2SDK places over four thousand computers into the homes of San Diego families. In addition, C2SDK practices responsible practices of recycling, refurbishing, and responding computers to impact the lives of familes all across San Diego.
+   logo: /assets/sponsorlogos/c2sdk.png
+   link: http://c2sdk.org
 
  - level: Gold
    name: Solidworks
