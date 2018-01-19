@@ -6,11 +6,11 @@
         "<li>Featured as Primary Sponsor for Team at Key Events (FRC Competitions, Off-Season Events)</li>
          <li>Formal Banquet in honor of sponsor</li>
          <li>Mentioned in all publications and media interviews</li>
-         <li>Company logo displayed at team pit-area table.</li>
-         <li>Personal demonstration of robot at sponsor facility.</li>
-         <li>Personalized thank you plaque from team.</li>
+         <li>Company logo displayed at team pit-area table</li>
+         <li>Personal demonstration of robot at sponsor facility</li>
+         <li>Personalized thank you plaque from team</li>
          <li>50 team buttons & wristbands</li>
-         <li>Company logo on robot and team shirts.</li>
+         <li>Company logo on robot and team shirts</li>
          <li>Company logo on website.</li>"
 
   - level: Platinum
@@ -21,12 +21,12 @@
         "<text class='crossed'><li>Featured as Primary Sponsor for Team at Key Events (FRC Competitions, Off-Season Events)</li></text>
          <text class='crossed'><li>Formal Banquet in honor of sponsor</li></text>
          <text class='crossed'><li>Mentioned in all publications and media interviews</li></text>
-         <li>Company logo displayed at team pit-area table.</li>
-         <li>Personal demonstration of robot at sponsor facility.</li>
-         <li>Personalized thank you plaque from team.</li>
+         <li>Company logo displayed at team pit-area table</li>
+         <li>Personal demonstration of robot at sponsor facility</li>
+         <li>Personalized thank you plaque from team</li>
          <li>50 team buttons & wristbands</li>
-         <li>Company logo on robot and team shirts.</li>
-         <li>Company logo on website.</li>"
+         <li>Company logo on robot and team shirts</li>
+         <li>Company logo on website</li>"
 
   - level: Gold
     color: gold
@@ -36,12 +36,12 @@
         "<text class='crossed'><li>Featured as Primary Sponsor for Team at Key Events (FRC Competitions, Off-Season Events)</li></text>
          <text class='crossed'><li>Formal Banquet in honor of sponsor</li></text>
          <text class='crossed'><li>Mentioned in all publications and media interviews</li></text>
-         <text class='crossed'><li>Company logo displayed at team pit-area table.</li></text>
-         <text class='crossed'><li>Personal demonstration of robot at sponsor facility.</li></text>
-         <li>Personalized thank you plaque from team.</li>
+         <text class='crossed'><li>Company logo displayed at team pit-area table</li></text>
+         <text class='crossed'><li>Personal demonstration of robot at sponsor facility</li></text>
+         <li>Personalized thank you plaque from team</li>
          <li>50 team buttons & wristbands</li>
-         <li>Company logo on robot and team shirts.</li>
-         <li>Company logo on website.</li>"
+         <li>Company logo on robot and team shirts</li>
+         <li>Company logo on website</li>"
 
   - level: Silver
     color: grey
@@ -51,12 +51,12 @@
       "<text class='crossed'><li>Featured as Primary Sponsor for Team at Key Events (FRC Competitions, Off-Season Events)</li></text>
        <text class='crossed'><li>Formal Banquet in honor of sponsor</li></text>
        <text class='crossed'><li>Mentioned in all publications and media interviews</li></text>
-       <text class='crossed'><li>Company logo displayed at team pit-area table.</li></text>
-       <text class='crossed'><li>Personal demonstration of robot at sponsor facility.</li></text>
-       <text class='crossed'><li>Personalized thank you plaque from team.</li></text>
+       <text class='crossed'><li>Company logo displayed at team pit-area table</li></text>
+       <text class='crossed'><li>Personal demonstration of robot at sponsor facility</li></text>
+       <text class='crossed'><li>Personalized thank you plaque from team</li></text>
        <li>50 team buttons & wristbands</li>
-       <li>Company logo on robot and team shirts.</li>
-       <li>Company logo on website.</li>"
+       <li>Company logo on robot and team shirts</li>
+       <li>Company logo on website</li>"
 
   - level: Bronze
     color: "#CD7F32"
@@ -70,5 +70,5 @@
        <text class='crossed'><li>Personal demonstration of robot at sponsor facility.</li></text>
        <text class='crossed'><li>Personalized thank you plaque from team.</li></text>
        <text class='crossed'><li>50 team buttons & wristbands</li></text>
-       <text class='crossed'><li>Company logo on robot and team shirts.</li></text>
+       <text class='crossed'><li>Company logo on robot and team shirts</li></text>
        <li>Company logo on website</li>"
