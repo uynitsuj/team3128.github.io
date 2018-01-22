@@ -14,6 +14,8 @@ permalink: /start/
 - [STIMS](https://my.firstinspires.org/Dashboard/) - Student Team Information Management System  
 
 **Special Files**
-
 - [Build Season Overview](https://docs.google.com/spreadsheets/d/1nRzzqhXZGhIvK8lG7Q1DINT6xzGrbjR1PeXZjQkgrLw/edit#gid=1857024257) - Schedule, Supervision, Meals  
 - [Finance Information](https://drive.google.com/drive/folders/0B7zXQNq5WwKncGtpUlo1OHF1ZHc) - Records, Budgets  
+
+**Other**
+- Social Media: [Facebook](https://www.facebook.com/aluminumnarwhals/) - [Instagram](https://www.instagram.com/3128aluminarwhals/)
