@@ -6,6 +6,12 @@ permalink: /start/
 
 **Web Services**  
 
-- [Slack](https://team3128.slack.com)  
-- [Trello](https://trello.com/frc3128)  
-- [Google Drive](https://drive.google.com/open?id=0B3pyuMp3bnOhd1licjE1eHhEbWc)  
+- [Slack](https://team3128.slack.com) - Informal Communication / Messaging  
+- [Trello](https://trello.com/frc3128) - Project Management  
+- [Google Drive](https://drive.google.com/open?id=0B3pyuMp3bnOhd1licjE1eHhEbWc) - File Storage
+- 
+
+**Special Files**
+
+- [Build Season Overview](https://docs.google.com/spreadsheets/d/1nRzzqhXZGhIvK8lG7Q1DINT6xzGrbjR1PeXZjQkgrLw/edit#gid=1857024257) - Schedule, Supervision, Meals  
+- [Finance Information](https://drive.google.com/drive/folders/0B7zXQNq5WwKncGtpUlo1OHF1ZHc) - Records, Budgets  
