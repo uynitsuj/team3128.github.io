@@ -4,12 +4,14 @@ title: Start Page
 permalink: /start/
 ---
 
-**Web Services**  
-
+**General Services**  
 - [Slack](https://team3128.slack.com) - Informal Communication / Messaging  
 - [Trello](https://trello.com/frc3128) - Project Management  
 - [Google Drive](https://drive.google.com/open?id=0B3pyuMp3bnOhd1licjE1eHhEbWc) - File Storage
-- 
+
+**Student Services**
+- [Workshop Hour Logs](https://github.com/Team3128/2017-18-attendance-data) - General & Build Season Reports  
+- [STIMS](https://my.firstinspires.org/Dashboard/) - Student Team Information Management System  
 
 **Special Files**
 
