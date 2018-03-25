@@ -1,8 +1,8 @@
-- title: Build Season Has Begun!
-  link: /students/
+- title: Competition Season is Underway!
+  link: https://www.thebluealliance.com/team/3128
   imageSource: /assets/homepage/join.jpeg
   fullImage: /assets/homepage/join-full.jpeg
-  info: On January 6th, we finally stepped into the world of FIRST POWER UP. Learn more about the game that has us working non-stop to design, build, and program the best possible robot, driven by a flawlessly optimized game strategy and rock-solid business plan.
+  info: Build Season is all but complete; but the fun part has just begun! We've finally hit that time of year: it's time to POWER UP. Watch us play for real at San Diego Regional, Idaho Regional, and the FIRST World Championships in Houston!
 
 - title: Giving Back to the Community
   link: /outreach/
@@ -10,11 +10,11 @@
   fullImage: /assets/homepage/outreach-full.jpeg
   info: Our team may focus heavily on engineering, but there's a lot more to robotics than just robots. Check out some of the work we do to inspire others to pursue learning in STEM.
 
-# - title: Robotics Summer Camp
-#   link: /camp/
-#   imageSource: /assets/homepage/camp.jpeg
-#   fullImage:  /assets/homepage/camp-full.jpeg
-#   info: Signups for our 2017 Robotics Summer Camp have opened! Head over to our camp site to learn more!
+- title: Robotics Summer Camp
+  link: /camp/
+  imageSource: /assets/homepage/camp.jpeg
+  fullImage:  /assets/homepage/camp-full.jpeg
+  info: Registration for our 2018 Robotics Summer Camp has opened! Head over to our camp site to learn more!
 
 - title: Donate Now
   link: /donate/
