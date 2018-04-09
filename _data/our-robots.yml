@@ -1,3 +1,13 @@
+- year: 2018
+  game: Power Up
+  name: Guido
+  stats: false
+  dimensions: 34.5" W x 31.25" L x 24" H
+  weight: 119.2 lbs
+  speed: 12 mph
+  description: Details Coming Soon!
+  color: 0
+
 - year: 2017
   game: Steamworks
   name: Ferb
