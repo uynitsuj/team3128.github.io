@@ -44,7 +44,7 @@ They meet during weekly Leadership meeting where the leadership, mentors, and pr
 
 ### Elected Positions
 
-Our President is elected at the end of every year in May by a team vote. Anyone who has been on the team for at least one complete build season can self-nominate for President or Vice President. The President is then voted upon and appoints his or her Vice President, who must be approved by the team.
+Our President is elected at the end of every year in May by a team vote. Anyone who has been on the team for at least one complete build season can self-nominate for President or Vice President. The Vice President may nominate themselves to the Presidential candidates, and President-Vice President tickets will run in the election. The election will follow each Presidential candidate delivering opening and closing statements before and after responses to specific questions submitted by team members and chosen by mentors.
 
 <!--
 **Self-Nominations Open:** April 28th  
@@ -52,64 +52,78 @@ Our President is elected at the end of every year in May by a team vote. Anyone 
 **Election Day:** May 19th
 -->
 
-**The President:**
+**President and Vice-President**
 
-+ Sends announcements regarding team events and activities
-+ Our fearless leader
-+ Helps maintain communications and keep track of overall progress
-+ Organizes team bonding events
++ Acting as a top student official / spokesperson for other teams, organizations, etc.
++ Preparing weekly Leadership meeting agenda, running the meeting, and taking notes.
++ Sending weekly team email updates promptly after Leadership meetings.
++ Leading weekly Team Announcement Meetings.
++ Organizing and leading the execution of team social events.
++ Planning and maintaining mentoring relationships with other teams, including communicating opportunities, scheduling member support, and acting as a primary contact.
++ Update and Maintain Google Calendar for Robotics Workshop and Team Events
 
-**Vice President:**
-
-+ Assists president and takes care of team paperwork and reports
 
 ### Appointed Positions
 
-Our leadership team and mentors create appointed positions when needed. Appointed officers are in charge of specific parts of the team that leadership has deemed necessary. Some appointed officers include: Head of Build, Head of Controls, Head of Business, and Head of Submissions. These positions are created to fit the various needs of the team, and may or may not remain from year to year.
+Our leadership team and mentors create appointed positions when needed. Appointed officers are in charge of specific parts of the team that leadership has deemed necessary. These positions are created to fit the various needs of the team, and are subject to change over time.
 
-**Head of Build:**
+**Head of Mechanical:**
 
-+ Responsible for all things build-related (on or off the robot)
-+ Oversees all construction projects
-+ Ensures that all members know what mechanical is doing at the moment
-+ Manages CAD and Design
-+ Mediates communication between new and experienced members
-+ Ensures that all new members are comfortable with the
-+ Works with controls to ensure robot functionality
++ Acting as the leader and voice for the mechanical sector.
++ Organizing and maintaining the overall schedule for the mechanical sector.
++ Preparing and maintaining a budget for every project in the mechanical sector.
++ Ensuring that mechanical team members are adequately prepared for the build season.
++ Organizing mechanical team members into project teams and ensuring that all projects are appropriately staffed.
++ Purchasing all items needed for the mechanical team, including but not limited to, robot parts, raw materials, workshop tools, and workshop maintenance products.
++ Maintaining a clean and fully functional workshop environment.
++ Create and Maintain Google Calendar for Robotics - Mechanical Division
+
 
 **Head of Controls:**
 
-+ Responsible for all things things wiring and programming related
-+ Oversees all wiring and programming projects
-+ Ensures that all members know what controls is doing at the moment
-+ Mediates communication between new and experienced members
-+ Ensures that all new members are comfortable with the team
-+ Works with mechanical to ensure robot functionality
++ Acting as the leader and voice for the controls sector.
++ Organizing and maintaining the overall schedule for the controls sector.
++ Preparing and maintaining a budget for every project in the controls sector.
++ Ensuring that controls team members are adequately prepared for the build season.
++ Organizing controls team members into project teams and ensuring that all projects are appropriately staffed.
++ Purchasing all items needed for the controls team, including but not limited to, robot parts, raw materials, workshop tools, and workshop maintenance products.
++ Maintaining a clean and fully functional workshop environment.
++ Create and Maintain Google Calendar for Robotics - Controls Division
 
-**Head of Business:**
+**Head of Internal Business:**
 
-+ Leads community outreach
-+ Leads team promotion and branding
-+ Manages contacting potential sponsors
-+ Makes strong relationships with local teams
-+ Mediates communication between new and experienced members
-+ Ensures that all new members are comfortable with the team
++ Acting as the leader and voice for the internal business sector.
++ Organizing and maintaining the overall schedule for the internal business sector.
++ Preparing and maintaining a budget for every project in the internal business sector.
++ Ensuring that internal business members are prepared for 
+    + Organizing project teams for each project and ensuring that all projects are appropriately staffed.
+        + Releasing information and marketing materials on social media outlets (Instagram, Facebook, etc.)
+        + Maintaining the team3128.org website (Homepage, Blog, etc.)
+        + Designing, marketing, and facilitating sales of team spirit wear.
+            + Sales: T Shirts, sweatshirts, socks, etc.
+            + Gratis items: Buttons, wristbands, etc.
+        + Finding, planning, and executing school and corporate presentations.
+    + Purchasing all items needed for the internal business team.
+    + Ensuring proper usage of team branding in all external-facing materials.
++ Create and Maintain Google Calendar for Robotics - Internal Business Division
 
-**Head of Submissions:**
 
-+ Prepares awards submissions
-+ Mediates communication between new and experienced members
-+ Ensures that all new members are comfortable with the team
-+ Works toward creating continuity between projects and our team's goals
+**Head of External Business:**
 
-**Head of Construction**
-
-+ Responsible for construction projects during off-season and build season
-+ Establish a culture of safety and injury prevention system
-+ Teach members how to properly work with tools
-+ Establishes the work ethic behind construction methods
-+ Mediates communication between new and experienced members
-+ Ensures that all new members are comfortable with the team
++ Acting as the leader and voice for the external business sector.
++ Organizing and maintaining the overall schedule for the external business sector.
++ Preparing and maintaining a budget for every project in the external business sector.
++ Ensuring that external business members are prepared for communicating with companies, parents, news outlets, and our school.
++ Organizing project teams for each project and ensuring that all projects are appropriately staffed.
++ All external email communications for parents, the team, sponsors (does not include social media - see Internal business)
++ Reaching out to parents and companies for the purpose of fundraising. 
+    + Creation of presentation material for fundraising to corporations - dovetail with marketing mentors
+    + Rehearsal of in-person presentations to any companies for fundraising
+    + Find and apply for grants
++ Communicating press releases with CCA Foundation and news outlets.
++ Purchasing all items needed for the external business team.
++ Ensuring proper usage of team branding in all external-facing materials.
++ Create and Maintain Google Calendar for Robotics - External Business Division
 
 
 <!--
