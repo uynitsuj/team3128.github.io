@@ -125,6 +125,16 @@ Our leadership team and mentors create appointed positions when needed. Appointe
 + Ensuring proper usage of team branding in all external-facing materials.
 + Create and Maintain Google Calendar for Robotics - External Business Division
 
+**Head of Strategy:**
+
++ Acting as the leader and voice for the strategy sector.
++ Organizing and maintaining the overall schedule for the strategy sector.
++ Preparing and maintaining a budget for every project in the strategy sector.
++ Ensuring that strategy team members are adequately prepared for the build and competition season.
++ Organizing strategy team members into project teams and ensuring that all projects are appropriately staffed.
++ Purchasing all items needed for the strategy team.
++ Maintaining a clean and fully functional workshop environment.
++ Create and Maintain Google Calendar for Robotics - Strategy Division
 
 <!--
 Chairman's.
