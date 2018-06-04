@@ -286,6 +286,10 @@ body {
   table-layout: fixed;
 }
 
+.sidebar-td {
+  width: $sidebar-width;
+}
+
 @media screen and (max-width: $sidebar-width + $content-width + 100px) {
   #subbutton {
     display: block;
@@ -307,6 +311,10 @@ body {
   }
 
   .contentdiv {
+    width: 100%;
+  }
+
+  .allstuff {
     width: 100%;
   }
 
@@ -332,6 +340,10 @@ body {
 
   .contentdiv {
     width: $content-width;
+  }
+
+  .allstuff {
+    width: $sidebar-width + $content-width;
   }
 }
 

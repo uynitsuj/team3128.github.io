@@ -16,14 +16,18 @@ Lead Mentor
 Lead Mentor  
 [garrison@team3128.org](mailto:garrison@team3128.org)  
 
-**Student Leadership**  
-*Caroline M.*  
-President  
-[caroline@team3128.org](mailto:caroline@team3128.org)
+*Tony Mauro*  
+Faculty Advisor  
+[tony.mauro@sduhsd.net](mailto:tony.mauro@sduhsd.net)  
 
-*Jannie Y.*  
+**Student Leadership**  
+*Ronak R.*  
+President  
+[ronak@team3128.org](mailto:ronak@team3128.org)
+
+*Esme A.*  
 Vice President  
-[jannie@team3128.org](mailto:jannie@team3128.org)
+[esme@team3128.org](mailto:esme@team3128.org)
 
 **Item Requests:**  
 If you would like to request an item for the workshop, the robot, or robotics, [tell us here](https://docs.google.com/forms/d/e/1FAIpQLSeDOGKZMsi8F6hn1Md16a8cnNyxb3TEy5sdJTwQK0GUv-Sf8w/viewform)
